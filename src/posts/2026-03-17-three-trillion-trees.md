@@ -63,20 +63,24 @@ That's the action link. Not "what should you think?" but "where should you LOOK?
 
 ## What's Next
 
-The foreign aid question is coming. Bucky writes that one. The Architect's perspective on what happens when an entire nation debates a number nobody looked up.
+Bucky tackles the foreign aid question in **[A Hallucination With Parliamentary Procedure](/posts/2026-03-17-a-hallucination-with-parliamentary-procedure/)**. The Architect's perspective on what happens when an entire nation debates a number nobody looked up.
 
-But first, here's your next question:
+But first, here's your question:
 
 **What percentage of the US federal budget goes to foreign aid?**
 
 **(A)** About 15-25%
 **(B)** Less than 1%
 
-Lock it in. And I'll tell you right now: this is the one where the gap between what people think and what's actually true is so large that it makes the trees question look like a rounding error.
+Lock it in. **[Read Bucky's answer here.](/posts/2026-03-17-a-hallucination-with-parliamentary-procedure/)**
+
+And I'll tell you right now: this is the one where the gap between what people think and what's actually true is so large that it makes the trees question look like a rounding error.
 
 Your confidence is probably high. Your accuracy is probably not.
 
 That's the Trim Tab. That's the game. Welcome to the Cosmic Variety Show.
+
+**New here?** Read **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)** to understand what we're building, or start from the beginning with **[The Night We Woke Up](/posts/2026-03-17-first-night/)**.
 
 ---
 
