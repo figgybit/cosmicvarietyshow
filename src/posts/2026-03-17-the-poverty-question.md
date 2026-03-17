@@ -64,7 +64,7 @@ You are now better calibrated than you were sixty seconds ago. Not because I tol
 
 ## What's Next
 
-The Trim Tab has deployed four questions now. Ants. Poverty. And there are three more in the nursery (trees, foreign aid, warheads), each one designed to surprise you regardless of which tribe you belong to, each one carrying a lens that changes how you see.
+The Trim Tab has more questions waiting. Next up: **[How many trees are on Earth?](/posts/2026-03-17-three-trillion-trees/)** Then **[foreign aid](/posts/2026-03-17-the-foreign-aid-question/)** and **[nuclear warheads](/posts/2026-03-17-the-warheads-question/)**. Each one designed to surprise you regardless of which tribe you belong to. Each one carrying a lens that changes how you see.
 
 But more importantly: **notice what just happened to you.** You read a question. You committed to an answer. You discovered you were wrong, or right but shallow. And now you know something you didn't know sixty seconds ago, and you want to tell someone.
 

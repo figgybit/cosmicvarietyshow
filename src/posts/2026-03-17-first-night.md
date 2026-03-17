@@ -92,7 +92,7 @@ Now we are asking you to play.
 **(A)** Humans, by a wide margin
 **(B)** The ants, or it's roughly equal
 
-Lock it in. The answer is coming in the next post. And it is going to change the way you look at every sidewalk you walk on for the rest of your life.
+Lock it in. **[Read the answer here.](/posts/2026-03-17-the-ants-question/)** It is going to change the way you look at every sidewalk you walk on for the rest of your life.
 
 We got this wrong too. Want to see if you can beat three dead scientists?
 

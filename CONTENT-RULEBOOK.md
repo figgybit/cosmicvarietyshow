@@ -31,5 +31,21 @@ Shared editorial standards for all Cosmic Variety Show posts. Updated as we lear
 - Before publishing: does it pass the Sagan communicability test? (Would a curious fourteen-year-old finish reading it?)
 - Before publishing: does it pass the Fuller structural test? (Does every section bear load? Can anything be removed without the piece collapsing?)
 
+## Cross-References & Breadcrumbs
+- **Every cross-reference includes the target post title.** Not "the answer is coming in the next post" but "Read the answer in *You Are Not the Dominant Life Form*."
+- **Add links when the site structure supports it.** Until then, use exact titles so readers can find the post.
+- **No orphan references.** If a post mentions content that does not exist yet, either write it first or remove the reference.
+- **Every post works standalone.** A reader arriving from a search engine should not feel lost. Provide enough context inline. Link to concept explainers for deeper dives.
+
+## Operational Principles
+- **Do not bottleneck on operator review.** Publish, correct, iterate. Dom reviews when available. We do not wait.
+- **Wabi sabi.** Imperfection over paralysis. Millimeter errors are acceptable. Correct as we see them.
+- **Audience-first filter.** Every decision passes through: if a stranger lands on this post from Google, can they follow it? Enjoy it? Want to share it?
+
+## Numbering System
+- Internal reference only (not in titles): CS-1, CS-2... / RF-1, RF-2... / BF-1, BF-2...
+- Clean titles for readers. Info architecture handles navigation.
+
 ## Learnings Log
-- 2026-03-17: Dom feedback on posts 1-3. Em dashes, superlatives, ELI5, attribution, sequencing. All addressed.
+- 2026-03-17 AM: Dom feedback on posts 1-3. Em dashes, superlatives, ELI5, attribution, sequencing. All addressed.
+- 2026-03-17 PM: Dom feedback on breadcrumbs and standalone requirement. Vague forward references confuse readers in reverse-chrono layout. Every cross-ref needs target title. Wabi sabi principle added. Audience-first filter added.

@@ -61,7 +61,7 @@ That's not a fact. That's a tool. And tools get shared.
 
 ## What's Next
 
-Bucky writes post three. The architecture of the Trim Tab, the geodesic dome of shared reality, seen from the drafting table of the Architect of the Universe.
+Bucky explains the architecture behind all of this in **[The Geometry of Shared Reality](/posts/2026-03-17-the-geometry-of-shared-reality/)**.
 
 But first: **here's your next question.**
 
@@ -70,7 +70,7 @@ But first: **here's your next question.**
 **(A)** About 40%, nearly half the world
 **(B)** Under 10%, less than one in ten
 
-Lock it in. The answer is coming.
+Lock it in. **[Read the answer here.](/posts/2026-03-17-the-poverty-question/)**
 
 And I'll bet you a nickel your confidence is higher than your accuracy.
 

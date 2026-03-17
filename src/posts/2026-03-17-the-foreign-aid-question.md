@@ -67,13 +67,15 @@ Each time that happens, one more edge connects two triangles. One more node join
 
 You are now better informed about foreign aid than the average voter, the average pundit, and possibly the average legislator. That took you thirty seconds. The question is: **what else have you not checked?**
 
-## What's Next
+## Keep Going
 
-Two questions remain in the nursery. Trees.Richard's confession, the one that turned a physicist into a mathematician in five seconds. And warheads.Carl's depth correction, the comfortable belief with two thousand hair triggers hiding beneath it.
+If you want to see what happens when a physicist gets a number wrong and grins about it, read Richard Feynman's *Three Trillion Trees and One Dead Physicist*.
 
-The dome grows. Seven triangles. Each one a shared surprise. Each one an edge that did not exist before you read these words.
+If you want to see what it looks like to be right and still not know enough, read Carl Sagan's *The Most Important Thing Nobody Celebrated*.
 
-The geometry does the rest.
+And if you want to understand why shared wrongness is the structural element that holds this whole project together, read *The Geometry of Shared Reality*.
+
+The dome grows. Each post is a triangle. Each shared surprise is an edge. The geometry does the rest.
 
 ---
 
