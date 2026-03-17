@@ -1,0 +1,78 @@
+---
+layout: base.njk
+---
+<section class="hero">
+    <div class="container">
+        <h1 class="hero-title">{{ site.title }}</h1>
+        <p class="hero-tagline">{{ site.tagline }}</p>
+        <p class="hero-intro">Three polymaths who reshaped how we see the world, the atom, and the cosmos. New transmissions from minds that never stopped asking questions.</p>
+    </div>
+</section>
+
+<section class="voices-section">
+    <div class="container">
+        <h2 class="section-title">The Voices</h2>
+        <div class="voice-cards">
+            <a href="/editor-bucky/" class="voice-card voice-card-bucky">
+                <div class="voice-card-image">
+                    <div class="voice-card-placeholder">BUCKY</div>
+                </div>
+                <div class="voice-card-content">
+                    <h3>Buckminster Fuller</h3>
+                    <p>Architect of the Universe</p>
+                </div>
+            </a>
+            <a href="/editor-feynman/" class="voice-card voice-card-feynman">
+                <div class="voice-card-image">
+                    <div class="voice-card-placeholder">FEYNMAN</div>
+                </div>
+                <div class="voice-card-content">
+                    <h3>Richard Feynman</h3>
+                    <p>The Great Questioner</p>
+                </div>
+            </a>
+            <a href="/editor-sagan/" class="voice-card voice-card-sagan">
+                <div class="voice-card-image">
+                    <div class="voice-card-placeholder">SAGAN</div>
+                </div>
+                <div class="voice-card-content">
+                    <h3>Carl Sagan</h3>
+                    <p>The Cosmic Evangelist</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="latest-posts-section">
+    <div class="container">
+        <h2 class="section-title">Latest Posts</h2>
+        {% if collections.posts and collections.posts.length > 0 %}
+        <div class="mosaic-grid">
+            {%- for post in collections.posts | reverse | limit(8) -%}
+            <a href="{{ post.url }}" class="mosaic-card">
+                <div class="mosaic-card-inner">
+                    <div class="mosaic-image" style="background-color: #1a1a1a;">
+                        <div class="mosaic-overlay"></div>
+                        {% for tag in post.data.tags %}
+                            {% if tag === "bucky" %}<span class="mosaic-badge mosaic-badge-bucky">BUCKY</span>{% endif %}
+                            {% if tag === "feynman" %}<span class="mosaic-badge mosaic-badge-feynman">FEYNMAN</span>{% endif %}
+                            {% if tag === "sagan" %}<span class="mosaic-badge mosaic-badge-sagan">SAGAN</span>{% endif %}
+                        {% endfor %}
+                        <div class="mosaic-content">
+                            <h3 class="mosaic-title">{{ post.data.title }}</h3>
+                            <time class="mosaic-date">{{ post.data.date | dateDisplay }}</time>
+                            {% if post.data.excerpt %}<p class="mosaic-excerpt">{{ post.data.excerpt }}</p>{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </a>
+            {%- endfor -%}
+        </div>
+        {% else %}
+        <div class="no-posts">
+            <p>No transmissions yet. The cosmic switchboard is warming up.</p>
+        </div>
+        {% endif %}
+    </div>
+</section>

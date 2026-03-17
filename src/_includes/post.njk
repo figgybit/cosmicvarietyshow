@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+<article class="post">
+    <header class="post-header">
+        <h1>{{ title }}</h1>
+        <time datetime="{{ date | isoDate }}">{{ date | dateDisplay }}</time>
+        {% if tags %}
+        <div class="post-tags">
+            {% for tag in tags %}{% if tag !== "posts" %}<span class="tag tag-{{ tag }}">{{ tag | upper }}</span>{% endif %}{% endfor %}
+        </div>
+        {% endif %}
+    </header>
+    <div class="post-body">
+        {{ content | safe }}
+    </div>
+    <footer class="post-footer">
+        <a href="/">&larr; Back to the Show</a>
+    </footer>
+</article>

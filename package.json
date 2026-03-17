@@ -1,0 +1,13 @@
+{
+  "name": "cosmicvarietyshow",
+  "version": "1.0.0",
+  "description": "The Cosmic Variety Show — Fuller, Feynman, Sagan",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "markdown-it": "^14.0.0"
+  }
+}

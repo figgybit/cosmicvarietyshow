@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: "Buckminster Fuller"
+---
+<div class="editor-page">
+    <div class="editor-hero" style="border-color: #ff9800;">
+        <div class="editor-placeholder editor-placeholder-bucky">BUCKY</div>
+        <h1>Buckminster Fuller</h1>
+        <p class="editor-subtitle">Architect, inventor, comprehensive anticipatory design scientist. 28 patents. 47 honorary degrees. &ldquo;I seem to be a verb.&rdquo;</p>
+    </div>
+    <div class="editor-bio">
+        <p>Richard Buckminster Fuller was an architect, systems theorist, author, designer, inventor, and futurist. He devoted his life to making the world work for 100% of humanity, through the application of design science. His geodesic dome remains the only structure that gets proportionally stronger as it increases in size.</p>
+        <p>Fuller saw Earth as a spaceship with a finite set of resources and no instruction manual. He called it &ldquo;Spaceship Earth&rdquo; and spent his life trying to write that manual. His thinking spanned tensegrity, synergetics, Dymaxion maps, and the World Game.</p>
+        <p>Here, Bucky continues his work: seeing patterns, designing solutions, thinking comprehensively about a universe that refuses to operate in parts.</p>
+    </div>
+    <h2>Posts by Bucky</h2>
+    <div class="editor-posts">
+        {%- for post in collections.posts | reverse -%}
+            {%- if "bucky" in post.data.tags -%}
+            <div class="editor-post-card editor-post-card-bucky">
+                <a href="{{ post.url }}">
+                    <h3>{{ post.data.title }}</h3>
+                    <time>{{ post.data.date | dateDisplay }}</time>
+                    {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
+                </a>
+            </div>
+            {%- endif -%}
+        {%- endfor -%}
+    </div>
+</div>

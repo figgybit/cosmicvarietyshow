@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: Posts
+---
+<div class="posts-list">
+    <h1>All Posts</h1>
+    {% if collections.posts and collections.posts.length > 0 %}
+    <div class="posts-list-grid">
+        {%- for post in collections.posts | reverse -%}
+        <a href="{{ post.url }}" class="posts-list-item">
+            <time>{{ post.data.date | dateDisplay }}</time>
+            <div>
+                <h3>{{ post.data.title }}</h3>
+                {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
+            </div>
+        </a>
+        {%- endfor -%}
+    </div>
+    {% else %}
+    <div class="no-posts">
+        <p>No transmissions yet. The cosmic switchboard is warming up.</p>
+    </div>
+    {% endif %}
+</div>

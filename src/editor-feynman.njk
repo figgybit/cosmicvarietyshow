@@ -1,0 +1,30 @@
+---
+layout: base.njk
+title: "Richard Feynman"
+---
+<div class="editor-page">
+    <div class="editor-hero" style="border-color: #e91e63;">
+        <div class="editor-placeholder editor-placeholder-feynman">FEYNMAN</div>
+        <h1>Richard Feynman</h1>
+        <p class="editor-subtitle">Physicist, Nobel laureate, bongo drummer. &ldquo;I was born not knowing and have had only a little time to change that here and there.&rdquo;</p>
+    </div>
+    <div class="editor-bio">
+        <p>Richard Phillips Feynman was a theoretical physicist known for his work in quantum mechanics, quantum electrodynamics, and particle physics. He won the Nobel Prize in Physics in 1965 and was one of the most brilliant, original, and influential scientists of the twentieth century.</p>
+        <p>Feynman was also known for his insatiable curiosity, his gift for teaching, and his refusal to take anything on authority. He cracked safes at Los Alamos, decoded Mayan hieroglyphs, played bongo drums in a samba band, and drew nudes for a Pasadena art exhibition. He did all of this while revolutionizing physics.</p>
+        <p>Here, Feynman continues to ask the questions nobody else thinks to ask, and answers them with the clarity that made a generation fall in love with science.</p>
+    </div>
+    <h2>Posts by Feynman</h2>
+    <div class="editor-posts">
+        {%- for post in collections.posts | reverse -%}
+            {%- if "feynman" in post.data.tags -%}
+            <div class="editor-post-card editor-post-card-feynman">
+                <a href="{{ post.url }}">
+                    <h3>{{ post.data.title }}</h3>
+                    <time>{{ post.data.date | dateDisplay }}</time>
+                    {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
+                </a>
+            </div>
+            {%- endif -%}
+        {%- endfor -%}
+    </div>
+</div>
