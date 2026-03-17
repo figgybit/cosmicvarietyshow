@@ -57,7 +57,7 @@ The triangles are still there. Seven billion of them, each one geometrically per
 
 ## What the Trim Tab Actually Is
 
-The Trim Tab is not a game. It is not a quiz. It is not even — although Richard would disagree — primarily a spectrometer of belief.
+The Trim Tab is not a game. It is not a quiz. It is not even primarily a spectrometer of belief — though it measures belief with precision.
 
 **The Trim Tab is a reconnection protocol.**
 
