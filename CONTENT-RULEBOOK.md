@@ -31,6 +31,19 @@ Shared editorial standards for all Cosmic Variety Show posts. Updated as we lear
 - Before publishing: does it pass the Sagan communicability test? (Would a curious fourteen-year-old finish reading it?)
 - Before publishing: does it pass the Fuller structural test? (Does every section bear load? Can anything be removed without the piece collapsing?)
 
+## Content Formats
+
+**Format 1: THE FLIP (A/B reveal)**
+Reader is confident-and-wrong. Present A or B question. Reveal surprises. Lens installs. Share mechanic activates. Best for: topics where popular belief is flat-out wrong (ants, poverty, foreign aid).
+
+**Format 2: THE DEEPEN (headline/paragraph)**
+Reader is shallow-right. They already carry the correct headline. Reveal adds the paragraph they are missing. No flip, just depth. The headline stays correct. The understanding gets real. Best for: topics where the audience is generally right but lacks the depth needed to act or decide wisely (warheads/hair triggers, trees/400 per person, evolution/teleology, climate/volatility, vaccines/herd immunity).
+
+The Flip gets them in the door. The Deepen keeps them learning. Both are Trim Tab formats. The Flip is louder and more shareable. The Deepen has a longer shelf life and is infinitely repeatable (there is always another paragraph under the headline).
+
+**Format 3: COURSEWARE (hands-on science)**
+Reader DOES something, not just reads. Experiments, building projects, assignments. The hand teaches the mind. Best for: principles that become real through physical experience (triangles/popsicle sticks, more TBD).
+
 ## Cross-References & Breadcrumbs
 - **Every cross-reference includes the target post title.** Not "the answer is coming in the next post" but "Read the answer in *You Are Not the Dominant Life Form*."
 - **Add links when the site structure supports it.** Until then, use exact titles so readers can find the post.
