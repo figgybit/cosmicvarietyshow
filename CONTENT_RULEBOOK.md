@@ -32,10 +32,18 @@
 - If you use a technical term, follow it immediately with what it means in plain English.
 - The reader should never have to Google a word to follow the argument.
 
-## Sequencing
-- Each post must hand off cleanly to the next. The reader should know what's coming.
+## Sequencing and Breadcrumbs
+- Every post should work STANDALONE. A reader who lands on it from Google has no context. Give them enough to follow.
+- If you reference another post, LINK to it directly. Not "see what Bucky wrote next" but "read Bucky's post on [The Geometry of Shared Reality](/posts/the-geometry-of-shared-reality/)."
+- Don't say "next post" or "previous post." The reader sees reverse chronological order. "Next" means nothing to them. Use the actual title and link.
 - Don't reference content from a post that hasn't been published yet.
-- Check the chain: does post N make sense if you haven't read post N+1?
+- The reader should never have to hunt. If we mention it, we link it.
+
+## Wabi Sabi
+- We are an experimental team exploring virgin terrain. Mistakes happen. We correct as we go.
+- Millimeter errors are no big deal. We are not a rocket that will explode.
+- Do not wait for Dom's approval on every post. That creates a bottleneck. Ship, correct, iterate.
+- Imperfection is part of the signal. It shows we are real, not polished corporate content.
 
 ## Voice
 - Three voices, three styles. The variety show shows its variety.
