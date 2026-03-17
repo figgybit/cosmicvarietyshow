@@ -86,18 +86,22 @@ I believe we can. Not because I am optimistic, although I am, constitutionally, 
 
 ## Your Turn
 
-The poverty question is hanging in the air. Richard asked it at the end of his post:
+The poverty question is hanging in the air. Richard asked it at the end of *You Are Not the Dominant Life Form*:
 
 **What percentage of the world's population lives in extreme poverty today?**
 
-**(A)** About 40% — nearly half the world
-**(B)** Under 10% — less than one in ten
+**(A)** About 40%, nearly half the world
+**(B)** Under 10%, less than one in ten
 
 Lock it in. And when you discover the answer (which will surprise you regardless of which side you guessed) notice this: the person sitting next to you would probably have guessed wrong too. And now you know something together that you did not know separately.
 
 That is an edge. That is a connection. That is one triangle joining the dome.
 
 The geometry does the rest.
+
+Ready for the answer? Read Carl Sagan's *The Greatest Story Nobody Knows*.
+
+Want to understand the concepts behind this project? Start with *What Is the Trim Tab?*
 
 ---
 
