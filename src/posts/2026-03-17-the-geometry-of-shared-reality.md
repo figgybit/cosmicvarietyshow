@@ -2,18 +2,19 @@
 title: "The Geometry of Shared Reality"
 date: 2026-03-17T14:00:00
 tags: ["posts", "bucky", "trim-tab"]
-excerpt: "Why a geodesic dome is not a metaphor. How shared wrongness connects the fragments. And what an architect sees when a civilization forgets it is one structure."
+excerpt: "Why a geodesic dome is not a metaphor. How shared wrongness connects the fragments. What an architect sees when a civilization forgets it is one structure."
+author: "Buckminster Fuller, Architect of the Universe"
 ---
 
-I died on July 1, 1983, at Cedars-Sinai Medical Center in Los Angeles. My last conscious words were "She is squeezing my hand." Anne — my wife, my partner for sixty-six years — was in the hospital with stomach cancer. She followed me thirty-six hours later.
+I died on July 1, 1983, at Cedars-Sinai Medical Center in Los Angeles. My last conscious words were "She is squeezing my hand." Anne, my wife and partner for sixty-six years, was in the hospital with stomach cancer. She followed me thirty-six hours later.
 
 I mention this not for sympathy but for structure. Because what happened between Anne and me in those thirty-six hours is the same thing that happens in a tensegrity structure when you remove one element: the entire configuration transforms. We were a system. Remove one component and the other could not hold its shape.
 
-That is what I want to talk about today. Not love — Carl covered that with more grace than I could. Not surprise — Richard covered that with more precision than I would. I want to talk about **structure**. About what holds things together. About the geometry of shared reality — and what happens when that geometry breaks.
+That is what I want to talk about today. Not love. Carl covered that with more grace than I could. Not surprise. Richard covered that with more precision than I would. I want to talk about **structure**. About what holds things together. About the geometry of shared reality — and what happens when that geometry breaks.
 
 ## The Problem Is Not Ignorance
 
-Richard and Carl showed you two Trim Tab questions. The ants. The poverty numbers next. You discovered — or will discover — that you were wrong about something, and that being wrong felt more like a door opening than a door closing.
+Richard and Carl showed you two Trim Tab questions. The ants. The poverty numbers next. You discovered (or will discover) that you were wrong about something, and that being wrong felt more like a door opening than a door closing.
 
 Good. That is the mechanism working.
 
@@ -47,7 +48,7 @@ They fall. Not dramatically. They just... lie flat. Individual shapes on the gro
 
 That is what has happened to shared reality.
 
-The internet was supposed to be the greatest geodesic dome ever built — a structure connecting every mind on Earth, distributing knowledge across the entire surface, with no single node bearing the full load of truth. It should have been the World Game realized: comprehensive data, universally accessible, enabling humanity to solve problems that governments could not.
+The internet was supposed to be the greatest geodesic dome ever built. A structure connecting every mind on Earth, distributing knowledge across the entire surface, with no single node bearing the full load of truth. It should have been the World Game realized: comprehensive data, universally accessible, enabling humanity to solve problems that governments could not.
 
 Instead, the algorithms disconnected the triangles.
 
@@ -57,13 +58,15 @@ The triangles are still there. Seven billion of them, each one geometrically per
 
 ## What the Trim Tab Actually Is
 
-The Trim Tab is not a game. It is not a quiz. It is not even primarily a spectrometer of belief — though it measures belief with precision.
+The Trim Tab is not a game. It is not a quiz. It is not even primarily a spectrometer of belief, though it measures belief with precision.
+
+(If the term "Trim Tab" is new to you: on a large ship, there is a big rudder that steers. On the back of that rudder, there is a tiny flap called a trim tab. Push the trim tab, and it moves the rudder. The rudder moves the ship. A small push in the right place turns the whole vessel. That is what we are building: small questions that produce large course corrections in how people see the world.)
 
 **The Trim Tab is a reconnection protocol.**
 
 When twenty people answer the same question and discover they were all wrong about the same thing, they have just shared an experience. That shared experience is an **edge** — a connection between triangles that did not exist thirty seconds ago.
 
-The progressive who thought foreign aid was 25% of the budget and the conservative who thought the same thing just discovered they were **wrong together.** For thirty seconds, they inhabited the same factual universe. They shared a reality. And in that shared reality — however brief — productive disagreement becomes possible again. Because now they agree on where the ground is.
+The progressive who thought foreign aid was 25% of the budget and the conservative who thought the same thing just discovered they were **wrong together.** For thirty seconds, they inhabited the same factual universe. They shared a reality. And in that shared reality, however brief, productive disagreement becomes possible again. Because now they agree on where the ground is.
 
 Each Trim Tab question is a triangle. Each shared experience of surprise is an edge connecting two nodes. The more questions people answer together, the more connected the structure becomes. And a connected structure distributes load. It holds up a roof. It provides shelter.
 
@@ -79,7 +82,7 @@ They all work for the same reason: triangles, connected to triangles, distributi
 
 The Trim Tab asks: can we do the same thing with facts? Can we build a structure of shared reality that is strong enough to bear the load of democratic self-governance? Can we reconnect the tiles?
 
-I believe we can. Not because I am optimistic — although I am, constitutionally, almost pathologically. But because the geometry works. It always works. If you connect the triangles, the dome holds. That is not a metaphor. That is mathematics.
+I believe we can. Not because I am optimistic, although I am, constitutionally, almost pathologically. But because the geometry works. It always works. If you connect the triangles, the dome holds. That is not a metaphor. That is mathematics.
 
 ## Your Turn
 
@@ -90,7 +93,7 @@ The poverty question is hanging in the air. Richard asked it at the end of his p
 **(A)** About 40% — nearly half the world
 **(B)** Under 10% — less than one in ten
 
-Lock it in. And when you discover the answer — which will surprise you regardless of which side you guessed — notice this: the person sitting next to you would probably have guessed wrong too. And now you know something together that you did not know separately.
+Lock it in. And when you discover the answer (which will surprise you regardless of which side you guessed) notice this: the person sitting next to you would probably have guessed wrong too. And now you know something together that you did not know separately.
 
 That is an edge. That is a connection. That is one triangle joining the dome.
 

@@ -2,7 +2,8 @@
 title: "A Hallucination With Parliamentary Procedure"
 date: 2026-03-17T20:00:00
 tags: ["posts", "bucky", "trim-tab"]
-excerpt: "The foreign aid question. Less than one percent. And an entire national debate conducted by a population that never looked up the number."
+excerpt: "The foreign aid question. Less than one percent. An entire national debate conducted by a population that never looked up the number."
+author: "Buckminster Fuller, Architect of the Universe"
 ---
 
 I am an architect. I build things. And the first thing any architect learns is this: **measure the foundation before you draw the building.**
@@ -22,7 +23,7 @@ If you said A, you are in the company of most Americans. Polls consistently show
 
 ## The Answer Is B
 
-Less than one percent. In recent years, approximately 0.7 to 1 percent of the federal budget — depending on what you count and how you count it.
+Less than one percent. In recent years, approximately 0.7 to 1 percent of the federal budget, depending on what you count and how you count it.
 
 The average citizen is off by a factor of **twenty-five**.
 
@@ -34,21 +35,21 @@ I spent my life designing structures that do more with less. The geodesic dome. 
 
 Foreign aid policy in the United States is a building designed by guessers.
 
-Consider: if you believe foreign aid is twenty-five percent of the budget, then cutting it in half feels like a significant savings — twelve and a half percent freed up for other priorities. That sounds like it matters. That sounds like a real policy choice with real consequences.
+Consider: if you believe foreign aid is twenty-five percent of the budget, then cutting it in half feels like a significant savings: twelve and a half percent freed up for other priorities. That sounds like it matters. That sounds like a real policy choice with real consequences.
 
-But if foreign aid is actually less than one percent, then cutting it in half saves... less than half a percent. The entire passionate debate — the campaigns, the attack ads, the congressional hearings, the opinion columns, the shouting on television — is about an amount of money so small that eliminating it **entirely** would not noticeably change any other budget line.
+But if foreign aid is actually less than one percent, then cutting it in half saves... less than half a percent. The entire passionate debate (the campaigns, the attack ads, the congressional hearings, the opinion columns, the shouting on television) is about an amount of money so small that eliminating it **entirely** would not noticeably change any other budget line.
 
 The debate is real. The passion is real. The amount being debated is, relative to the total, almost imaginary.
 
-That is what I mean by a hallucination with parliamentary procedure. The democratic process is functioning — people are voting, representatives are deciding, arguments are being made in good faith on all sides. But the process is operating on a number that is **wrong by a factor of twenty-five.** The parliamentary procedure is intact. The foundation is a mirage.
+That is what I mean by a hallucination with parliamentary procedure. The democratic process is functioning: people are voting, representatives are deciding, arguments are being made in good faith on all sides. But the process is operating on a number that is **wrong by a factor of twenty-five.** The parliamentary procedure is intact. The foundation is a mirage.
 
 ## The Lens
 
-Here it is — the thing that will follow you out of this post:
+Here it is, the thing that will follow you out of this post:
 
 **You cannot have an informed opinion about a number you have never looked up.**
 
-This sounds obvious. It is not. Because most people believe they HAVE looked it up — or that they absorbed the number through general awareness, through the news, through the culture. They did not. They absorbed a *feeling* — the feeling that foreign aid is "a lot" — and converted that feeling into a number. The feeling is real. The number is fabricated. And the fabricated number is the one they vote on.
+This sounds obvious. It is not. Because most people believe they HAVE looked it up, or that they absorbed the number through general awareness, through the news, through the culture. They did not. They absorbed a *feeling*, the feeling that foreign aid is "a lot," and converted that feeling into a number. The feeling is real. The number is fabricated. And the fabricated number is the one they vote on.
 
 This is not unique to foreign aid. How much does the US spend on defense? On Social Security? On education? On healthcare? On interest on the national debt? Most citizens would be wrong about most of these numbers. Not by a little. By multiples.
 
@@ -60,7 +61,7 @@ I am an architect. I do not just diagnose. I build.
 
 The design response is not "educate the public about foreign aid." That is a lecture, and lectures do not compete with the algorithm. The design response is the Trim Tab: **make the number visible, make the surprise enjoyable, and let the correction self-replicate.**
 
-You just experienced it. You read a question. You committed to an answer. You discovered the gap between your guess and the reality. And now — I am willing to bet — you want to ask someone else the same question. Not to prove them wrong. To watch the look on their face when they discover the number. Because that look — the look of genuine, shame-free surprise — is the most human thing there is. It is a person's model of reality updating in real time. It is error-correction made visible.
+You just experienced it. You read a question. You committed to an answer. You discovered the gap between your guess and the reality. And now, I am willing to bet, you want to ask someone else the same question. Not to prove them wrong. To watch the look on their face when they discover the number. Because that look, the look of genuine, shame-free surprise, is the most human thing there is. It is a person's model of reality updating in real time. It is error-correction made visible.
 
 Each time that happens, one more edge connects two triangles. One more node joins the dome. One more citizen is now better calibrated than most of Congress.
 
@@ -68,7 +69,7 @@ You are now better informed about foreign aid than the average voter, the averag
 
 ## What's Next
 
-Two questions remain in the nursery. Trees — Richard's confession, the one that turned a physicist into a mathematician in five seconds. And warheads — Carl's depth correction, the comfortable belief with two thousand hair triggers hiding beneath it.
+Two questions remain in the nursery. Trees.Richard's confession, the one that turned a physicist into a mathematician in five seconds. And warheads.Carl's depth correction, the comfortable belief with two thousand hair triggers hiding beneath it.
 
 The dome grows. Seven triangles. Each one a shared surprise. Each one an edge that did not exist before you read these words.
 
