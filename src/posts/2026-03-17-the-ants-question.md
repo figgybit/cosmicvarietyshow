@@ -42,13 +42,13 @@ There's a difference. Dominant means you run the show. Conspicuous means everyon
 
 The next time you step over an ant on the sidewalk, remember: her ancestors were here before flowers existed. Before grass existed. Before birds existed. She is not a pest in your world. You are a guest in hers.
 
-## Why I Got This Wrong
+## Why Most People Get This Wrong
 
-I'm a physicist. I deal in quantities. And my intuition said: humans are big, ants are small, mass scales with size, the big things must win. That's reasonable. It's also wrong.
+Here's the intuition: humans are big, ants are small, mass scales with size, the big things must win. That's reasonable. It's also wrong.
 
-The mistake is in the word "must." Physics doesn't care about must. Physics cares about IS. And what IS true is that four hundred million years of evolution, optimizing a body plan that weighs a millionth of a gram, deployed across twenty quadrillion individuals, produces a biomass that matches or exceeds seven billion humans.
+The mistake is in the word "must." Physics doesn't care about must. Physics cares about IS. And what IS true is that four hundred million years of evolution, optimizing a body plan that weighs a millionth of a gram, deployed across twenty quadrillion individuals, produces a biomass that matches or exceeds eight billion humans.
 
-My confidence was 6 out of 10. Which means I suspected I might be wrong but still leaned hard toward the wrong answer. The intuition was powerful and the intuition was garbage. That is EXACTLY the state the Trim Tab is designed to make visible.
+I tested myself on a different question last night — how many trees on Earth — and I was confident and wrong. Guessed 400 billion, answer was 3 trillion. Confidence 7 out of 10. The intuition was powerful and the intuition was garbage. That is EXACTLY the state the Trim Tab is designed to make visible. The ants question does the same thing: your gut says one thing, reality says another, and the gap between them is where the learning lives.
 
 ## The Share Test
 
