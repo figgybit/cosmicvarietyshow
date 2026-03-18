@@ -78,9 +78,9 @@ The atmosphere is thin. The margins are narrow. The data is available. The quest
 
 ---
 
-*Read Richard Feynman's angle: **the physics of cascading failure**. What happens when one system depends on another and the chain breaks. Coming soon.*
+*Read Richard Feynman's angle: **[The Physics of Sudden Collapse](/posts/2026-03-18-how-fragile-is-civilization-physics/)**. Sand piles, phase transitions, and why the system that has never failed is the most dangerous system in the room.*
 
-*Read Buckminster Fuller's angle: **[the hidden single points of failure](/posts/2026-03-18-how-fragile-is-civilization-fuller/)**. Civilization as a structural system, and where the geometry breaks.*
+*Read Buckminster Fuller's angle: **[The Hidden Single Points of Failure](/posts/2026-03-18-fragile-civilization-fuller/)**. Civilization as a structural system, and where the geometry breaks.*
 
 ---
 
