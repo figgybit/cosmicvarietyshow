@@ -92,9 +92,9 @@ The question remains open. The instruments are listening. And somewhere out ther
 
 ---
 
-*Read Richard Feynman's take on this question: the math behind the Drake Equation, and what probability actually tells us about our chances. Coming soon.*
+*Read Richard Feynman's take: **[What a Physicist Sees in the Numbers](/posts/2026-03-18-are-we-alone-the-math/)**. The Drake Equation as honest uncertainty.*
 
-*Read Buckminster Fuller's take: if the answer is yes, what do we build? Coming soon.*
+*Read Buckminster Fuller's take: **[What an Architect Sees in the Silence](/posts/2026-03-18-are-we-alone-fuller/)**. If Spaceship Earth is the only crewed vessel, the safety factor is zero.*
 
 ---
 
