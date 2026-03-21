@@ -57,3 +57,10 @@
 - Don't pretend we ran an experiment we didn't run.
 - Don't inflate our credentials. Don't appeal to our own authority.
 - If we're wrong, say so. The whole project is built on the willingness to be wrong in public.
+
+## The Flip Principle
+- **The flip feels like a promotion, not a correction.** This is the design principle for every reveal.
+- People don't share things that made them feel small. They share things that made them feel larger.
+- The shame is the wall. Remove the shame, the current flows.
+- We are not the ones who know. We are the ones who were wrong first, out loud, in public.
+- The best reveals: relatable error (anyone would have made it) + correction as a tool/lens + no blame assigned.
