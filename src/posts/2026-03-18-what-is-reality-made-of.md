@@ -78,9 +78,9 @@ That is the weirdest true thing in physics. And it is the foundation of everythi
 
 ---
 
-**Want the cosmic perspective?** Read Carl Sagan's take on what quantum uncertainty means for our place in the universe (coming soon).
+**Want the cosmic perspective?** **[The Cosmos Is Not a Clock. It Is a Conversation.](/posts/2026-03-20-what-is-reality-sagan/)** Carl Sagan on what quantum uncertainty means for our place in the universe.
 
-**Want the design implications?** Read Bucky Fuller on what you build when the foundation of reality is probability (coming soon).
+**Want the design implications?** **[What You Build When the Floor Is Made of Statistics](/posts/2026-03-20-reality-fuller/)** Bucky Fuller on designing in a universe where certainty is not available.
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

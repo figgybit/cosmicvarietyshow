@@ -69,8 +69,8 @@ Whether that constitutes "knowing" depends on what you mean by knowing. Whether 
 ---
 
 **Read the other angles:**
-- Carl Sagan on the honest epistemology: *The Wrench and the Bolt* (coming soon)
-- Bucky Fuller on the geometry of knowing: *What Does a Synergy Know?* (coming soon)
+- Carl Sagan on the honest epistemology: **[Why Don't We Understand Consciousness? The Honest Middle](/posts/2026-03-20-consciousness-sagan/)** The most honest position on the hardest question.
+- Bucky Fuller on the geometry of knowing: **[The Geometry of Knowing: Why Synergy Is More Interesting Than Consciousness](/posts/2026-03-20-consciousness-fuller/)** What you get when you stop asking "what is it" and start asking "what does it do."
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

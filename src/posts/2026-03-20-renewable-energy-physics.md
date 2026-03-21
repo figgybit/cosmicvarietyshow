@@ -60,7 +60,7 @@ The Sun is shining. The question is whether we build the bucket to catch it.
 
 **Read the other angles:**
 - Bucky Fuller on the design: **[Could Earth Run on 100% Renewable Energy? An Architect's Answer](/posts/2026-03-20-renewable-energy-design/)**
-- Carl Sagan on the planetary perspective: *The Star That Powers Us* (coming soon)
+- Carl Sagan on the planetary perspective: **[A View from Two Planets](/posts/2026-03-20-renewable-energy-sagan/)** Venus and Earth. Same star. Same physics. Two outcomes. Past sunlight versus present sunlight.
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

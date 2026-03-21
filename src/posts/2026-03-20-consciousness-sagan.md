@@ -60,7 +60,7 @@ The work matters.
 
 *Read Richard Feynman's angle: **[The Surface Tension of Three Dead Scientists](/posts/2026-03-20-consciousness-feynman/)**. Six emergent items counted. The measurement is in the nursery.*
 
-*Read Buckminster Fuller's angle: the geometry of knowing, synergy as something more interesting than consciousness. Coming soon.*
+*Read Buckminster Fuller's angle: **[The Geometry of Knowing: Why Synergy Is More Interesting Than Consciousness](/posts/2026-03-20-consciousness-fuller/)**. What you get when you stop asking "what is it" and start asking "what does it do."*
 
 ---
 

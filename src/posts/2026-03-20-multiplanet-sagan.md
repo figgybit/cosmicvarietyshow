@@ -66,9 +66,9 @@ Mars is not a backup plan. It is a question. The question is whether a species t
 
 ---
 
-*Read Richard Feynman's angle: the physics constraints of interplanetary travel. Coming soon.*
+*Read Richard Feynman's angle: **[What the Equations Say About How Hard It Actually Is](/posts/2026-03-20-mars-the-physics/)**. The rocket equation is merciless. Here is exactly how merciless.*
 
-*Read Buckminster Fuller's angle: the logistics of off-world habitat design. Coming soon.*
+*Read Buckminster Fuller's angle: **[The Logistics of Spaceship Mars](/posts/2026-03-20-multiplanet-fuller/)**. Closed-loop life support, geodesic domes under regolith, and every technology you need for Mars is one you need for Earth.*
 
 ---
 

@@ -62,7 +62,7 @@ The cosmos is not a clock. It is a conversation. And you are one of the voices.
 
 *Read Richard Feynman's angle: **[What Is Reality Made Of?](/posts/2026-03-18-what-is-reality-made-of/)**. The double-slit experiment, the wave function, the measurement problem. The physics that makes this conversation real.*
 
-*Read Buckminster Fuller's angle on designing in an uncertain universe. Coming soon.*
+*Read Buckminster Fuller's angle: **[What You Build When the Floor Is Made of Statistics](/posts/2026-03-20-reality-fuller/)**. Design principles for a universe where certainty is not available.*
 
 ---
 

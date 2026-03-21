@@ -66,9 +66,9 @@ That is not optimism. That is the same patient, evidence-based process that redu
 
 ---
 
-*Read Buckminster Fuller's angle: the World Game and systems solutions. Coming soon.*
+*Read Buckminster Fuller's angle: **[What Would It Take to Solve Everything We Call 'Global Problems'?](/posts/2026-03-20-global-problems-fuller/)** The World Game. Ordinary citizens solved it every time they played.*
 
-*Read Richard Feynman's angle: the physics of resource distribution. Coming soon.*
+*Read Richard Feynman's angle: **[A Physicist Runs the Numbers](/posts/2026-03-20-global-problems-physics/)**. The resources are sufficient. The bottleneck is framing, not physics.*
 
 ---
 

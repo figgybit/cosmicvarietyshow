@@ -69,8 +69,8 @@ The dinosaurs did not have a space program. We do. The question is whether we us
 ---
 
 **Read the other angles:**
-- Carl Sagan on the urgency: *What Happens If an Asteroid Is Heading for Earth?* (coming soon)
-- Bucky Fuller on the design response: *Spaceship Earth's Collision Avoidance System* (coming soon)
+- Carl Sagan on the urgency: **[What Happens If an Asteroid Is Heading Toward Earth?](/posts/2026-03-20-asteroid-sagan/)** Detection is the trim tab of planetary defense.
+- Bucky Fuller on the design response: **[Spaceship Earth's Collision Avoidance System](/posts/2026-03-20-asteroid-fuller/)** The fire department, not the fire extinguisher.
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

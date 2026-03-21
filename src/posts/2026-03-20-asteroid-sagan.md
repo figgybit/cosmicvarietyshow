@@ -80,9 +80,9 @@ The sky is not empty. It is full of rocks, most of them harmless, a few of them 
 
 ---
 
-*Read Richard Feynman's angle: the math of deflection. F=ma applied to saving the world. Coming soon.*
+*Read Richard Feynman's angle: **[How to Save the World with F=ma](/posts/2026-03-20-asteroid-the-physics/)**. The math of deflection. A paintball gun, a gravity tractor, and why pushing early beats pushing hard.*
 
-*Read Buckminster Fuller's angle: the design of a planetary defense architecture. Spaceship Earth's collision avoidance system. Coming soon.*
+*Read Buckminster Fuller's angle: **[Spaceship Earth's Collision Avoidance System](/posts/2026-03-20-asteroid-fuller/)**. The design of a standing planetary defense architecture. Not a single interceptor launched in panic — a system that is always watching.*
 
 ---
 

@@ -54,7 +54,7 @@ Bucky spent his career on this question. His answer is in his post: **[What Woul
 
 *Read Buckminster Fuller's angle: **[What Would a Perfect City Look Like?](/posts/2026-03-18-future-cities/)**. Cities as whole systems, not collections of boxes.*
 
-*Read Richard Feynman's angle: the physics of urban systems, heat islands, and transportation energy. Coming soon.*
+*Read Richard Feynman's angle: **[The Thermodynamics of Ten Million People](/posts/2026-03-20-cities-the-physics/)**. Heat islands, transportation energy, and what the physics of density actually says.*
 
 ---
 
