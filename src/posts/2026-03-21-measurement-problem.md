@@ -129,8 +129,8 @@ If we are wrong, we want to know. That has always been the point.
 *"The first principle is that you must not fool yourself, and you are the easiest person to fool."*
 *Richard Feynman*
 
-*"The universe is under no obligation to make sense to you."*
-*Neil deGrasse Tyson, but we would have said it first*
+*"Somewhere, something incredible is waiting to be known."*
+*Carl Sagan*
 
 *"You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete."*
 *Buckminster Fuller*
