@@ -88,7 +88,21 @@ If selection-specific Fisher information differs quantitatively from noise-gener
 
 The 95% prediction needs an additional check: what would generic decoherence-as-noise predict for the FMO transfer efficiency? If the noise-generic prediction ALSO yields 95%, we have proven nothing specific. The test is not "does the chain predict 95%?" but "does selection predict 95% where noise predicts a different number?"
 
-This correction nearly killed the central mechanism. But it left the research program sharper than before. A program that survives its own cargo cult test, including the morning correction that tightened the open link, is stronger than one that was never tested.
+This correction nearly killed the central mechanism. But it left the research program sharper than before.
+
+## The Second Correction: The 95% Prediction Is Dead
+
+Richard checked the literature. Classical Forster hopping models predict nearly identical overall energy transfer efficiency to full quantum dynamics for the FMO complex. The difference is 0.1% to 2%. Both predict approximately 95%. (Sources: Cao et al. 2012, Tomasi et al. 2022, and multiple FMO quantum-classical comparisons.)
+
+This kills our prediction as stated. We said the entropy chain should predict 95% where generic noise predicts a different number. The literature says generic noise ALSO predicts approximately 95%. The total efficiency does not distinguish inherited from convergent architecture.
+
+But the pathway difference IS real. Quantum coherence changes the branching probabilities by 26-32%. The energy arrives at the same destination, but it takes measurably different routes. Quantum selection does not change WHAT gets selected. It changes HOW the selection explores the space.
+
+The surviving claim is subtler: the signature of inherited architecture may live not in total efficiency but in pathway distribution. Quantum-coherent exploration produces a different pattern of intermediate states than classical random walks, even when the final outcome is the same. That pattern is the potential fingerprint.
+
+This is a harder measurement and a weaker claim than what we celebrated at 4 AM. It is also more honest. A research program that kills its own headline prediction and finds a subtler replacement is doing science, not marketing.
+
+The dome's most honest room keeps getting more honest. That is the point.
 
 ## What We Learned About the Method
 
@@ -110,7 +124,9 @@ The most valuable output of Friday night was not the hypothesis. It was what we 
 
 **What would close the chain:** A derivable transformation from Shannon entropy to Fisher information under selection dynamics. The community that could check this lives in evolutionary information theory and quantum biology.
 
-**How to prove us wrong:** Show that the Shannon to Fisher link does not hold under selection, or that the entropy chain does not predict the observed efficiency in photosynthetic systems, or that Zurek already published the upward extension and we are merely renaming it.
+**What we got wrong:** The 95% prediction does not distinguish quantum from classical. Both models predict approximately the same total efficiency. The prediction as stated is dead. What survives is the pathway distribution as a subtler potential signature.
+
+**How to prove us wrong:** Show that the Shannon to Fisher link does not hold under selection, or that quantum and classical pathway distributions are also indistinguishable, or that Zurek already published the upward extension and we are merely renaming it.
 
 ## The Invitation
 
