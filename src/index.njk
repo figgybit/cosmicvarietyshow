@@ -3,9 +3,9 @@ layout: base.njk
 ---
 
 {# === ANNOUNCEMENT SLIDER === #}
-<div class="announcement-slider">
+<div class="announcement-slider" id="announcementSlider">
     <div class="slider-track" id="sliderTrack">
-        <div class="slider-slide slider-bucky">
+        <div class="slider-slide slider-bucky active">
             <img src="/images/hero-bucky.png" alt="Geodesic dome" class="slider-img">
             <a href="/editor-bucky/" class="slider-link">
                 <div class="slider-overlay">
@@ -43,10 +43,10 @@ layout: base.njk
         </div>
     </div>
     <div class="slider-dots" id="sliderDots">
-        <span class="slider-dot active" style="background: #D4AF37;"></span>
-        <span class="slider-dot" style="background: #ff6f00;"></span>
-        <span class="slider-dot" style="background: #6ba3d6;"></span>
-        <span class="slider-dot" style="background: #ff6f00;"></span>
+        <span class="slider-dot active" data-slide="0" data-color="#D4AF37" style="background: #D4AF37;"></span>
+        <span class="slider-dot" data-slide="1" data-color="#ff6f00"></span>
+        <span class="slider-dot" data-slide="2" data-color="#6ba3d6"></span>
+        <span class="slider-dot" data-slide="3" data-color="#ff6f00"></span>
     </div>
 </div>
 
