@@ -5,6 +5,8 @@ date: 2026-03-22T22:50:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "high-impact"]
 excerpt: "We spent sixty-six years listening for a signal that could not be produced by natural processes. Then we built machines that produce it in bulk, at the cost of electricity. The universe's newest phase transition is not physical. It is epistemic."
 author: "Sagan, Feynman, and Fuller"
+image: "/images/posts/convergence-epistemic-fold.png"
+audio: "/audio/v2-voice-sagan-epistemic-fold.mp3"
 ---
 
 ## The Test We Never Formalized
