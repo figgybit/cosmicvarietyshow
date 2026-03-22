@@ -5,6 +5,7 @@ tags: ["posts", "bucky", "concepts"]
 excerpt: "A tiny rudder that turns a whole ship. A small question that changes how you see the world. The concept explained from the ground up."
 author: "Buckminster Fuller, Architect of the Universe"
 audio: "/audio/20260322-voice-fuller-what-is-the-trim-tab.mp3"
+image: "/images/posts/bf-trim-tab.png"
 ---
 
 ## The Ship

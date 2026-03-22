@@ -5,6 +5,7 @@ tags: ["posts", "bucky", "science", "courseware"]
 excerpt: "Six popsicle sticks. Four brass fasteners. Five minutes. And the secret that holds up every bridge, crane, and dome on Earth."
 author: "Buckminster Fuller, Architect of the Universe"
 audio: "/audio/20260322-voice-fuller-why-triangles-hold.mp3"
+image: "/images/posts/bf-why-triangles-hold.png"
 ---
 
 This is not an essay. This is an experiment. You will need:
