@@ -448,7 +448,7 @@ a:hover { color: #9c7cff; text-decoration: none; }
 .tier2-hero-bucky .slider-img,
 .tier2-hero-sagan .slider-img,
 .tier2-hero-feynman .slider-img {
-    transform: scale(1.2);
+    transform: scale(2.4);
     transform-origin: right bottom;
     opacity: 1;
     filter: none;
