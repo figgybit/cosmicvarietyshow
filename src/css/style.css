@@ -449,9 +449,9 @@ a:hover { color: #9c7cff; text-decoration: none; }
 .tier2-hero-sagan .slider-img,
 .tier2-hero-feynman .slider-img {
     transform: none;
-    width: 120%;
-    height: 120%;
-    max-width: 120%;
+    width: 150%;
+    height: 150%;
+    max-width: 150%;
     object-fit: cover;
     object-position: center;
     opacity: 0.5;
