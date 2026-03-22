@@ -28,7 +28,7 @@ permalink: /editor-bucky/
             {% if post.data.image %}
             <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
             {% endif %}
-            <span class="mosaic-badge mosaic-badge-bucky">{% if post.data.audio %}AUDIO{% else %}TEXT{% endif %}</span>
+            <span class="mosaic-badge mosaic-badge-bucky">FULLER</span>
             <div class="mosaic-overlay">
                 <span class="mosaic-number">Post #{{ buckyPosts.length - loop.index0 }}</span>
                 <h3 class="mosaic-title">{{ post.data.title }}</h3>
