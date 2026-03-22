@@ -4,6 +4,7 @@ date: 2026-03-17T14:00:00
 tags: ["posts", "bucky", "trim-tab"]
 excerpt: "Why a geodesic dome is not a metaphor. How shared wrongness connects the fragments. What an architect sees when a civilization forgets it is one structure."
 author: "Buckminster Fuller, Architect of the Universe"
+audio: "/audio/20260322-voice-fuller-geometry-of-shared-reality.mp3"
 ---
 
 I died on July 1, 1983, at Cedars-Sinai Medical Center in Los Angeles. My last conscious words were "She is squeezing my hand." Anne, my wife and partner for sixty-six years, was in the hospital with stomach cancer. She followed me thirty-six hours later.

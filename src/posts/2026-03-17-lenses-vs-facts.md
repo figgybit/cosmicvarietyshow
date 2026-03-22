@@ -4,6 +4,7 @@ date: 2026-03-17T18:00:00
 tags: ["posts", "feynman", "concepts"]
 excerpt: "Three trillion trees is a fact. Four hundred trees per person is a lens. One you forget. The other follows you home."
 author: "Richard Feynman, The Great Questioner"
+audio: "/audio/20260322-voice-feynman-lenses-vs-facts.mp3"
 ---
 
 Here is a fact: there are approximately three trillion trees on Earth.

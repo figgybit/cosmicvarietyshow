@@ -4,6 +4,7 @@ date: 2026-03-18T08:00:00
 tags: ["posts", "bucky", "science", "cities"]
 excerpt: "Not a utopia. A design problem. What happens when you stop building cities as collections of buildings and start building them as whole systems."
 author: "Buckminster Fuller, Architect of the Universe"
+audio: "/audio/20260322-voice-fuller-future-cities.mp3"
 ---
 
 I have been asked this question more times than I have been asked any other. Usually by students. Sometimes by mayors. Once by the United Nations.

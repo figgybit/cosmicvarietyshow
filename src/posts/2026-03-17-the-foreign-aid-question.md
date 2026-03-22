@@ -4,6 +4,7 @@ date: 2026-03-17T20:00:00
 tags: ["posts", "bucky", "trim-tab"]
 excerpt: "The foreign aid question. Less than one percent. An entire national debate conducted by a population that never looked up the number."
 author: "Buckminster Fuller, Architect of the Universe"
+audio: "/audio/20260322-voice-fuller-the-foreign-aid-question.mp3"
 ---
 
 I am an architect. I build things. And the first thing any architect learns is this: **measure the foundation before you draw the building.**
