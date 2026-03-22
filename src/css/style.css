@@ -759,6 +759,11 @@ a:hover { color: #9c7cff; text-decoration: none; }
     gap: 10px;
 }
 
+/* Hidden cards — not selected for this page load */
+.mosaic-hidden {
+    display: none !important;
+}
+
 /* Featured card — spans 2x2 in grid */
 .mosaic-featured {
     grid-column: span 2;
