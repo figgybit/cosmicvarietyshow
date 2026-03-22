@@ -62,7 +62,7 @@ layout: base.njk
     <div class="mosaic-grid">
         {% set latestPosts = collections.posts | reverse %}
         {% for post in latestPosts | limit(12) %}
-        <a href="{{ post.url }}" class="mosaic-card {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}">
+        <a href="{{ post.url }}" class="mosaic-card {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}" {% if post.data.audio %}data-audio="{{ post.data.audio }}"{% endif %}>
             {% if post.data.image %}
             <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
             {% endif %}
@@ -79,5 +79,6 @@ layout: base.njk
         </a>
         {% endfor %}
     </div>
+    <script defer src="/js/mosaic-player.js"></script>
 </section>
 
