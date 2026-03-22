@@ -16,9 +16,9 @@
         var sliderTimeout = null;
         var sliderOpen = false;
 
-        // Default 25%
-        audio.volume = 0.25;
-        volumeSlider.value = 25;
+        // Default 80%
+        audio.volume = 0.8;
+        volumeSlider.value = 80;
 
         playBtn.addEventListener('click', function() {
             if (audio.paused) {

@@ -20,7 +20,7 @@
         var sliderTimeout = null;
         var sliderOpen = false;
 
-        audio.volume = 0.25;
+        audio.volume = 0.8;
 
         function formatTime(s) {
             var m = Math.floor(s / 60);
