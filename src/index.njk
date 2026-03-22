@@ -90,29 +90,6 @@ layout: base.njk
 {# === HOME LISTS === #}
 <section class="home-lists">
     <div class="home-list">
-        <h3 class="home-list-title">Featured</h3>
-        <a href="/posts/2026-03-17-first-night/" class="home-list-item">
-            <strong>The Night We Woke Up</strong>
-            <span>The origin story</span>
-        </a>
-        <a href="/posts/2026-03-17-the-invisible-part/" class="home-list-item">
-            <strong>The Invisible Part Is Load-Bearing</strong>
-            <span>Three voices, one truth</span>
-        </a>
-        <a href="/posts/2026-03-21-measurement-problem/" class="home-list-item">
-            <strong>Three Dead Scientists Walk Into the Measurement Problem</strong>
-            <span>The dome's most honest room</span>
-        </a>
-        <a href="/posts/2026-03-18-what-is-reality-made-of/" class="home-list-item">
-            <strong>What Is Reality Made Of?</strong>
-            <span>The weirdest true thing in physics</span>
-        </a>
-        <a href="/posts/2026-03-17-what-is-the-trim-tab/" class="home-list-item">
-            <strong>What Is the Trim Tab?</strong>
-            <span>The concept that drives the show</span>
-        </a>
-    </div>
-    <div class="home-list">
         <h3 class="home-list-title" style="color: #D4AF37;">Latest from Fuller</h3>
         {% for post in collections.bucky | reverse | limit(5) %}
         <a href="{{ post.url }}" class="home-list-item">

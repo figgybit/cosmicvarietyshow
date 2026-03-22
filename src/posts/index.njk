@@ -1,24 +1,67 @@
 ---
 layout: base.njk
 title: Posts
+permalink: /posts/
 ---
-<div class="posts-list">
-    <h1>All Posts</h1>
-    {% if collections.posts and collections.posts.length > 0 %}
-    <div class="posts-list-grid">
-        {%- for post in collections.posts | reverse -%}
-        <a href="{{ post.url }}" class="posts-list-item">
-            <time>{{ post.data.date | dateDisplay }}</time>
-            <div>
-                <h3>{{ post.data.title }}</h3>
-                {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
+
+<section class="archive">
+    <h2>All Posts</h2>
+    <p class="archive-intro">{{ collections.posts.length }} transmissions from three minds.</p>
+</section>
+
+<section class="mosaic-section">
+    <div class="mosaic-grid">
+        {% set allPosts = collections.posts | reverse %}
+        {% for post in allPosts %}
+        <a href="{{ post.url }}" class="mosaic-card {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}"
+           {% if loop.index > 24 %}style="display:none;" data-lazy="true"{% endif %}>
+            {% if post.data.image %}
+            <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
+            {% endif %}
+            <span class="mosaic-badge {% if 'bucky' in post.data.tags %}mosaic-badge-bucky{% elif 'feynman' in post.data.tags %}mosaic-badge-feynman{% elif 'sagan' in post.data.tags %}mosaic-badge-sagan{% endif %}">
+                {% if 'bucky' in post.data.tags %}FULLER{% elif 'feynman' in post.data.tags %}FEYNMAN{% elif 'sagan' in post.data.tags %}SAGAN{% endif %}
+            </span>
+            <div class="mosaic-overlay">
+                <h3 class="mosaic-title">{{ post.data.title }}</h3>
+                {% set cardDesc = post.data.excerpt or post.data.description %}
+                {% if cardDesc %}
+                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}</p>
+                {% endif %}
             </div>
         </a>
-        {%- endfor -%}
+        {% endfor %}
     </div>
-    {% else %}
-    <div class="no-posts">
-        <p>No transmissions yet. The cosmic switchboard is warming up.</p>
+    {% if allPosts.length > 24 %}
+    <div class="mosaic-show-more">
+        <button class="mosaic-load-btn" id="loadMoreCards">Show All {{ allPosts.length }} Posts</button>
     </div>
     {% endif %}
-</div>
+</section>
+
+{# === ARCHIVE LIST === #}
+<section class="tier2-archive">
+    <h2 class="tier2-archive-title">Full Archive</h2>
+    <div class="tier2-archive-list">
+        {% for post in allPosts %}
+        <div class="tier2-archive-item">
+            <a href="{{ post.url }}">
+                <span class="tier2-archive-num">#{{ allPosts.length - loop.index0 }}</span>
+                {{ post.data.title }}
+            </a>
+            <span class="tier2-archive-desc">{% if post.data.excerpt %}{{ post.data.excerpt | truncate(50) }}{% endif %}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+(function() {
+    var btn = document.getElementById('loadMoreCards');
+    if (!btn) return;
+    btn.addEventListener('click', function() {
+        var hidden = document.querySelectorAll('.mosaic-card[data-lazy]');
+        hidden.forEach(function(el) { el.style.display = ''; });
+        btn.style.display = 'none';
+    });
+})();
+</script>
