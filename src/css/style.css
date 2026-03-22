@@ -381,9 +381,9 @@ a:hover { color: #9c7cff; text-decoration: none; }
 
     .mobile-pills .mobile-pill-radio { color: #3498db !important; }
     .mobile-pills .mobile-pill-news { color: #7c4dff !important; }
-    .mobile-pills .mobile-pill-bucky { color: #ff9800 !important; }
-    .mobile-pills .mobile-pill-sagan { color: #2196f3 !important; }
-    .mobile-pills .mobile-pill-feynman { color: #e91e63 !important; }
+    .mobile-pills .mobile-pill-bucky { color: #D4AF37 !important; }
+    .mobile-pills .mobile-pill-sagan { color: #6ba3d6 !important; }
+    .mobile-pills .mobile-pill-feynman { color: #ff6f00 !important; }
     .mobile-pills .mobile-pill-special { color: #e84393 !important; }
 }
 
@@ -486,7 +486,7 @@ a:hover { color: #9c7cff; text-decoration: none; }
 
 .slider-feynman {
     background: linear-gradient(135deg, #1a1500 0%, #2a2200 50%, #1a1500 100%);
-    border: 1px solid #e91e63;
+    border: 1px solid #ff6f00;
     border-radius: 8px;
 }
 
@@ -498,7 +498,7 @@ a:hover { color: #9c7cff; text-decoration: none; }
 
 .slider-event {
     background: linear-gradient(135deg, #1a0a2e 0%, #2a1a4e 50%, #1a0a2e 100%);
-    border: 1px solid #e91e63;
+    border: 1px solid #ff6f00;
     border-radius: 8px;
 }
 
@@ -539,8 +539,8 @@ a:hover { color: #9c7cff; text-decoration: none; }
 
 .slider-event .slider-badge {
     background: rgba(212, 175, 55, 0.2);
-    color: #e91e63;
-    border: 1px solid #e91e63;
+    color: #ff6f00;
+    border: 1px solid #ff6f00;
 }
 
 .slider-feature .slider-badge {
@@ -712,11 +712,11 @@ a:hover { color: #9c7cff; text-decoration: none; }
     text-decoration: none;
 }
 
-.pnav-bucky { color: #ff9800; border-bottom-color: #ff9800; }
+.pnav-bucky { color: #D4AF37; border-bottom-color: #D4AF37; }
 .pnav-bucky:hover { color: #2ecc71; }
-.pnav-feynman { color: #e91e63; border-bottom-color: #e91e63; }
+.pnav-feynman { color: #ff6f00; border-bottom-color: #ff6f00; }
 .pnav-feynman:hover { color: #f1c40f; }
-.pnav-sagan { color: #2196f3; border-bottom-color: #2196f3; }
+.pnav-sagan { color: #6ba3d6; border-bottom-color: #6ba3d6; }
 .pnav-sagan:hover { color: #bb77d6; }
 .pnav-music { color: #9c7cff; border-bottom-color: #9c7cff; }
 .pnav-music:hover { color: #ff6b5b; }
@@ -1070,11 +1070,11 @@ a:hover { color: #9c7cff; text-decoration: none; }
 
 /* Voice-specific card accent borders */
 .mosaic-feynman { border-color: rgba(212, 175, 55, 0.3); }
-.mosaic-feynman:hover { border-color: #e91e63; }
+.mosaic-feynman:hover { border-color: #ff6f00; }
 .mosaic-sagan { border-color: rgba(180, 100, 220, 0.5); }
 .mosaic-sagan:hover { border-color: #b564dc; }
 .mosaic-bucky { border-color: rgba(34, 139, 34, 0.3); }
-.mosaic-bucky:hover { border-color: #ff9800; }
+.mosaic-bucky:hover { border-color: #D4AF37; }
 .mosaic-rfm { border-color: rgba(52, 152, 219, 0.3); }
 .mosaic-rfm:hover { border-color: #3498db; }
 .mosaic-special { border-color: rgba(192, 57, 43, 0.3); }
@@ -1596,9 +1596,9 @@ ol.home-list-items .home-list-item::before {
 }
 
 /* Color-coded top bars per voice */
-.voices-card.voice-feynman::before { background: #e91e63; }
-.voices-card.voice-sagan::before { background: #2196f3; }
-.voices-card.voice-bucky::before { background: #ff9800; }
+.voices-card.voice-feynman::before { background: #ff6f00; }
+.voices-card.voice-sagan::before { background: #6ba3d6; }
+.voices-card.voice-bucky::before { background: #D4AF37; }
 .voices-card.voice-rfm::before { background: #3498db; }
 
 .voices-card-name {
@@ -1714,7 +1714,7 @@ ol.home-list-items .home-list-item::before {
 .featured-lead-headline:hover { color: #fff; }
 
 .bucky-commentary {
-    color: #ff9800;
+    color: #D4AF37;
     font-style: italic;
     font-size: 1em;
     margin-bottom: 15px;
@@ -1722,7 +1722,7 @@ ol.home-list-items .home-list-item::before {
 }
 
 .bucky-commentary-inline {
-    color: #ff9800;
+    color: #D4AF37;
     font-style: italic;
     font-size: 0.8em;
     display: block;
@@ -2145,7 +2145,7 @@ ol.home-list-items .home-list-item::before {
     padding: 15px;
     border: 1px solid #333;
     overflow-x: auto;
-    color: #ff9800;
+    color: #D4AF37;
     white-space: pre-wrap;
     margin: 15px 0;
 }
@@ -2605,7 +2605,7 @@ ol.home-list-items .home-list-item::before {
     background: #000;
     padding: 20px;
     border: 1px solid #333;
-    color: #ff9800;
+    color: #D4AF37;
     font-family: 'Courier New', monospace;
     margin: 15px 0;
 }
@@ -2740,7 +2740,7 @@ audio[controls] {
 /* Blue Milk Radio Player */
 .radio-player {
     background: #0a0a0a;
-    border: 1px solid #ff9800;
+    border: 1px solid #D4AF37;
     padding: 15px 20px;
     margin-bottom: 25px;
     display: flex;
@@ -2750,7 +2750,7 @@ audio[controls] {
 }
 
 .radio-label {
-    color: #ff9800;
+    color: #D4AF37;
     font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
@@ -2769,7 +2769,7 @@ audio[controls] {
 }
 
 .radio-link:hover {
-    color: #ff9800;
+    color: #D4AF37;
 }
 
 .radio-controls {
@@ -2781,8 +2781,8 @@ audio[controls] {
 
 .radio-btn {
     background: transparent;
-    border: 2px solid #ff9800;
-    color: #ff9800;
+    border: 2px solid #D4AF37;
+    color: #D4AF37;
     width: 40px;
     height: 40px;
     font-size: 1.1em;
@@ -2796,7 +2796,7 @@ audio[controls] {
 }
 
 .radio-btn:hover {
-    background: #ff9800;
+    background: #D4AF37;
     color: #000;
 }
 
@@ -2810,7 +2810,7 @@ audio[controls] {
     left: 50%;
     transform: translateX(-50%);
     background: #0a0a0a;
-    border: 1px solid #ff9800;
+    border: 1px solid #D4AF37;
     padding: 10px 15px;
     border-radius: 4px;
     opacity: 0;
@@ -2831,7 +2831,7 @@ audio[controls] {
     transform: translateX(-50%);
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #ff9800;
+    border-top: 6px solid #D4AF37;
 }
 
 .volume-slider {
@@ -2849,7 +2849,7 @@ audio[controls] {
     appearance: none;
     width: 14px;
     height: 14px;
-    background: #ff9800;
+    background: #D4AF37;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -2857,7 +2857,7 @@ audio[controls] {
 .volume-slider::-moz-range-thumb {
     width: 14px;
     height: 14px;
-    background: #ff9800;
+    background: #D4AF37;
     border-radius: 50%;
     cursor: pointer;
     border: none;
@@ -2895,13 +2895,13 @@ audio[controls] {
     text-align: center;
     padding: 60px 20px 40px;
     background: linear-gradient(180deg, #1a1a3a 0%, #0a0a1a 100%);
-    border-bottom: 2px solid #e91e63;
+    border-bottom: 2px solid #ff6f00;
 }
 
 .feynman-title {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 3em;
-    color: #e91e63;
+    color: #ff6f00;
     letter-spacing: 4px;
     margin-bottom: 10px;
     text-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
@@ -2938,7 +2938,7 @@ audio[controls] {
 }
 
 .feynman-nav a:hover {
-    color: #e91e63;
+    color: #ff6f00;
 }
 
 .feynman-section {
@@ -2950,7 +2950,7 @@ audio[controls] {
 
 .feynman-section-title {
     font-family: 'Playfair Display', Georgia, serif;
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.5em;
     letter-spacing: 2px;
     margin-bottom: 25px;
@@ -2985,12 +2985,12 @@ audio[controls] {
 }
 
 .feynman-timeline .highlight-item::before {
-    background: #e91e63;
+    background: #ff6f00;
     box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
 }
 
 .feynman-timeline .timeline-year {
-    color: #e91e63;
+    color: #ff6f00;
     font-weight: bold;
     display: block;
     font-size: 0.9em;
@@ -3004,14 +3004,14 @@ audio[controls] {
 
 .feynman-quote {
     background: #0a0a1a;
-    border-left: 4px solid #e91e63;
+    border-left: 4px solid #ff6f00;
     padding: 20px;
     margin: 25px 0;
     font-family: 'Special Elite', 'Courier New', monospace;
 }
 
 .feynman-quote p {
-    color: #e91e63;
+    color: #ff6f00;
     font-style: italic;
     font-size: 1.1em;
     margin: 0;
@@ -3057,7 +3057,7 @@ audio[controls] {
 }
 
 .feynman-list li em {
-    color: #e91e63;
+    color: #ff6f00;
 }
 
 .poem-card {
@@ -3074,7 +3074,7 @@ audio[controls] {
 }
 
 .poem-card .poem-text {
-    color: #e91e63;
+    color: #ff6f00;
     font-family: 'Special Elite', 'Courier New', monospace;
     white-space: pre-wrap;
     line-height: 1.6;
@@ -3146,8 +3146,8 @@ audio[controls] {
     display: inline-block;
     padding: 12px 25px;
     background: transparent;
-    border: 2px solid #e91e63;
-    color: #e91e63;
+    border: 2px solid #ff6f00;
+    color: #ff6f00;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.85em;
@@ -3155,14 +3155,14 @@ audio[controls] {
 }
 
 .feynman-btn:hover {
-    background: #e91e63;
+    background: #ff6f00;
     color: #000;
 }
 
 .feynman-footer {
     text-align: center;
     padding: 40px 20px;
-    border-top: 2px solid #e91e63;
+    border-top: 2px solid #ff6f00;
     background: #0a0a1a;
 }
 
@@ -3177,7 +3177,7 @@ audio[controls] {
 }
 
 .audio-transmissions h3 {
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.1em;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -3195,7 +3195,7 @@ audio[controls] {
 
 .audio-transmission h4 {
     font-family: 'Special Elite', 'Courier New', monospace;
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.1em;
     margin-bottom: 5px;
 }
@@ -3237,7 +3237,7 @@ audio[controls] {
     text-align: center;
     padding: 80px 20px 60px;
     background: radial-gradient(ellipse at center, #1a0a2e 0%, #0a051a 70%);
-    border-bottom: 2px solid #e91e63;
+    border-bottom: 2px solid #ff6f00;
     overflow: hidden;
 }
 
@@ -3268,7 +3268,7 @@ audio[controls] {
     position: relative;
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 3em;
-    color: #e91e63;
+    color: #ff6f00;
     letter-spacing: 6px;
     margin-bottom: 10px;
     text-shadow: 0 0 40px rgba(212, 175, 55, 0.5), 0 0 80px rgba(212, 175, 55, 0.2);
@@ -3284,7 +3284,7 @@ audio[controls] {
 
 .sagan-hero-quote {
     position: relative;
-    color: #e91e63;
+    color: #ff6f00;
     font-style: italic;
     font-size: 1.2em;
     max-width: 600px;
@@ -3312,7 +3312,7 @@ audio[controls] {
 }
 
 .sagan-nav a:hover {
-    color: #e91e63;
+    color: #ff6f00;
 }
 
 .sagan-section {
@@ -3324,7 +3324,7 @@ audio[controls] {
 
 .sagan-section-title {
     font-family: 'Playfair Display', Georgia, serif;
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.6em;
     letter-spacing: 3px;
     margin-bottom: 30px;
@@ -3345,7 +3345,7 @@ audio[controls] {
 
 .sagan-arc-header {
     font-family: 'Playfair Display', Georgia, serif;
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.2em;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -3377,7 +3377,7 @@ audio[controls] {
 
 .equation-card {
     background: linear-gradient(135deg, #1a0a2e 0%, #0f0520 100%);
-    border: 1px solid #e91e63;
+    border: 1px solid #ff6f00;
     padding: 30px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -3389,7 +3389,7 @@ audio[controls] {
 }
 
 .equation-quote {
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.1em;
     font-style: italic;
     line-height: 1.6;
@@ -3416,7 +3416,7 @@ audio[controls] {
 }
 
 .cosmic-poem .poem-text {
-    color: #e91e63;
+    color: #ff6f00;
     font-family: 'Courier New', monospace;
     white-space: pre-wrap;
     line-height: 1.7;
@@ -3463,7 +3463,7 @@ audio[controls] {
 }
 
 .sagan-list li strong {
-    color: #e91e63;
+    color: #ff6f00;
 }
 
 .sagan-list li em {
@@ -3490,11 +3490,11 @@ audio[controls] {
 }
 
 .album-card:hover {
-    border-color: #e91e63;
+    border-color: #ff6f00;
 }
 
 .album-card h4 {
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1em;
     margin-bottom: 5px;
 }
@@ -3536,12 +3536,12 @@ audio[controls] {
 }
 
 .cosmic-timeline .cosmic-event::before {
-    background: #e91e63;
+    background: #ff6f00;
     box-shadow: 0 0 15px rgba(212, 175, 55, 0.6);
 }
 
 .cosmic-timeline .timeline-year {
-    color: #e91e63;
+    color: #ff6f00;
     font-weight: bold;
     display: block;
     font-size: 0.95em;
@@ -3555,7 +3555,7 @@ audio[controls] {
 
 .transmission-notice {
     background: linear-gradient(135deg, #1a0a2e 0%, #0f0520 100%);
-    border: 1px dashed #e91e63;
+    border: 1px dashed #ff6f00;
     padding: 30px;
     text-align: center;
     margin: 20px 0;
@@ -3578,7 +3578,7 @@ audio[controls] {
 }
 
 .archive-item h4 {
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1em;
     margin-bottom: 10px;
 }
@@ -3592,8 +3592,8 @@ audio[controls] {
     display: inline-block;
     padding: 10px 20px;
     background: transparent;
-    border: 2px solid #e91e63;
-    color: #e91e63;
+    border: 2px solid #ff6f00;
+    color: #ff6f00;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.8em;
@@ -3601,7 +3601,7 @@ audio[controls] {
 }
 
 .sagan-btn:hover {
-    background: #e91e63;
+    background: #ff6f00;
     color: #0a051a;
 }
 
@@ -3609,12 +3609,12 @@ audio[controls] {
     text-align: center;
     padding: 50px 20px;
     background: radial-gradient(ellipse at center, #1a0a2e 0%, #0a051a 70%);
-    border-top: 2px solid #e91e63;
+    border-top: 2px solid #ff6f00;
 }
 
 /* Sagan Audio */
 .sagan-audio.audio-transmissions h3 {
-    color: #e91e63;
+    color: #ff6f00;
     font-family: 'Special Elite', 'Courier New', monospace;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -3634,7 +3634,7 @@ audio[controls] {
 
 .sagan-audio .audio-transmission h4 {
     font-family: 'Special Elite', 'Courier New', monospace;
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1.2em;
     margin-bottom: 8px;
     letter-spacing: 1px;
@@ -3663,7 +3663,7 @@ audio[controls] {
 }
 
 .sagan-sign-off {
-    color: #e91e63;
+    color: #ff6f00;
     font-size: 1em;
     margin-bottom: 5px;
 }
@@ -3675,7 +3675,7 @@ audio[controls] {
 }
 
 .sagan-final-quote {
-    color: #e91e63;
+    color: #ff6f00;
     font-style: italic;
     font-size: 1.2em;
     text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
@@ -3693,13 +3693,13 @@ audio[controls] {
     text-align: center;
     padding: 60px 20px 40px;
     background: linear-gradient(180deg, #1a2a1a 0%, #0a1a0a 100%);
-    border-bottom: 2px solid #ff9800;
+    border-bottom: 2px solid #D4AF37;
 }
 
 .bucky-title {
     font-family: 'Playfair Display', Georgia, serif;
     font-size: 3.5em;
-    color: #ff9800;
+    color: #D4AF37;
     letter-spacing: 6px;
     margin-bottom: 10px;
     text-shadow: 0 0 30px rgba(34, 139, 34, 0.4);
@@ -3740,7 +3740,7 @@ audio[controls] {
 }
 
 .bucky-nav a:hover {
-    color: #ff9800;
+    color: #D4AF37;
 }
 
 .bucky-section {
@@ -3752,7 +3752,7 @@ audio[controls] {
 
 .bucky-section-title {
     font-family: 'Playfair Display', Georgia, serif;
-    color: #ff9800;
+    color: #D4AF37;
     font-size: 1.5em;
     letter-spacing: 2px;
     margin-bottom: 25px;
@@ -3795,12 +3795,12 @@ audio[controls] {
 }
 
 .bucky-timeline .highlight-item::before {
-    background: #ff9800;
+    background: #D4AF37;
     box-shadow: 0 0 10px rgba(34, 139, 34, 0.5);
 }
 
 .bucky-timeline .timeline-year {
-    color: #ff9800;
+    color: #D4AF37;
     font-weight: bold;
     display: block;
     font-size: 0.9em;
@@ -3814,14 +3814,14 @@ audio[controls] {
 
 .bucky-quote {
     background: #0a1a0a;
-    border-left: 4px solid #ff9800;
+    border-left: 4px solid #D4AF37;
     padding: 20px;
     margin: 25px 0;
     font-family: 'Courier New', monospace;
 }
 
 .bucky-quote p {
-    color: #ff9800;
+    color: #D4AF37;
     font-style: italic;
     font-size: 1.1em;
     margin: 0;
@@ -3867,7 +3867,7 @@ audio[controls] {
 }
 
 .bucky-list li em {
-    color: #ff9800;
+    color: #D4AF37;
 }
 
 /* Peel Discography */
@@ -3877,11 +3877,11 @@ audio[controls] {
 }
 
 .bucky-discography .album-card:hover {
-    border-color: #ff9800;
+    border-color: #D4AF37;
 }
 
 .bucky-discography .album-card h4 {
-    color: #ff9800;
+    color: #D4AF37;
 }
 
 .bucky-discography .album-year {
@@ -3909,7 +3909,7 @@ audio[controls] {
 }
 
 .lyrics-text {
-    color: #ff9800;
+    color: #D4AF37;
     font-family: 'Courier New', monospace;
     white-space: pre-wrap;
     line-height: 1.5;
@@ -3930,7 +3930,7 @@ audio[controls] {
 
 /* Peel Audio */
 .bucky-audio.audio-transmissions h3 {
-    color: #ff9800;
+    color: #D4AF37;
     font-family: 'Courier New', monospace;
     font-size: 1.1em;
     text-transform: uppercase;
@@ -3949,7 +3949,7 @@ audio[controls] {
 
 .bucky-audio .audio-transmission h4 {
     font-family: 'Courier New', monospace;
-    color: #ff9800;
+    color: #D4AF37;
     font-size: 1.1em;
     margin-bottom: 8px;
 }
@@ -3975,15 +3975,15 @@ audio[controls] {
 }
 
 .bucky-archives .archive-item h4 {
-    color: #ff9800;
+    color: #D4AF37;
 }
 
 .bucky-btn {
     display: inline-block;
     padding: 10px 20px;
     background: transparent;
-    border: 2px solid #ff9800;
-    color: #ff9800;
+    border: 2px solid #D4AF37;
+    color: #D4AF37;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 0.8em;
@@ -3993,19 +3993,19 @@ audio[controls] {
 }
 
 .bucky-btn:hover {
-    background: #ff9800;
+    background: #D4AF37;
     color: #000;
 }
 
 .bucky-footer {
     text-align: center;
     padding: 40px 20px;
-    border-top: 2px solid #ff9800;
+    border-top: 2px solid #D4AF37;
     background: #0a1a0a;
 }
 
 .bucky-sign-off {
-    color: #ff9800;
+    color: #D4AF37;
     font-size: 1em;
     margin-bottom: 5px;
 }
@@ -4017,7 +4017,7 @@ audio[controls] {
 }
 
 .bucky-final-quote {
-    color: #ff9800;
+    color: #D4AF37;
     font-style: italic;
     font-size: 1.1em;
     text-shadow: 0 0 15px rgba(34, 139, 34, 0.3);
@@ -4222,7 +4222,7 @@ audio[controls] {
 .episode-banner {
     display: block;
     background: #1a0a2e;
-    border: 1px solid #e91e63;
+    border: 1px solid #ff6f00;
     border-radius: 6px;
     padding: 12px 20px;
     margin: 0 0 12px;
@@ -4231,9 +4231,9 @@ audio[controls] {
 }
 .episode-banner:hover { background: #2a1a3e; }
 .episode-banner-inner { display: flex; align-items: center; justify-content: center; gap: 15px; flex-wrap: wrap; }
-.episode-banner-tag { background: #e91e63; color: #000; font-weight: bold; font-size: 12px; padding: 2px 8px; text-transform: uppercase; }
+.episode-banner-tag { background: #ff6f00; color: #000; font-weight: bold; font-size: 12px; padding: 2px 8px; text-transform: uppercase; }
 .episode-banner-title { color: #fff; font-size: 14px; font-weight: bold; }
-.episode-banner-cta { color: #e91e63; font-size: 14px; font-weight: bold; }
+.episode-banner-cta { color: #ff6f00; font-size: 14px; font-weight: bold; }
 
 /* ===========================
    PLAY BUTTONS — site-wide
@@ -4355,7 +4355,7 @@ audio[controls] {
 
 .tier2-hero-headlines .slider-overlay { position: relative; z-index: 2; padding: 25px 35px; width: 100%; }
 
-.tier2-hero-headlines[data-cat="music"] { background: linear-gradient(135deg, #1a0a1a 0%, #2a102a 50%, #1a0a1a 100%); border-color: #2196f3; }
+.tier2-hero-headlines[data-cat="music"] { background: linear-gradient(135deg, #1a0a1a 0%, #2a102a 50%, #1a0a1a 100%); border-color: #6ba3d6; }
 .tier2-hero-headlines[data-cat="protest"] { background: linear-gradient(135deg, #0a0a1a 0%, #10102a 50%, #0a0a1a 100%); border-color: #3498db; }
 .tier2-hero-headlines[data-cat="street"] { background: linear-gradient(135deg, #0a1a0a 0%, #102a10 50%, #0a1a0a 100%); border-color: #27ae60; }
 .tier2-hero-headlines[data-cat="zeitgeist"] { background: linear-gradient(135deg, #1a1a0a 0%, #2a2a10 50%, #1a1a0a 100%); border-color: #f1c40f; }
@@ -4574,7 +4574,7 @@ audio[controls] {
 }
 
 .schedule-featured {
-    border-left-color: #e91e63;
+    border-left-color: #ff6f00;
 }
 
 .schedule-featured:hover {
@@ -4988,8 +4988,8 @@ audio[controls] {
 }
 
 .mosaic-more-sagan { color: rgba(180, 100, 220, 1); }
-.mosaic-more-bucky { color: #ff9800; }
-.mosaic-more-feynman { color: #e91e63; }
+.mosaic-more-bucky { color: #D4AF37; }
+.mosaic-more-feynman { color: #ff6f00; }
 .mosaic-more-rfm { color: #3498db; }
 .mosaic-more-special { color: #7c4dff; }
 
@@ -4999,7 +4999,7 @@ audio[controls] {
     border-radius: 6px;
     overflow: hidden;
     background: linear-gradient(135deg, #0a1a0a 0%, #1a3a1a 50%, #0f2a0f 100%);
-    border: 1px solid #ff9800;
+    border: 1px solid #D4AF37;
     display: flex;
     align-items: flex-end;
 }
@@ -5236,12 +5236,12 @@ audio[controls] {
 .tier2-hero-bucky .panel-spectrum-bar { background: rgba(34, 139, 34, 0.6); }
 .tier2-hero-bucky .panel-spectrum.active .panel-spectrum-bar { background: rgba(34, 139, 34, 0.9); }
 .tier2-hero-bucky .panel-play-btn { border-color: rgba(34, 139, 34, 0.6); }
-.tier2-hero-bucky .panel-play-btn:hover { border-color: #ff9800; }
+.tier2-hero-bucky .panel-play-btn:hover { border-color: #D4AF37; }
 
 .tier2-hero-feynman .panel-spectrum-bar { background: rgba(184, 140, 20, 0.6); }
 .tier2-hero-feynman .panel-spectrum.active .panel-spectrum-bar { background: rgba(184, 140, 20, 0.9); }
 .tier2-hero-feynman .panel-play-btn { border-color: rgba(184, 140, 20, 0.6); }
-.tier2-hero-feynman .panel-play-btn:hover { border-color: #e91e63; }
+.tier2-hero-feynman .panel-play-btn:hover { border-color: #ff6f00; }
 
 .tier2-hero-radio .panel-spectrum-bar { background: rgba(52, 152, 219, 0.6); }
 .tier2-hero-radio .panel-spectrum.active .panel-spectrum-bar { background: rgba(52, 152, 219, 0.9); }

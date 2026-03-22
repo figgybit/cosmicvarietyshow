@@ -47,11 +47,11 @@ layout: base.njk
         </div>
     </div>
     <div class="slider-dots" id="sliderDots">
-        <span class="slider-dot active" style="background: #ff9800;"></span>
-        <span class="slider-dot" style="background: #e91e63;"></span>
-        <span class="slider-dot" style="background: #2196f3;"></span>
-        <span class="slider-dot" style="background: #ff9800;"></span>
-        <span class="slider-dot" style="background: #e91e63;"></span>
+        <span class="slider-dot active" style="background: #D4AF37;"></span>
+        <span class="slider-dot" style="background: #ff6f00;"></span>
+        <span class="slider-dot" style="background: #6ba3d6;"></span>
+        <span class="slider-dot" style="background: #D4AF37;"></span>
+        <span class="slider-dot" style="background: #ff6f00;"></span>
     </div>
 </div>
 
@@ -113,7 +113,7 @@ layout: base.njk
         </a>
     </div>
     <div class="home-list">
-        <h3 class="home-list-title" style="color: #ff9800;">Latest from Fuller</h3>
+        <h3 class="home-list-title" style="color: #D4AF37;">Latest from Fuller</h3>
         {% for post in collections.bucky | reverse | limit(5) %}
         <a href="{{ post.url }}" class="home-list-item">
             <strong>{{ post.data.title }}</strong>
@@ -121,7 +121,7 @@ layout: base.njk
         {% endfor %}
     </div>
     <div class="home-list">
-        <h3 class="home-list-title" style="color: #e91e63;">Latest from Feynman</h3>
+        <h3 class="home-list-title" style="color: #ff6f00;">Latest from Feynman</h3>
         {% for post in collections.feynman | reverse | limit(5) %}
         <a href="{{ post.url }}" class="home-list-item">
             <strong>{{ post.data.title }}</strong>
@@ -129,7 +129,7 @@ layout: base.njk
         {% endfor %}
     </div>
     <div class="home-list">
-        <h3 class="home-list-title" style="color: #2196f3;">Latest from Sagan</h3>
+        <h3 class="home-list-title" style="color: #6ba3d6;">Latest from Sagan</h3>
         {% for post in collections.sagan | reverse | limit(5) %}
         <a href="{{ post.url }}" class="home-list-item">
             <strong>{{ post.data.title }}</strong>
