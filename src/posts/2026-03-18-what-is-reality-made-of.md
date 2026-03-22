@@ -5,6 +5,7 @@ tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "Fire a particle at two slits. It goes through both. Unless you watch. Then it picks one. Nobody knows why. This is the foundation of everything."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf03-reality.png"
+subtitle: "The Double-Slit Experiment and Why It Should Keep You Up at Night"
 ---
 
 I'm going to tell you the weirdest true thing in physics. It's not complicated. A five-year-old can understand the setup. But the result will bother you for the rest of your life. It bothered me for all of mine.

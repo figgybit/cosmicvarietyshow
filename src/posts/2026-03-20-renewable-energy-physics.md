@@ -1,10 +1,11 @@
 ---
-title: "Could Earth Run on 100% Renewable Energy? A Physicist Checks the Math"
+title: "173,000 Terawatts"
 date: 2026-03-20T17:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-2"]
 excerpt: "Bucky says yes. The Sun delivers 10,000 times what we use. But physics has constraints that enthusiasm does not. Here is where the math gets interesting."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf10-renewable.png"
+subtitle: "A Physicist Checks the Math"
 ---
 
 Bucky says yes. The Sun delivers 173,000 terawatts to the Earth's surface every day. Humanity uses 18. That is a 10,000-to-1 ratio. "We are not short of energy. We are short of design."

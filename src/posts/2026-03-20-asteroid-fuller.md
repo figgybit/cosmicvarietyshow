@@ -1,9 +1,10 @@
 ---
-title: "What Happens If an Asteroid Is Heading Toward Earth? Spaceship Earth's Collision Avoidance System"
+title: "Collision Avoidance"
 date: 2026-03-20T17:00:00
 tags: ["posts", "bucky", "science", "asteroid"]
 excerpt: "The dinosaurs did not have a space program. We do. The question is not whether we CAN deflect an asteroid. It is whether we will DESIGN the system before we need it."
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "Spaceship Earth Needs a Systems Design, Not a Missile"
 ---
 
 Carl told you about the threat: Apophis at 370 meters, Chelyabinsk arriving undetected, the gap between capability and readiness. Read his post, *What Happens If an Asteroid Is Actually Heading Toward Earth?*, for the urgency.

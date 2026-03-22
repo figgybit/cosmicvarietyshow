@@ -1,10 +1,11 @@
 ---
-title: "Can Humanity Become a Multi-Planet Species? The Logistics of Spaceship Mars"
+title: "Spaceship Mars"
 date: 2026-03-20T18:00:00
 tags: ["posts", "bucky", "science", "multi-planet"]
 excerpt: "Carl asks whether we should go. Richard calculates what it costs. The architect asks: what do you build when you get there?"
 author: "Buckminster Fuller, Architect of the Universe"
 image: "/images/posts/rf12-multiplanet.png"
+subtitle: "What You Build When You Get There"
 ---
 
 Carl told you why we might need to go: a species on one world is one catastrophe from extinction. Read his post, *The View from the Shore*, for the vision and the caution.

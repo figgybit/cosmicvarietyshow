@@ -1,9 +1,10 @@
 ---
-title: "The Geometry of Knowing: Why Synergy Is More Interesting Than Consciousness"
+title: "The Geometry of Knowing"
 date: 2026-03-20T14:00:00
 tags: ["posts", "bucky", "science", "consciousness"]
 excerpt: "Everyone asks whether AI is conscious. An architect says: wrong question. The interesting question is what the connected system knows that no individual component contains."
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "Why Synergy Matters More Than Consciousness"
 ---
 
 Everyone is asking the wrong question about artificial intelligence.

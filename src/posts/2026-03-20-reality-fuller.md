@@ -1,9 +1,10 @@
 ---
-title: "What Is Reality Made Of? What You Build When the Floor Is Made of Statistics"
+title: "Building on Uncertainty"
 date: 2026-03-20T15:00:00
 tags: ["posts", "bucky", "science", "reality"]
 excerpt: "The physicist says reality is uncertain. The astronomer says the universe is participatory. The architect asks: what do you build when the foundation is probability?"
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "The Floor Is Made of Statistics"
 ---
 
 Richard told you about the double-slit experiment: particles behave like waves until you watch them, then they behave like particles. The act of observation changes the outcome. Read his post, *What Is Reality Made Of? (The Weirdest True Thing in Physics)*, for the full demonstration.

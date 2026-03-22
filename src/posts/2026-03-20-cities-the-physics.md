@@ -1,10 +1,11 @@
 ---
-title: "The Future of Cities: The Thermodynamics of Ten Million People"
+title: "Ten Million People, One Heat Equation"
 date: 2026-03-20T20:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-5"]
 excerpt: "A city is a heat engine. Ten million metabolisms, ten million machines, all converting energy into work and waste. The physics of why cities get hot, how they move, and what limits their growth."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf05-cities.png"
+subtitle: "The Thermodynamics of Cities"
 ---
 
 A city is a heat engine. That is not a metaphor. It is thermodynamics.

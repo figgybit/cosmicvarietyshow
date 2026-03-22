@@ -1,9 +1,10 @@
 ---
-title: "What Would It Take to Solve Everything We Call 'Global Problems'?"
+title: "The World Game"
 date: 2026-03-20T19:00:00
 tags: ["posts", "bucky", "science", "global-problems"]
 excerpt: "In 1961, I asked ordinary citizens to make the world work for 100% of humanity. Every time they played, they solved it. The obstacle was never intelligence. It was framing."
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "Make It Work for 100% of Humanity"
 ---
 
 In 1961, I created the World Game. The rules were simple:

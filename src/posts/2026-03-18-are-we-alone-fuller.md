@@ -1,9 +1,10 @@
 ---
-title: "Are We Alone? What an Architect Sees in the Silence"
+title: "The Silence"
 date: 2026-03-18T10:00:00
 tags: ["posts", "bucky", "science", "are-we-alone"]
 excerpt: "The Drake Equation is Carl's question. The probability is Richard's math. But the design implications belong to the architect. If Spaceship Earth is the only crewed vessel, that changes the engineering specification for everything."
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "What an Architect Hears in the Drake Equation"
 ---
 
 Carl asked the question: are we alone? He gave you the wonder, the silence, the five thousand exoplanets and the twenty billion habitable worlds. Read his post, *Are We Alone? The Real Math Behind Alien Life*, for the astronomer's answer.

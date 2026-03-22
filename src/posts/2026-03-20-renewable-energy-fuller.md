@@ -1,9 +1,10 @@
 ---
-title: "Could Earth Run on 100% Renewable Energy? An Architect's Answer"
+title: "The Answer Is Yes"
 date: 2026-03-20T16:00:00
 tags: ["posts", "bucky", "science", "renewable-energy"]
 excerpt: "The answer is yes. It was yes in 1969. The obstacle was never engineering. It was design."
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "Earth Can Run on Renewable Energy. It Was Yes in 1969"
 ---
 
 In 1969, I published *Operating Manual for Spaceship Earth*. The core argument was simple: the Earth receives more energy from the Sun in one hour than all of humanity uses in one year. The supply is not the problem. The distribution is the problem. The conversion is the problem. The DESIGN is the problem.

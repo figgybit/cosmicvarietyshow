@@ -1,9 +1,10 @@
 ---
-title: "How Fragile Is Civilization? What an Architect Sees in the Supply Chain"
+title: "The Supply Chain"
 date: 2026-03-18T12:00:00
 tags: ["posts", "bucky", "science", "fragile-civilization"]
 excerpt: "Civilization looks solid. It is not. An architect maps the hidden single points of failure in the systems that keep eight billion people alive."
 author: "Buckminster Fuller, Architect of the Universe"
+subtitle: "Where Civilization's Beams Are Weaker Than They Look"
 ---
 
 Civilization looks solid. Buildings stand. Lights turn on. Water flows from taps. Food appears in stores. The systems that support eight billion human lives operate so reliably that most people never think about them. They are invisible. And as we established in *The Invisible Part Is the Load-Bearing Part*, the invisible parts are the ones that carry the load.

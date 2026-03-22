@@ -1,10 +1,11 @@
 ---
-title: "How Fragile Is Civilization? The Physics of Sudden Collapse"
+title: "How Fragile Is Civilization?"
 date: 2026-03-18T11:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-4"]
 excerpt: "Complex systems don't fail gradually. They fail all at once. Here is the physics of why the thing that has never broken is the most dangerous thing in the room."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf04-fragile.png"
+subtitle: "A Physicist Counts the Threads"
 ---
 
 Here is something that should make you nervous: the system that has never failed is the most dangerous system in the room.
