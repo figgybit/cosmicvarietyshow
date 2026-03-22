@@ -53,10 +53,11 @@ a:hover { color: #9c7cff; text-decoration: none; }
 }
 
 .topnav-logo img {
-    height: 36px;
+    height: 28px;
     width: auto;
     max-width: 280px;
     display: block;
+    object-fit: contain;
 }
 
 .topnav-menu {
