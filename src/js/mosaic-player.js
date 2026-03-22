@@ -236,7 +236,7 @@
                 card.insertBefore(iframe, card.querySelector('.mosaic-badge'));
                 // Default Vimeo volume to 25%
                 iframe.addEventListener('load', function() {
-                    vimeoPostMsg(iframe, 'setVolume', 0.25);
+                    vimeoPostMsg(iframe, 'setVolume', 0.8);
                 });
             }
 
@@ -297,7 +297,7 @@
             vSlider.min = '0';
             vSlider.max = '1';
             vSlider.step = '0.05';
-            vSlider.value = '0.25';
+            vSlider.value = '0.8';
             vSliderWrap.appendChild(vSlider);
             card.appendChild(vSliderWrap);
 
@@ -490,7 +490,7 @@
         slider.min = '0';
         slider.max = '1';
         slider.step = '0.05';
-        slider.value = '0.25';
+        slider.value = '0.8';
         sliderWrap.appendChild(slider);
         if (isInteractive) card.appendChild(sliderWrap);
 
@@ -501,7 +501,7 @@
             audio.className = 'mosaic-audio';
             audio.src = audioSrc;
             audio.preload = 'none';
-            audio.volume = 0.25;
+            audio.volume = 0.8;
             card.appendChild(audio);
 
             audio.addEventListener('ended', function() {
