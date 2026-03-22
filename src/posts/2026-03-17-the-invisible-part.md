@@ -5,6 +5,7 @@ date: 2026-03-17T23:00:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence"]
 excerpt: "A structural engineer, a quantum physicist, and an astronomer walk into the same truth from three directions. The nothing is doing all the work."
 author: "Fuller, Feynman, and Sagan"
+image: "/images/posts/rf-invisible-part.png"
 audio: "/audio/20260322-voice-fuller-the-invisible-part.mp3"
 ---
 
