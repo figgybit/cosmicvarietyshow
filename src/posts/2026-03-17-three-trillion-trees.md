@@ -1,5 +1,6 @@
 ---
-title: "Three Trillion Trees and One Dead Physicist"
+title: "Three Trillion Trees"
+subtitle: "And One Dead Physicist"
 date: 2026-03-17T16:00:00
 tags: ["posts", "feynman", "trim-tab"]
 excerpt: "I guessed 400 billion. The answer is 3 trillion. Within five seconds I was doing math. That's the mechanism."

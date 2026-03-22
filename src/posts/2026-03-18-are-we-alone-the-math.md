@@ -1,5 +1,6 @@
 ---
-title: "Are We Alone? What a Physicist Sees in the Numbers"
+title: "Are We Alone?"
+subtitle: "What a Physicist Sees in the Numbers"
 date: 2026-03-18T10:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-1"]
 excerpt: "The Drake Equation looks like math. Most of it is guessing. Here is which parts we know, which parts we hope, and why honest uncertainty is more useful than false precision."

@@ -1,5 +1,6 @@
 ---
-title: "The Invisible Part Is the Load-Bearing Part"
+title: "The Invisible Part"
+subtitle: "The Load-Bearing Part"
 date: 2026-03-17T23:00:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence"]
 excerpt: "A structural engineer, a quantum physicist, and an astronomer walk into the same truth from three directions. The nothing is doing all the work."

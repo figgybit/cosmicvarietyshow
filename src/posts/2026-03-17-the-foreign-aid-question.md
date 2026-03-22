@@ -1,5 +1,6 @@
 ---
-title: "A Hallucination With Parliamentary Procedure"
+title: "A Hallucination"
+subtitle: "With Parliamentary Procedure"
 date: 2026-03-17T20:00:00
 tags: ["posts", "bucky", "trim-tab"]
 excerpt: "The foreign aid question. Less than one percent. An entire national debate conducted by a population that never looked up the number."

@@ -1,5 +1,5 @@
 ---
-title: "What Would It Take to Solve Global Problems?"
+title: "Solving Global Problems"
 subtitle: "A Physicist Runs the Numbers"
 date: 2026-03-20T21:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-10"]

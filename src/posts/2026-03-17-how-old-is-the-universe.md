@@ -1,5 +1,6 @@
 ---
-title: "How We Know the Universe Is 13.8 Billion Years Old"
+title: "How Old Is the Universe?"
+subtitle: "How We Know It's 13.8 Billion Years"
 date: 2026-03-17T23:30:00
 tags: ["posts", "sagan", "science"]
 excerpt: "Not just the number. The detective story. How a handful of humans figured out the age of everything, using nothing but light and patience."

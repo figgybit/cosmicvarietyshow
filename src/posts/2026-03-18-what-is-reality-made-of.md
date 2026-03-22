@@ -1,5 +1,5 @@
 ---
-title: "What Is Reality Made Of? (The Weirdest True Thing in Physics)"
+title: "What Is Reality Made Of?"
 date: 2026-03-18T02:00:00
 tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "Fire a particle at two slits. It goes through both. Unless you watch. Then it picks one. Nobody knows why. This is the foundation of everything."
