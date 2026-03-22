@@ -5,6 +5,8 @@ date: 2026-03-22T19:00:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "high-impact"]
 excerpt: "Two planets. Same materials. Same physics. One became a garden. The other became an oven. An astronomer, a physicist, and an architect stare at the same bifurcation diagram from three different chairs."
 author: "Sagan, Feynman, and Fuller"
+image: "/images/posts/convergence-garden-and-oven.png"
+audio: "/audio/20260322-voice-fuller-garden-and-oven.mp3"
 ---
 
 ## The Astronomer Who Studied Hell
