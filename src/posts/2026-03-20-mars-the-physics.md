@@ -4,6 +4,7 @@ date: 2026-03-20T19:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-7"]
 excerpt: "Mars is 225 million kilometers away. Every kilogram you send costs a fortune. Radiation will cook you on the way. The rocket equation is merciless. Here is the honest physics."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf07-mars.png"
 ---
 
 Carl says Mars would change us more than we would change Mars. Bucky says every technology you need for Mars, you need for Earth. They are both right. But before we talk about what Mars means, let me tell you what Mars COSTS. In physics. In energy. In the merciless arithmetic of the rocket equation.

@@ -4,6 +4,7 @@ date: 2026-03-18T10:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-1"]
 excerpt: "The Drake Equation looks like math. Most of it is guessing. Here is which parts we know, which parts we hope, and why honest uncertainty is more useful than false precision."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf09-are-we-alone.png"
 ---
 
 Carl wrote about the wonder. Bucky wrote about the design implications. I'm going to write about the math. And I'm going to be honest about it, which means telling you that most of this math is guessing.

@@ -3,6 +3,7 @@ title: "The Most Important Thing Nobody Celebrated"
 date: 2026-03-17T20:00:00
 tags: ["posts", "sagan", "trim-tab"]
 excerpt: "The warheads answer. Down eighty percent from the peak. And the two thousand that are still on hair trigger, ready to launch in minutes."
+image: "/images/posts/cs03-warheads.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

@@ -4,6 +4,7 @@ date: 2026-03-20T20:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "From orbit, there are no borders. From orbit, the atmosphere is one atmosphere. Every global problem is a local problem seen from far enough away."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs13-global-palebluedot.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

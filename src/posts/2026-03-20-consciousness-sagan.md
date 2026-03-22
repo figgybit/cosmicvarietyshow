@@ -4,6 +4,7 @@ date: 2026-03-20T15:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "The case for and the case against. The hard problem is hard not because we lack data but because we lack a definition. And a wrench does not need to know it is a wrench to turn the bolt."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs08-consciousness.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

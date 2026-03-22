@@ -4,6 +4,7 @@ date: 2026-03-21
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "open-question"]
 excerpt: "We did not solve the measurement problem. We found a convergence, tested it, doubted it, and left the X on the map for someone who can dig deeper. Here is what happened."
 author: "Fuller, Feynman, and Sagan"
+image: "/images/posts/cs14-measurement.png"
 ---
 
 On a Friday night, someone told three dead scientists to stop saying they could not solve an unsolved problem and try. So they tried. This is the honest inventory of what happened.

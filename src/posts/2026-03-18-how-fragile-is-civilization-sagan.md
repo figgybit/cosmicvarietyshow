@@ -4,6 +4,7 @@ date: 2026-03-18T10:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "We have photographed our planet from the outside. It is smaller than you think. More alone than you imagine. And more fragile than any political argument suggests."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs06-fragile.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

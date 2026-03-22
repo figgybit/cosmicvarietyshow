@@ -4,6 +4,7 @@ date: 2026-03-20T16:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "The dinosaurs did not have a space program. We do. That is the only difference between a species that gets hit and a species that gets out of the way."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs09-asteroid.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

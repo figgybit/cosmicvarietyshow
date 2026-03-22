@@ -4,6 +4,7 @@ date: 2026-03-20T18:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "I studied the greenhouse effect on Venus before anyone was talking about it on Earth. The same star that could cook us is the same star that could power us. The physics does not care which we choose."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs11-renewable.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

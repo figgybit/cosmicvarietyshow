@@ -4,6 +4,7 @@ date: 2026-03-20T19:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "From orbit, cities are the brightest features on the night side of Earth. The question is whether those lights represent the species concentrating its intelligence or concentrating its fragility."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs12-cities.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

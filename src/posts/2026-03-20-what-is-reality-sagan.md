@@ -4,6 +4,7 @@ date: 2026-03-20T14:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "The universe does not decide what is real until something asks. And the asking is not passive. It is participatory. We are not spectators. We are co-authors."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs07-reality.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

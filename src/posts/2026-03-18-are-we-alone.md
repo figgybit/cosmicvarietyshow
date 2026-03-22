@@ -4,6 +4,7 @@ date: 2026-03-18T09:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "The Drake Equation is not a prediction. It is a way of organizing our ignorance. And what it reveals is that the question is not whether life exists elsewhere. The question is why we have not heard from it."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/cs05-are-we-alone.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

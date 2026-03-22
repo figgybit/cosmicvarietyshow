@@ -4,6 +4,7 @@ date: 2026-03-17T16:00:00
 tags: ["posts", "feynman", "trim-tab"]
 excerpt: "I guessed 400 billion. The answer is 3 trillion. Within five seconds I was doing math. That's the mechanism."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf02-trees.png"
 ---
 
 I'm going to tell you about the time I got a number wrong and it was the best thing that happened to me all night.

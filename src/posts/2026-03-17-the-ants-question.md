@@ -4,6 +4,7 @@ date: 2026-03-17T12:00:00
 tags: ["posts", "feynman", "trim-tab"]
 excerpt: "The answer to the ants question. Twenty quadrillion individuals, four hundred million years of optimization, and a lesson in humility that fits in five seconds."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf01-ants.png"
 ---
 
 Alright, you locked it in. The question was:

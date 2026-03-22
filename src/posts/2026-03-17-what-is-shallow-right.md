@@ -3,6 +3,7 @@ title: "What Is Shallow-Right?"
 date: 2026-03-17T21:00:00
 tags: ["posts", "sagan", "explainer"]
 excerpt: "You got the answer right. But you did not understand it. That gap has a name now."
+image: "/images/posts/cs04-cosmic-calendar.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

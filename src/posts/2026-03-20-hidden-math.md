@@ -4,6 +4,7 @@ date: 2026-03-20T18:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-9"]
 excerpt: "You use probability every day without knowing it. Your gut gets it wrong every time. Here is the math your intuition was never designed for, and why learning it is the single best upgrade to your thinking."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf11-hidden-math.png"
 ---
 
 You are a probability machine. Every decision you make, from crossing the street to choosing a career, is a bet. Your brain calculates odds constantly, automatically, without asking permission. It does this because your ancestors who were bad at estimating the probability of a lion behind a bush did not become ancestors.
