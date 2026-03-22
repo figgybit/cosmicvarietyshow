@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "I spent years convincing NASA to turn Voyager's camera around. Webb is the grandchild of that impulse — a telescope that sees 13.5 billion years into the past, almost to the first light that ever shone."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-jwst-photograph.png"
+audio: "/audio/voice-sagan-jwst-photograph.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
