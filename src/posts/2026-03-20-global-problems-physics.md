@@ -1,5 +1,6 @@
 ---
-title: "What Would It Take to Solve Global Problems? A Physicist Runs the Numbers"
+title: "What Would It Take to Solve Global Problems?"
+subtitle: "A Physicist Runs the Numbers"
 date: 2026-03-20T21:00:00
 tags: ["posts", "feynman", "science", "high-impact", "topic-10"]
 excerpt: "The resources exist. The technology exists. The physics permits it. So why haven't we done it? Because the bottleneck was never energy or food or water. It was information."
