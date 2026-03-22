@@ -455,8 +455,10 @@ a:hover { color: #9c7cff; text-decoration: none; }
     object-fit: cover;
     object-position: center;
     opacity: 0.5;
-    top: 0;
-    right: 0;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
     filter: none;
     mix-blend-mode: normal;
 }
