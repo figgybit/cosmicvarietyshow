@@ -4775,7 +4775,7 @@ audio[controls] {
 }
 
 .tier2-hero-sagan .slider-img {
-    max-width: 85%;
+    max-width: none;
 }
 
 .tier2-hero-sagan .slider-overlay {
@@ -5012,7 +5012,7 @@ audio[controls] {
     align-items: flex-end;
 }
 
-.tier2-hero-bucky .slider-img { max-width: 75%; }
+.tier2-hero-bucky .slider-img { max-width: none; }
 .tier2-hero-bucky .slider-overlay { position: relative; z-index: 2; padding: 25px 35px; width: 100%; }
 .tier2-hero-bucky .mosaic-badge { z-index: 3; }
 
@@ -5027,7 +5027,7 @@ audio[controls] {
     align-items: flex-end;
 }
 
-.tier2-hero-feynman .slider-img { max-width: 85%; }
+.tier2-hero-feynman .slider-img { max-width: none; }
 .tier2-hero-feynman .slider-overlay { position: relative; z-index: 2; padding: 25px 35px; width: 100%; }
 .tier2-hero-feynman .mosaic-badge { z-index: 3; }
 
