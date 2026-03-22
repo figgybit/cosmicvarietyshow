@@ -2288,6 +2288,15 @@ ol.home-list-items .home-list-item::before {
     line-height: 1.15;
 }
 
+.tier3-subtitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #aaa;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
 .tier3-date {
     display: block;
     font-size: 0.8em;

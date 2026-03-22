@@ -1,9 +1,10 @@
 ---
-title: "The Greatest Story Nobody Knows"
+title: "Your Breakfast Traveled 4,000 Miles"
 date: 2026-03-17T16:00:00
 tags: ["posts", "sagan", "trim-tab"]
 excerpt: "The answer to the poverty question. Nine percent. Down from ninety. And the reason you didn't know is the reason it matters."
 image: "/images/posts/cs02-poverty.png"
+subtitle: "What Foreign Aid Actually Looks Like"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

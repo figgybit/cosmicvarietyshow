@@ -1,10 +1,11 @@
 ---
-title: "Can Humanity Become a Multi-Planet Species? The View from the Shore"
+title: "Mars Would Change Us"
 date: 2026-03-20T17:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "Mars is not a backup plan. It is a question. The question is whether a species that evolved on one world has the wisdom, the patience, and the honesty to live on another."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs10-multiplanet.png"
+subtitle: "The Case for a Multi-Planet Species"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

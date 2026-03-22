@@ -127,6 +127,7 @@ layout: base.njk
         {# Right column: full post content #}
         <div class="tier3-content-col">
             <h1 class="tier3-title">{{ title }}</h1>
+            {% if subtitle %}<p class="tier3-subtitle">{{ subtitle }}</p>{% endif %}
             <time class="tier3-date" datetime="{{ date | isoDate }}">{{ date | dateDisplay }}</time>
             {% if audio %}
             <div class="tier3-player" data-audio="{{ audio }}">

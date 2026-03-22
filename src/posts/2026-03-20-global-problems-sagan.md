@@ -1,10 +1,11 @@
 ---
-title: "What Would It Take to Solve Global Problems? The View from 3.7 Billion Miles"
+title: "3.7 Billion Miles from Home"
 date: 2026-03-20T20:00:00
 tags: ["posts", "sagan", "science", "ten-topics"]
 excerpt: "From orbit, there are no borders. From orbit, the atmosphere is one atmosphere. Every global problem is a local problem seen from far enough away."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs13-global-palebluedot.png"
+subtitle: "What It Would Take to Solve Global Problems"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

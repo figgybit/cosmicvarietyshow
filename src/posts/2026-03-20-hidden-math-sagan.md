@@ -1,10 +1,11 @@
 ---
-title: "The Universe Is Under No Obligation to Make Sense to You"
+title: "The Universe Is Not Obligated"
 date: 2026-03-20T18:30:00
 tags: ["posts", "sagan", "science", "topic-9"]
 excerpt: "A disease test is 99% accurate. Your result is positive. The probability you're sick? About 9%. You're not stupid. Your brain was built for a world that didn't require Bayesian inference."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs15-hidden-math.png"
+subtitle: "The Hidden Math That Runs Your Life"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
