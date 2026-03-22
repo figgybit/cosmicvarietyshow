@@ -759,6 +759,20 @@ a:hover { color: #9c7cff; text-decoration: none; }
     gap: 10px;
 }
 
+/* Featured card — spans 2x2 in grid */
+.mosaic-featured {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.mosaic-featured .mosaic-title {
+    font-size: 1.8em;
+    -webkit-line-clamp: 3;
+}
+.mosaic-featured .mosaic-desc {
+    display: block !important;
+    font-size: 0.85em;
+}
+
 .mosaic-card {
     position: relative;
     overflow: hidden;
@@ -1132,6 +1146,8 @@ a:hover { color: #9c7cff; text-decoration: none; }
     }
     .mosaic-wide { grid-column: span 1; }
     .mosaic-tall { grid-row: span 1; }
+    .mosaic-featured { grid-column: span 1; grid-row: span 1; }
+    .mosaic-featured .mosaic-title { font-size: 0.95em; }
     .mosaic-title { font-size: 0.95em; }
     .mosaic-desc { display: none; }
     .mosaic-overlay { padding: 12px; }

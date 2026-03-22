@@ -61,8 +61,8 @@ layout: base.njk
 <section class="mosaic-section">
     <div class="mosaic-grid">
         {% set latestPosts = collections.posts | reverse %}
-        {% for post in latestPosts | limit(12) %}
-        <a href="{{ post.url }}" class="mosaic-card {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}" {% if post.data.audio %}data-audio="{{ post.data.audio }}"{% endif %}>
+        {% for post in latestPosts | limit(13) %}
+        <a href="{{ post.url }}" class="mosaic-card {% if loop.first %}mosaic-featured{% endif %} {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}" {% if post.data.audio %}data-audio="{{ post.data.audio }}"{% endif %}>
             {% if post.data.image %}
             <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
             {% endif %}
@@ -79,6 +79,26 @@ layout: base.njk
         </a>
         {% endfor %}
     </div>
+    <script>
+    /* Randomize mosaic cards — shuffle on each page load, first card becomes featured */
+    (function() {
+        var grid = document.querySelector('.mosaic-grid');
+        if (!grid) return;
+        var cards = Array.from(grid.children);
+        /* Fisher-Yates shuffle */
+        for (var i = cards.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = cards[i];
+            cards[i] = cards[j];
+            cards[j] = temp;
+        }
+        /* Remove featured class from all, add to first */
+        cards.forEach(function(c) { c.classList.remove('mosaic-featured'); });
+        cards[0].classList.add('mosaic-featured');
+        /* Re-append in shuffled order */
+        cards.forEach(function(c) { grid.appendChild(c); });
+    })();
+    </script>
     <script defer src="/js/mosaic-player.js"></script>
 </section>
 
