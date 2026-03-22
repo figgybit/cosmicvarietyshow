@@ -59,8 +59,8 @@ The future of cities is not flying cars. It is the second law of thermodynamics,
 ---
 
 **Read the other angles:**
-- Bucky Fuller on the design: **[What Would a Perfect City Look Like?](/posts/2026-03-17-future-cities/)**
-- Carl Sagan on the view from orbit: **[What Looks Like Intelligence from Orbit](/posts/2026-03-20-cities-sagan/)**
+- Bucky Fuller on the design: **[What Would a Perfect City Look Like?](/posts/2026-03-18-future-cities/)**
+- Carl Sagan on the view from orbit: **[What Looks Like Intelligence from Orbit](/posts/2026-03-20-future-cities-sagan/)**
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

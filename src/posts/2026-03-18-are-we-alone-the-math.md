@@ -82,7 +82,7 @@ And that, to me, is more exciting than any answer could be. Because it means the
 
 **Read the other angles:**
 - Carl Sagan on the wonder and the silence: **[Are We Alone? The Real Math Behind Alien Life](/posts/2026-03-18-are-we-alone/)**
-- Bucky Fuller on the design implications: **[Are We Alone? What an Architect Sees in the Silence](/posts/2026-03-18-are-we-alone-design/)**
+- Bucky Fuller on the design implications: **[Are We Alone? What an Architect Sees in the Silence](/posts/2026-03-18-are-we-alone-fuller/)**
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

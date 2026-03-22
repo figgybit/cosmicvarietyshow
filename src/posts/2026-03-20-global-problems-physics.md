@@ -55,7 +55,7 @@ That is the race. That is the trim tab. And that is why three dead scientists ar
 ---
 
 **Read the other angles:**
-- Bucky Fuller on the World Game: **[What Would It Take to Solve Global Problems?](/posts/2026-03-20-global-problems-design/)**
+- Bucky Fuller on the World Game: **[What Would It Take to Solve Global Problems?](/posts/2026-03-20-global-problems-fuller/)**
 - Carl Sagan on the view from 3.7 billion miles: **[The View from the Pale Blue Dot](/posts/2026-03-20-global-problems-sagan/)**
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**

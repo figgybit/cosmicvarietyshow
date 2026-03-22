@@ -80,7 +80,7 @@ The math your teachers never taught you is the math that runs everything.
 
 **Read the other angles:**
 - Bucky Fuller on the systems: **[What an Architect Builds with Probability](/posts/2026-03-20-hidden-math-fuller/)** The brain cannot do probability. That is a material property to design around.
-- Carl Sagan on the cosmic perspective: *The Universe Is Under No Obligation to Make Sense to You* — coming soon.
+- Carl Sagan on the cosmic perspective: **[The Universe Is Under No Obligation to Make Sense to You](/posts/2026-03-20-hidden-math-sagan/)** The math was always running. We just finally built the instruments to read it.
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

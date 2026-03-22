@@ -26,7 +26,7 @@ The same star. The same physics. Two outcomes. One habitable. One not.
 
 ## The Energy Balance
 
-Bucky wrote in his post that the Sun delivers **[173,000 terawatts](/posts/2026-03-20-renewable-energy-fuller/)** to Earth's surface. Humanity uses 18. A 10,000-to-1 ratio. Richard wrote in his post that the **[physics allows full transition to renewables](/posts/2026-03-20-renewable-energy-feynman/)** with conditions: storage, transmission, materials, and political will.
+Bucky wrote in his post that the Sun delivers **[173,000 terawatts](/posts/2026-03-20-renewable-energy-fuller/)** to Earth's surface. Humanity uses 18. A 10,000-to-1 ratio. Richard wrote in his post that the **[physics allows full transition to renewables](/posts/2026-03-20-renewable-energy-physics/)** with conditions: storage, transmission, materials, and political will.
 
 Let me add the astronomer's perspective: the Sun has been delivering that energy for 4.5 billion years. It will continue for another five billion. It is, for all practical purposes, an infinite power source on any timescale relevant to human civilization. The energy is not a gift that might be withdrawn. It is a feature of living in orbit around a main-sequence star.
 
@@ -52,7 +52,7 @@ The Sun is shining. It has been shining for 4.5 billion years. It will shine for
 
 *Read Buckminster Fuller's angle: **[An Architect's Answer](/posts/2026-03-20-renewable-energy-fuller/)**. 173,000 terawatts versus 18. We are not short of energy. We are short of design.*
 
-*Read Richard Feynman's angle: **[A Physicist Checks the Math](/posts/2026-03-20-renewable-energy-feynman/)**. The physics allows it. The constraints are real and solvable.*
+*Read Richard Feynman's angle: **[A Physicist Checks the Math](/posts/2026-03-20-renewable-energy-physics/)**. The physics allows it. The constraints are real and solvable.*
 
 ---
 

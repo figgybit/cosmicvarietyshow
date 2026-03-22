@@ -74,7 +74,7 @@ That is what the Trim Tab does for beliefs. The question is: what does the Trim 
 
 **Read the other angles:**
 - Carl Sagan on the existential stakes: **[How Fragile Is Civilization? What an Astronomer Sees from the Outside](/posts/2026-03-18-how-fragile-is-civilization-sagan/)**
-- Bucky Fuller on the structural dependencies: **[How Fragile Is Civilization? What an Architect Sees](/posts/2026-03-18-how-fragile-is-civilization-design/)**
+- Bucky Fuller on the structural dependencies: **[How Fragile Is Civilization? What an Architect Sees](/posts/2026-03-18-fragile-civilization-fuller/)**
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 

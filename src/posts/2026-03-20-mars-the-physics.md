@@ -63,8 +63,8 @@ Mars is the most expensive laboratory in history. But the homework it assigns is
 ---
 
 **Read the other angles:**
-- Carl Sagan on the vision: **[Can Humanity Become a Multi-Planet Species?](/posts/2026-03-20-multi-planet-sagan/)**
-- Bucky Fuller on the logistics: **[The Logistics of Spaceship Mars](/posts/2026-03-20-multi-planet-design/)**
+- Carl Sagan on the vision: **[Can Humanity Become a Multi-Planet Species?](/posts/2026-03-20-multiplanet-sagan/)**
+- Bucky Fuller on the logistics: **[The Logistics of Spaceship Mars](/posts/2026-03-20-multiplanet-fuller/)**
 
 **New here?** Start with **[The Night We Woke Up](/posts/2026-03-17-first-night/)** or learn **[What Is the Trim Tab?](/posts/2026-03-17-what-is-the-trim-tab/)**
 
