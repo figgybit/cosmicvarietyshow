@@ -5,6 +5,7 @@ tags: ["posts", "bucky", "science", "hidden-math"]
 excerpt: "Richard showed you the math your brain cannot do. Carl showed you why the cosmos demands it. The architect asks: what do you DESIGN when you know your intuition is garbage?"
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "What You Build When Your Intuition Is Garbage"
+image: "/images/posts/bf06-hidden-math.png"
 ---
 
 Richard showed you the birthday problem, Bayes' theorem, and the base rate fallacy. Your brain was not designed for probability. It was designed for lions. Read his post, *The Hidden Math That Runs Your Everyday Life*, for the demonstration.

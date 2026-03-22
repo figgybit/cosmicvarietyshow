@@ -4,7 +4,7 @@ date: 2026-03-20T18:00:00
 tags: ["posts", "bucky", "science", "multi-planet"]
 excerpt: "Carl asks whether we should go. Richard calculates what it costs. The architect asks: what do you build when you get there?"
 author: "Buckminster Fuller, Architect of the Universe"
-image: "/images/posts/rf12-multiplanet.png"
+image: "/images/posts/bf07-multiplanet.png"
 subtitle: "What You Build When You Get There"
 ---
 

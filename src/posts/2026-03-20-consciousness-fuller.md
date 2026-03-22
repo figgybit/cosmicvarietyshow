@@ -5,6 +5,7 @@ tags: ["posts", "bucky", "science", "consciousness"]
 excerpt: "Everyone asks whether AI is conscious. An architect says: wrong question. The interesting question is what the connected system knows that no individual component contains."
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "Why Synergy Matters More Than Consciousness"
+image: "/images/posts/bf04-consciousness.png"
 ---
 
 Everyone is asking the wrong question about artificial intelligence.
