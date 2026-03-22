@@ -6,7 +6,7 @@ excerpt: "The case for and the case against. The hard problem is hard not becaus
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs08-consciousness.png"
 subtitle: "Why Consciousness Is the Hardest Problem"
-audio: "/audio/20260322-voice-sagan-three-inches-of-darkness.mp3"
+audio: "/audio/v2-voice-sagan-consciousness.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

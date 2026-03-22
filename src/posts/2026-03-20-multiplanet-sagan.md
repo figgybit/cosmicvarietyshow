@@ -6,7 +6,7 @@ excerpt: "Mars is not a backup plan. It is a question. The question is whether a
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs10-multiplanet.png"
 subtitle: "The Case for a Multi-Planet Species"
-audio: "/audio/20260322-voice-sagan-mars-would-change-us.mp3"
+audio: "/audio/v2-voice-sagan-multiplanet.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

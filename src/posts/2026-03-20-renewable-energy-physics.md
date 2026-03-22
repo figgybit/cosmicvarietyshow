@@ -6,7 +6,7 @@ excerpt: "Bucky says yes. The Sun delivers 10,000 times what we use. But physics
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf10-renewable.png"
 subtitle: "A Physicist Checks the Math"
-audio: "/audio/20260322-voice-feynman-a-physicist-checks-the-math-on-renewa.mp3"
+audio: "/audio/v2-voice-feynman-renewable-physics.mp3"
 ---
 
 Bucky says yes. The Sun delivers 173,000 terawatts to the Earth's surface every day. Humanity uses 18. That is a 10,000-to-1 ratio. "We are not short of energy. We are short of design."

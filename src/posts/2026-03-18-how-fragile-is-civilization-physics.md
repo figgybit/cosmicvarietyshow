@@ -6,7 +6,7 @@ excerpt: "Complex systems don't fail gradually. They fail all at once. Here is t
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf04-fragile.png"
 subtitle: "A Physicist Counts the Threads"
-audio: "/audio/20260322-voice-feynman-how-fragile-is-civilization.mp3"
+audio: "/audio/v2-voice-feynman-fragile-civilization.mp3"
 ---
 
 Here is something that should make you nervous: the system that has never failed is the most dangerous system in the room.

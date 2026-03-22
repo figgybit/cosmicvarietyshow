@@ -6,7 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "My PhD was about the greenhouse effect — on Venus. Nine hundred degrees. Lead melts on the surface. The same physics applies here. The data is now in, and it is worse than I feared and better documented than I hoped."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-venus-warning.png"
-audio: "/audio/voice-sagan-venus-warning.mp3"
+audio: "/audio/v2-voice-sagan-venus-warning.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

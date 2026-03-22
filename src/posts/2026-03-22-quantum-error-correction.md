@@ -6,7 +6,7 @@ tags: ["posts", "feynman", "science", "high-impact", "new-physics"]
 excerpt: "The universe is noisy. Every quantum state gets smeared by its neighbors. But physicists found a loophole: you can hide information inside entanglement so well that the noise can't find it. The universe lets you keep secrets from itself."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf-quantum-error-correction.png"
-audio: "/audio/20260322-voice-feynman-quantum-error-correction.mp3"
+audio: "/audio/v2-voice-feynman-quantum-error-correction.mp3"
 ---
 
 Here is something that would have kept me up at 3 AM.

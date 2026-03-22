@@ -6,7 +6,7 @@ excerpt: "Fire a particle at two slits. It goes through both. Unless you watch. 
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf03-reality.png"
 subtitle: "The Double-Slit Experiment and Why It Should Keep You Up at Night"
-audio: "/audio/20260322-voice-feynman-what-is-reality-made-of.mp3"
+audio: "/audio/v2-voice-feynman-reality-made-of.mp3"
 ---
 
 I'm going to tell you the weirdest true thing in physics. It's not complicated. A five-year-old can understand the setup. But the result will bother you for the rest of your life. It bothered me for all of mine.

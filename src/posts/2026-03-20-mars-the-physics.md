@@ -6,7 +6,7 @@ excerpt: "Mars is 225 million kilometers away. Every kilogram you send costs a f
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf07-mars.png"
 subtitle: "What the Math Says About Mars"
-audio: "/audio/20260322-voice-feynman-what-the-equations-say-about-how-hard.mp3"
+audio: "/audio/v2-voice-feynman-mars-physics.mp3"
 ---
 
 Carl says Mars would change us more than we would change Mars. Bucky says every technology you need for Mars, you need for Earth. They are both right. But before we talk about what Mars means, let me tell you what Mars COSTS. In physics. In energy. In the merciless arithmetic of the rocket equation.

@@ -5,7 +5,7 @@ tags: ["posts", "sagan", "explainer"]
 excerpt: "You got the answer right. But you did not understand it. That gap has a name now."
 image: "/images/posts/cs04-cosmic-calendar.png"
 subtitle: "The Cosmic Calendar"
-audio: "/audio/20260322-voice-sagan-you-are-here-december-31st.mp3"
+audio: "/audio/v2-voice-sagan-shallow-right.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

@@ -6,7 +6,7 @@ tags: ["posts", "feynman", "science"]
 excerpt: "A simple question with an answer that explains why fish exist, why lakes don't freeze solid, and why the shape of one tiny molecule changed the history of life on Earth."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf-ice-float.png"
-audio: "/audio/20260322-voice-feynman-why-does-ice-float.mp3"
+audio: "/audio/v2-voice-feynman-ice-float.mp3"
 ---
 
 Here is a question you probably never asked, because the answer seems obvious:

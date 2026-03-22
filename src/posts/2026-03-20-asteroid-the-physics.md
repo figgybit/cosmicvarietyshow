@@ -5,7 +5,7 @@ tags: ["posts", "feynman", "science", "high-impact", "topic-6"]
 excerpt: "A ten-billion-ton rock is heading for Earth. How much force does it take to move it? Less than you think, if you push early enough. The trim tab principle, applied to saving a planet."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf06-asteroid.png"
-audio: "/audio/20260322-voice-feynman-how-to-save-the-world-with-f-ma.mp3"
+audio: "/audio/v2-voice-feynman-asteroid-physics.mp3"
 ---
 
 Here is a physics problem that is not hypothetical.

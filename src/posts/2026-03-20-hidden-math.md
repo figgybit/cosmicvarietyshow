@@ -6,7 +6,7 @@ excerpt: "You use probability every day without knowing it. Your gut gets it wro
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf11-hidden-math.png"
 subtitle: "Why Your Brain Can't Do Probability"
-audio: "/audio/20260322-voice-feynman-the-hidden-math-that-runs-your-everyd.mp3"
+audio: "/audio/v2-voice-feynman-hidden-math.mp3"
 ---
 
 You are a probability machine. Every decision you make, from crossing the street to choosing a career, is a bet. Your brain calculates odds constantly, automatically, without asking permission. It does this because your ancestors who were bad at estimating the probability of a lion behind a bush did not become ancestors.

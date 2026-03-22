@@ -6,7 +6,7 @@ excerpt: "I studied the greenhouse effect on Venus before anyone was talking abo
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs11-renewable.png"
 subtitle: "A View from Two Planets"
-audio: "/audio/20260322-voice-sagan-past-sunlight-vs-present-sunlight.mp3"
+audio: "/audio/v2-voice-sagan-renewable-energy.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

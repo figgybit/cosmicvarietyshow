@@ -6,7 +6,7 @@ excerpt: "From orbit, cities are the brightest features on the night side of Ear
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs12-cities.png"
 subtitle: "The Future of Cities"
-audio: "/audio/20260322-voice-sagan-what-looks-like-intelligence-from-orbit.mp3"
+audio: "/audio/v2-voice-sagan-future-cities.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

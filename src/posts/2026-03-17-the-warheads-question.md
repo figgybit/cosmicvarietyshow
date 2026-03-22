@@ -5,7 +5,7 @@ tags: ["posts", "sagan", "trim-tab"]
 excerpt: "The warheads answer. Down eighty percent from the peak. And the two thousand that are still on hair trigger, ready to launch in minutes."
 image: "/images/posts/cs03-warheads.png"
 subtitle: "The Math of Mutual Destruction"
-audio: "/audio/20260322-voice-sagan-there-are-still-12-500-warheads.mp3"
+audio: "/audio/v2-voice-sagan-warheads-question.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

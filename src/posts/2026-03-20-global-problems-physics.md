@@ -6,7 +6,7 @@ tags: ["posts", "feynman", "science", "high-impact", "topic-10"]
 excerpt: "The resources exist. The technology exists. The physics permits it. So why haven't we done it? Because the bottleneck was never energy or food or water. It was information."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf13-global-problems.png"
-audio: "/audio/20260322-voice-feynman-a-physicist-runs-the-numbers-on-globa.mp3"
+audio: "/audio/v2-voice-feynman-global-problems.mp3"
 ---
 
 Bucky said ordinary citizens solved the World Game every time they played. Carl said the Pale Blue Dot shows that every global problem is a local problem seen from far enough away. Now let me do what a physicist does: check the numbers.

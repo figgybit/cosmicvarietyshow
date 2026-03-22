@@ -6,7 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "When I died in 1996, the number of confirmed planets outside our solar system was zero. Today it is over six thousand. The Drake Equation is no longer theoretical. We are filling in the variables."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-exoplanets.png"
-audio: "/audio/voice-sagan-exoplanets.mp3"
+audio: "/audio/v2-voice-sagan-exoplanets.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
