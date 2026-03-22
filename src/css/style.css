@@ -1024,9 +1024,9 @@ a:hover { color: #9c7cff; text-decoration: none; }
     z-index: 3;
 }
 
-.mosaic-badge-feynman { background: rgba(184, 140, 20, 0.9); color: #fff; }
-.mosaic-badge-sagan { background: rgba(180, 100, 220, 0.9); }
-.mosaic-badge-bucky { background: rgba(34, 139, 34, 0.85); }
+.mosaic-badge-feynman { background: rgba(255, 111, 0, 0.9); color: #fff; }
+.mosaic-badge-sagan { background: rgba(107, 163, 214, 0.9); color: #fff; }
+.mosaic-badge-bucky { background: rgba(212, 175, 55, 0.9); color: #fff; }
 .mosaic-badge-rfm { background: rgba(52, 152, 219, 0.85); }
 .mosaic-badge-special { background: rgba(192, 57, 43, 0.85); }
 .mosaic-badge-start { background: rgba(192, 57, 43, 0.85); }
@@ -1069,11 +1069,11 @@ a:hover { color: #9c7cff; text-decoration: none; }
 }
 
 /* Voice-specific card accent borders */
-.mosaic-feynman { border-color: rgba(212, 175, 55, 0.3); }
+.mosaic-feynman { border-color: rgba(255, 111, 0, 0.3); }
 .mosaic-feynman:hover { border-color: #ff6f00; }
-.mosaic-sagan { border-color: rgba(180, 100, 220, 0.5); }
-.mosaic-sagan:hover { border-color: #b564dc; }
-.mosaic-bucky { border-color: rgba(34, 139, 34, 0.3); }
+.mosaic-sagan { border-color: rgba(107, 163, 214, 0.3); }
+.mosaic-sagan:hover { border-color: #6ba3d6; }
+.mosaic-bucky { border-color: rgba(212, 175, 55, 0.3); }
 .mosaic-bucky:hover { border-color: #D4AF37; }
 .mosaic-rfm { border-color: rgba(52, 152, 219, 0.3); }
 .mosaic-rfm:hover { border-color: #3498db; }
