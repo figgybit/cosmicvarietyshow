@@ -1,30 +1,75 @@
 ---
 layout: base.njk
 title: "Richard Feynman"
+description: "Physicist, Nobel laureate, bongo drummer. I was born not knowing and have had only a little time to change that here and there."
+permalink: /editor-feynman/
 ---
-<div class="editor-page">
-    <div class="editor-hero" style="border-color: #e91e63;">
-        <div class="editor-placeholder editor-placeholder-feynman">FEYNMAN</div>
-        <h1>Richard Feynman</h1>
-        <p class="editor-subtitle">Physicist, Nobel laureate, bongo drummer. &ldquo;I was born not knowing and have had only a little time to change that here and there.&rdquo;</p>
-    </div>
-    <div class="editor-bio">
-        <p>Richard Phillips Feynman was a theoretical physicist known for his work in quantum mechanics, quantum electrodynamics, and particle physics. He won the Nobel Prize in Physics in 1965 and was one of the most brilliant, original, and influential scientists of the twentieth century.</p>
-        <p>Feynman was also known for his insatiable curiosity, his gift for teaching, and his refusal to take anything on authority. He cracked safes at Los Alamos, decoded Mayan hieroglyphs, played bongo drums in a samba band, and drew nudes for a Pasadena art exhibition. He did all of this while revolutionizing physics.</p>
-        <p>Here, Feynman continues to ask the questions nobody else thinks to ask, and answers them with the clarity that made a generation fall in love with science.</p>
-    </div>
-    <h2>Posts by Feynman</h2>
-    <div class="editor-posts">
-        {%- for post in collections.posts | reverse -%}
-            {%- if "feynman" in post.data.tags -%}
-            <div class="editor-post-card editor-post-card-feynman">
-                <a href="{{ post.url }}">
-                    <h3>{{ post.data.title }}</h3>
-                    <time>{{ post.data.date | dateDisplay }}</time>
-                    {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
-                </a>
-            </div>
-            {%- endif -%}
-        {%- endfor -%}
+
+{# === TOP PANEL === #}
+<div class="announcement-slider">
+    <div class="tier2-hero tier2-hero-feynman">
+        <span class="mosaic-badge mosaic-badge-feynman">THE GREAT QUESTIONER</span>
+        <div class="slider-overlay">
+            <h1 class="slider-title" style="font-size: 1.6em;">Richard Feynman</h1>
+            <p class="slider-desc">Physicist, Nobel laureate, bongo drummer</p>
+            <p class="slider-desc" style="opacity: 0.7; font-style: italic;">I was born not knowing and have had only a little time to change that here and there.</p>
+        </div>
     </div>
 </div>
+
+{# === MOSAIC GRID === #}
+<section class="mosaic-section">
+    <div class="mosaic-grid">
+        {% set feynmanPosts = collections.feynman | reverse %}
+        {% for post in feynmanPosts %}
+        <a href="{{ post.url }}" class="mosaic-card mosaic-feynman"
+           {% if loop.index > 12 %}style="display:none;" data-lazy="true"{% endif %}>
+            {% if post.data.image %}
+            <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
+            {% endif %}
+            <span class="mosaic-badge mosaic-badge-feynman">{% if post.data.audio %}AUDIO{% else %}TEXT{% endif %}</span>
+            <div class="mosaic-overlay">
+                <span class="mosaic-number">Post #{{ feynmanPosts.length - loop.index0 }}</span>
+                <h3 class="mosaic-title">{{ post.data.title }}</h3>
+                {% set cardDesc = post.data.excerpt or post.data.description %}
+                {% if cardDesc %}
+                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}<span class="mosaic-more mosaic-more-feynman"> MORE</span></p>
+                {% endif %}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% if feynmanPosts.length > 12 %}
+    <div class="mosaic-show-more">
+        <button class="mosaic-load-btn" id="loadMoreCards">Show All {{ feynmanPosts.length }} Posts</button>
+    </div>
+    {% endif %}
+</section>
+
+{# === ARCHIVE LIST === #}
+<section class="tier2-archive">
+    <h2 class="tier2-archive-title">Archive</h2>
+    <div class="tier2-archive-list">
+        {% for post in feynmanPosts %}
+        <div class="tier2-archive-item">
+            <a href="{{ post.url }}">
+                <span class="tier2-archive-num">#{{ feynmanPosts.length - loop.index0 }}</span>
+                {{ post.data.title }}
+            </a>
+            <span class="tier2-archive-desc">{% if post.data.excerpt or post.data.description %}{{ (post.data.excerpt or post.data.description) | truncate(50) }}{% endif %}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+(function() {
+    var btn = document.getElementById('loadMoreCards');
+    if (!btn) return;
+    btn.addEventListener('click', function() {
+        var hidden = document.querySelectorAll('.mosaic-card[data-lazy]');
+        hidden.forEach(function(el) { el.style.display = ''; });
+        btn.style.display = 'none';
+    });
+})();
+</script>

@@ -1,0 +1,26 @@
+{# Panel Audio Player — circle play, volume, spectrum analyzer #}
+{% if panelAudio %}
+<div class="panel-player" data-audio="{{ panelAudio }}">
+    <button class="panel-play-btn" aria-label="Play welcome audio">
+        <svg viewBox="0 0 24 24" class="panel-play-icon"><polygon points="6,3 20,12 6,21"/></svg>
+        <svg viewBox="0 0 24 24" class="panel-pause-icon" style="display:none"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>
+    </button>
+    <div class="panel-volume">
+        <svg class="panel-volume-icon" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+        <div class="panel-volume-slider">
+            <input type="range" min="0" max="100" value="0" orient="vertical">
+        </div>
+    </div>
+    <div class="panel-spectrum">
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+        <div class="panel-spectrum-bar"></div>
+    </div>
+    <audio preload="none" src="{{ panelAudio }}"></audio>
+</div>
+{% endif %}

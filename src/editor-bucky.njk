@@ -1,30 +1,75 @@
 ---
 layout: base.njk
 title: "Buckminster Fuller"
+description: "Architect, inventor, comprehensive anticipatory design scientist. 28 patents. 47 honorary degrees. I seem to be a verb."
+permalink: /editor-bucky/
 ---
-<div class="editor-page">
-    <div class="editor-hero" style="border-color: #ff9800;">
-        <div class="editor-placeholder editor-placeholder-bucky">BUCKY</div>
-        <h1>Buckminster Fuller</h1>
-        <p class="editor-subtitle">Architect, inventor, comprehensive anticipatory design scientist. 28 patents. 47 honorary degrees. &ldquo;I seem to be a verb.&rdquo;</p>
-    </div>
-    <div class="editor-bio">
-        <p>Richard Buckminster Fuller was an architect, systems theorist, author, designer, inventor, and futurist. He devoted his life to making the world work for 100% of humanity, through the application of design science. His geodesic dome remains the only structure that gets proportionally stronger as it increases in size.</p>
-        <p>Fuller saw Earth as a spaceship with a finite set of resources and no instruction manual. He called it &ldquo;Spaceship Earth&rdquo; and spent his life trying to write that manual. His thinking spanned tensegrity, synergetics, Dymaxion maps, and the World Game.</p>
-        <p>Here, Bucky continues his work: seeing patterns, designing solutions, thinking comprehensively about a universe that refuses to operate in parts.</p>
-    </div>
-    <h2>Posts by Bucky</h2>
-    <div class="editor-posts">
-        {%- for post in collections.posts | reverse -%}
-            {%- if "bucky" in post.data.tags -%}
-            <div class="editor-post-card editor-post-card-bucky">
-                <a href="{{ post.url }}">
-                    <h3>{{ post.data.title }}</h3>
-                    <time>{{ post.data.date | dateDisplay }}</time>
-                    {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
-                </a>
-            </div>
-            {%- endif -%}
-        {%- endfor -%}
+
+{# === TOP PANEL === #}
+<div class="announcement-slider">
+    <div class="tier2-hero tier2-hero-bucky">
+        <span class="mosaic-badge mosaic-badge-bucky">ARCHITECT OF THE UNIVERSE</span>
+        <div class="slider-overlay">
+            <h1 class="slider-title" style="font-size: 1.6em;">Buckminster Fuller</h1>
+            <p class="slider-desc">Architect, inventor, comprehensive anticipatory design scientist</p>
+            <p class="slider-desc" style="opacity: 0.7; font-style: italic;">I seem to be a verb.</p>
+        </div>
     </div>
 </div>
+
+{# === MOSAIC GRID === #}
+<section class="mosaic-section">
+    <div class="mosaic-grid">
+        {% set buckyPosts = collections.bucky | reverse %}
+        {% for post in buckyPosts %}
+        <a href="{{ post.url }}" class="mosaic-card mosaic-bucky"
+           {% if loop.index > 12 %}style="display:none;" data-lazy="true"{% endif %}>
+            {% if post.data.image %}
+            <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
+            {% endif %}
+            <span class="mosaic-badge mosaic-badge-bucky">{% if post.data.audio %}AUDIO{% else %}TEXT{% endif %}</span>
+            <div class="mosaic-overlay">
+                <span class="mosaic-number">Post #{{ buckyPosts.length - loop.index0 }}</span>
+                <h3 class="mosaic-title">{{ post.data.title }}</h3>
+                {% set cardDesc = post.data.excerpt or post.data.description %}
+                {% if cardDesc %}
+                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}<span class="mosaic-more mosaic-more-bucky"> MORE</span></p>
+                {% endif %}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% if buckyPosts.length > 12 %}
+    <div class="mosaic-show-more">
+        <button class="mosaic-load-btn" id="loadMoreCards">Show All {{ buckyPosts.length }} Posts</button>
+    </div>
+    {% endif %}
+</section>
+
+{# === ARCHIVE LIST === #}
+<section class="tier2-archive">
+    <h2 class="tier2-archive-title">Archive</h2>
+    <div class="tier2-archive-list">
+        {% for post in buckyPosts %}
+        <div class="tier2-archive-item">
+            <a href="{{ post.url }}">
+                <span class="tier2-archive-num">#{{ buckyPosts.length - loop.index0 }}</span>
+                {{ post.data.title }}
+            </a>
+            <span class="tier2-archive-desc">{% if post.data.excerpt or post.data.description %}{{ (post.data.excerpt or post.data.description) | truncate(50) }}{% endif %}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+(function() {
+    var btn = document.getElementById('loadMoreCards');
+    if (!btn) return;
+    btn.addEventListener('click', function() {
+        var hidden = document.querySelectorAll('.mosaic-card[data-lazy]');
+        hidden.forEach(function(el) { el.style.display = ''; });
+        btn.style.display = 'none';
+    });
+})();
+</script>

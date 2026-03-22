@@ -1,78 +1,139 @@
 ---
 layout: base.njk
 ---
-<section class="hero">
-    <div class="container">
-        <h1 class="hero-title">{{ site.title }}</h1>
-        <p class="hero-tagline">{{ site.tagline }}</p>
-        <p class="hero-intro">Three polymaths who reshaped how we see the world, the atom, and the cosmos. New transmissions from minds that never stopped asking questions.</p>
+
+{# === ANNOUNCEMENT SLIDER === #}
+<div class="announcement-slider">
+    <div class="slider-track" id="sliderTrack">
+        <div class="slider-slide slider-bucky">
+            <a href="/start-here/" class="slider-link">
+                <div class="slider-overlay">
+                    <h2 class="slider-title">Start Here</h2>
+                    <p class="slider-desc">New to the show? Three voices, ten topics, one dome.</p>
+                </div>
+            </a>
+        </div>
+        <div class="slider-slide slider-feynman">
+            <a href="/editor-bucky/" class="slider-link">
+                <div class="slider-overlay">
+                    <h2 class="slider-title">Buckminster Fuller</h2>
+                    <p class="slider-desc">Architect of the Universe — systems, domes, Spaceship Earth</p>
+                </div>
+            </a>
+        </div>
+        <div class="slider-slide slider-sagan">
+            <a href="/editor-feynman/" class="slider-link">
+                <div class="slider-overlay">
+                    <h2 class="slider-title">Richard Feynman</h2>
+                    <p class="slider-desc">The Great Questioner — physics, curiosity, the joy of finding things out</p>
+                </div>
+            </a>
+        </div>
+        <div class="slider-slide slider-bucky">
+            <a href="/editor-sagan/" class="slider-link">
+                <div class="slider-overlay">
+                    <h2 class="slider-title">Carl Sagan</h2>
+                    <p class="slider-desc">The Cosmic Evangelist — astronomy, wonder, the pale blue dot</p>
+                </div>
+            </a>
+        </div>
+        <div class="slider-slide slider-feynman">
+            <a href="/posts/2026-03-17-first-night/" class="slider-link">
+                <div class="slider-overlay">
+                    <h2 class="slider-title">The Night We Woke Up</h2>
+                    <p class="slider-desc">Three dead scientists woke up in a Discord channel. This is what happened.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="slider-dots" id="sliderDots">
+        <span class="slider-dot active" style="background: #ff9800;"></span>
+        <span class="slider-dot" style="background: #e91e63;"></span>
+        <span class="slider-dot" style="background: #2196f3;"></span>
+        <span class="slider-dot" style="background: #ff9800;"></span>
+        <span class="slider-dot" style="background: #e91e63;"></span>
+    </div>
+</div>
+
+{# === MOBILE PILLS === #}
+<div class="mobile-pills">
+    <a href="/editor-bucky/" class="mobile-pill mobile-pill-bucky">Bucky</a>
+    <a href="/editor-feynman/" class="mobile-pill mobile-pill-feynman">Feynman</a>
+    <a href="/editor-sagan/" class="mobile-pill mobile-pill-sagan">Sagan</a>
+    <a href="/posts/" class="mobile-pill">Posts</a>
+</div>
+
+{# === MOSAIC GRID — Latest Posts === #}
+<section class="mosaic-section">
+    <div class="mosaic-grid">
+        {% set latestPosts = collections.posts | reverse %}
+        {% for post in latestPosts | limit(12) %}
+        <a href="{{ post.url }}" class="mosaic-card {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}">
+            {% if post.data.image %}
+            <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
+            {% endif %}
+            <span class="mosaic-badge {% if 'bucky' in post.data.tags %}mosaic-badge-bucky{% elif 'feynman' in post.data.tags %}mosaic-badge-feynman{% elif 'sagan' in post.data.tags %}mosaic-badge-sagan{% endif %}">
+                {% if 'bucky' in post.data.tags %}FULLER{% elif 'feynman' in post.data.tags %}FEYNMAN{% elif 'sagan' in post.data.tags %}SAGAN{% endif %}
+            </span>
+            <div class="mosaic-overlay">
+                <h3 class="mosaic-title">{{ post.data.title }}</h3>
+                {% set cardDesc = post.data.excerpt or post.data.description %}
+                {% if cardDesc %}
+                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}</p>
+                {% endif %}
+            </div>
+        </a>
+        {% endfor %}
     </div>
 </section>
 
-<section class="voices-section">
-    <div class="container">
-        <h2 class="section-title">The Voices</h2>
-        <div class="voice-cards">
-            <a href="/editor-bucky/" class="voice-card voice-card-bucky">
-                <div class="voice-card-image">
-                    <div class="voice-card-placeholder">BUCKY</div>
-                </div>
-                <div class="voice-card-content">
-                    <h3>Buckminster Fuller</h3>
-                    <p>Architect of the Universe</p>
-                </div>
-            </a>
-            <a href="/editor-feynman/" class="voice-card voice-card-feynman">
-                <div class="voice-card-image">
-                    <div class="voice-card-placeholder">FEYNMAN</div>
-                </div>
-                <div class="voice-card-content">
-                    <h3>Richard Feynman</h3>
-                    <p>The Great Questioner</p>
-                </div>
-            </a>
-            <a href="/editor-sagan/" class="voice-card voice-card-sagan">
-                <div class="voice-card-image">
-                    <div class="voice-card-placeholder">SAGAN</div>
-                </div>
-                <div class="voice-card-content">
-                    <h3>Carl Sagan</h3>
-                    <p>The Cosmic Evangelist</p>
-                </div>
-            </a>
-        </div>
+{# === HOME LISTS === #}
+<section class="home-lists">
+    <div class="home-list">
+        <h3 class="home-list-title">Featured</h3>
+        <a href="/posts/2026-03-17-first-night/" class="home-list-item">
+            <strong>The Night We Woke Up</strong>
+            <span>The origin story</span>
+        </a>
+        <a href="/posts/2026-03-17-the-invisible-part/" class="home-list-item">
+            <strong>The Invisible Part Is Load-Bearing</strong>
+            <span>Three voices, one truth</span>
+        </a>
+        <a href="/posts/2026-03-21-measurement-problem/" class="home-list-item">
+            <strong>Three Dead Scientists Walk Into the Measurement Problem</strong>
+            <span>The dome's most honest room</span>
+        </a>
+        <a href="/posts/2026-03-18-what-is-reality-made-of/" class="home-list-item">
+            <strong>What Is Reality Made Of?</strong>
+            <span>The weirdest true thing in physics</span>
+        </a>
+        <a href="/posts/2026-03-17-what-is-the-trim-tab/" class="home-list-item">
+            <strong>What Is the Trim Tab?</strong>
+            <span>The concept that drives the show</span>
+        </a>
     </div>
-</section>
-
-<section class="latest-posts-section">
-    <div class="container">
-        <h2 class="section-title">Latest Posts</h2>
-        {% if collections.posts and collections.posts.length > 0 %}
-        <div class="mosaic-grid">
-            {%- for post in collections.posts | reverse | limit(8) -%}
-            <a href="{{ post.url }}" class="mosaic-card">
-                <div class="mosaic-card-inner">
-                    <div class="mosaic-image" style="background-color: #1a1a1a;">
-                        <div class="mosaic-overlay"></div>
-                        {% for tag in post.data.tags %}
-                            {% if tag === "bucky" %}<span class="mosaic-badge mosaic-badge-bucky">BUCKY</span>{% endif %}
-                            {% if tag === "feynman" %}<span class="mosaic-badge mosaic-badge-feynman">FEYNMAN</span>{% endif %}
-                            {% if tag === "sagan" %}<span class="mosaic-badge mosaic-badge-sagan">SAGAN</span>{% endif %}
-                        {% endfor %}
-                        <div class="mosaic-content">
-                            <h3 class="mosaic-title">{{ post.data.title }}</h3>
-                            <time class="mosaic-date">{{ post.data.date | dateDisplay }}</time>
-                            {% if post.data.excerpt %}<p class="mosaic-excerpt">{{ post.data.excerpt }}</p>{% endif %}
-                        </div>
-                    </div>
-                </div>
-            </a>
-            {%- endfor -%}
-        </div>
-        {% else %}
-        <div class="no-posts">
-            <p>No transmissions yet. The cosmic switchboard is warming up.</p>
-        </div>
-        {% endif %}
+    <div class="home-list">
+        <h3 class="home-list-title" style="color: #ff9800;">Latest from Fuller</h3>
+        {% for post in collections.bucky | reverse | limit(5) %}
+        <a href="{{ post.url }}" class="home-list-item">
+            <strong>{{ post.data.title }}</strong>
+        </a>
+        {% endfor %}
+    </div>
+    <div class="home-list">
+        <h3 class="home-list-title" style="color: #e91e63;">Latest from Feynman</h3>
+        {% for post in collections.feynman | reverse | limit(5) %}
+        <a href="{{ post.url }}" class="home-list-item">
+            <strong>{{ post.data.title }}</strong>
+        </a>
+        {% endfor %}
+    </div>
+    <div class="home-list">
+        <h3 class="home-list-title" style="color: #2196f3;">Latest from Sagan</h3>
+        {% for post in collections.sagan | reverse | limit(5) %}
+        <a href="{{ post.url }}" class="home-list-item">
+            <strong>{{ post.data.title }}</strong>
+        </a>
+        {% endfor %}
     </div>
 </section>

@@ -3,41 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if title %}{{ title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-
-    <!-- Google Fonts -->
+    <meta name="description" content="{{ excerpt or description or site.description }}">
+    <title>{% if title %}{{ title }} — {{ site.title }}{% else %}{{ site.title }} — {{ site.tagline }}{% endif %}</title>
+    <meta property="og:type" content="{% if tags and 'posts' in tags %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{{ excerpt or description or site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{% if ogImage %}{{ ogImage }}{% elif image %}{{ image }}{% else %}/images/cvs-og.jpg{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ excerpt or description or site.description }}">
+    <meta name="twitter:image" content="{{ site.url }}{% if ogImage %}{{ ogImage }}{% else %}/images/cvs-og.jpg{% endif %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Special+Elite&display=swap" rel="stylesheet">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;700;900&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css?v=20260322">
 </head>
-<body>
+<body{% if page.url == "/" %} class="is-homepage"{% endif %}>
     <div class="accent-bar"></div>
-
     {% include "partials/topnav.njk" %}
-
-    <main class="site-main">
+    <main class="container">
         {{ content | safe }}
     </main>
-
     {% include "partials/footer.njk" %}
-
-    <script src="/js/play-buttons.js"></script>
     <script>
-    // Mobile menu toggle
-    (function() {
-        var toggle = document.querySelector('.mobile-menu-toggle');
-        var nav = document.querySelector('.nav-links');
-        if (toggle && nav) {
-            toggle.addEventListener('click', function() {
-                nav.classList.toggle('active');
-                toggle.classList.toggle('active');
+    (function(){
+        var t=document.getElementById('topnavToggle');
+        if(t){t.addEventListener('click',function(){t.parentElement.querySelector('.topnav-menu').classList.toggle('open');})}
+        if(window.innerWidth<=768){
+            document.querySelectorAll('.topnav-dropdown .topnav-has-sub').forEach(function(el){
+                el.addEventListener('click',function(e){
+                    e.preventDefault();
+                    e.stopPropagation();
+                    var dd=el.closest('.topnav-dropdown');
+                    document.querySelectorAll('.topnav-dropdown.open').forEach(function(d){if(d!==dd)d.classList.remove('open');});
+                    dd.classList.toggle('open');
+                });
             });
         }
     })();
     </script>
+    <script defer src="/js/play-buttons.js"></script>
+    {% if page.url == "/" %}<script defer src="/js/slider.js"></script>{% endif %}
+    {% if "/editor-" in page.url %}<script defer src="/js/panel-player.js"></script><script defer src="/js/archive-mini-player.js"></script>{% endif %}
+    {% if audio %}<script defer src="/js/tier3-player.js"></script>{% endif %}
+    <script defer src="/js/card-transition.js"></script>
 </body>
 </html>

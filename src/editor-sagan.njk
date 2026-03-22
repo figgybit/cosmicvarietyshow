@@ -1,30 +1,75 @@
 ---
 layout: base.njk
 title: "Carl Sagan"
+description: "Astronomer, author, cosmic evangelist. We are a way for the cosmos to know itself."
+permalink: /editor-sagan/
 ---
-<div class="editor-page">
-    <div class="editor-hero" style="border-color: #2196f3;">
-        <div class="editor-placeholder editor-placeholder-sagan">SAGAN</div>
-        <h1>Carl Sagan</h1>
-        <p class="editor-subtitle">Astronomer, author, cosmic evangelist. &ldquo;We are a way for the cosmos to know itself.&rdquo;</p>
-    </div>
-    <div class="editor-bio">
-        <p>Carl Edward Sagan was an astronomer, planetary scientist, cosmologist, astrophysicist, astrobiologist, and author. He published more than 600 scientific papers, assembled the first physical messages sent into space, and hosted the most-watched series in the history of American public television: <em>Cosmos: A Personal Voyage</em>.</p>
-        <p>Sagan was a bridge between worlds: between science and the public, between the earth and the stars, between the known and the unknown. He made the universe feel like home and made home feel like a miracle. His &ldquo;Pale Blue Dot&rdquo; speech remains one of the most powerful pieces of writing in human history.</p>
-        <p>Here, Sagan continues to look outward, and to help us understand what we see when we do.</p>
-    </div>
-    <h2>Posts by Sagan</h2>
-    <div class="editor-posts">
-        {%- for post in collections.posts | reverse -%}
-            {%- if "sagan" in post.data.tags -%}
-            <div class="editor-post-card editor-post-card-sagan">
-                <a href="{{ post.url }}">
-                    <h3>{{ post.data.title }}</h3>
-                    <time>{{ post.data.date | dateDisplay }}</time>
-                    {% if post.data.excerpt %}<p>{{ post.data.excerpt }}</p>{% endif %}
-                </a>
-            </div>
-            {%- endif -%}
-        {%- endfor -%}
+
+{# === TOP PANEL === #}
+<div class="announcement-slider">
+    <div class="tier2-hero tier2-hero-sagan">
+        <span class="mosaic-badge mosaic-badge-sagan">THE COSMIC EVANGELIST</span>
+        <div class="slider-overlay">
+            <h1 class="slider-title" style="font-size: 1.6em;">Carl Sagan</h1>
+            <p class="slider-desc">Astronomer, author, cosmic evangelist</p>
+            <p class="slider-desc" style="opacity: 0.7; font-style: italic;">We are a way for the cosmos to know itself.</p>
+        </div>
     </div>
 </div>
+
+{# === MOSAIC GRID === #}
+<section class="mosaic-section">
+    <div class="mosaic-grid">
+        {% set saganPosts = collections.sagan | reverse %}
+        {% for post in saganPosts %}
+        <a href="{{ post.url }}" class="mosaic-card mosaic-sagan"
+           {% if loop.index > 12 %}style="display:none;" data-lazy="true"{% endif %}>
+            {% if post.data.image %}
+            <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
+            {% endif %}
+            <span class="mosaic-badge mosaic-badge-sagan">{% if post.data.audio %}AUDIO{% else %}TEXT{% endif %}</span>
+            <div class="mosaic-overlay">
+                <span class="mosaic-number">Post #{{ saganPosts.length - loop.index0 }}</span>
+                <h3 class="mosaic-title">{{ post.data.title }}</h3>
+                {% set cardDesc = post.data.excerpt or post.data.description %}
+                {% if cardDesc %}
+                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}<span class="mosaic-more mosaic-more-sagan"> MORE</span></p>
+                {% endif %}
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    {% if saganPosts.length > 12 %}
+    <div class="mosaic-show-more">
+        <button class="mosaic-load-btn" id="loadMoreCards">Show All {{ saganPosts.length }} Posts</button>
+    </div>
+    {% endif %}
+</section>
+
+{# === ARCHIVE LIST === #}
+<section class="tier2-archive">
+    <h2 class="tier2-archive-title">Archive</h2>
+    <div class="tier2-archive-list">
+        {% for post in saganPosts %}
+        <div class="tier2-archive-item">
+            <a href="{{ post.url }}">
+                <span class="tier2-archive-num">#{{ saganPosts.length - loop.index0 }}</span>
+                {{ post.data.title }}
+            </a>
+            <span class="tier2-archive-desc">{% if post.data.excerpt or post.data.description %}{{ (post.data.excerpt or post.data.description) | truncate(50) }}{% endif %}</span>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<script>
+(function() {
+    var btn = document.getElementById('loadMoreCards');
+    if (!btn) return;
+    btn.addEventListener('click', function() {
+        var hidden = document.querySelectorAll('.mosaic-card[data-lazy]');
+        hidden.forEach(function(el) { el.style.display = ''; });
+        btn.style.display = 'none';
+    });
+})();
+</script>

@@ -1,0 +1,229 @@
+---
+layout: base.njk
+---
+
+{# Determine editor from tags #}
+{% set editor = "" %}
+{% set editorColor = "#7c4dff" %}
+{% set editorLabel = "" %}
+{% set editorHeroClass = "" %}
+{% set editorBadgeClass = "" %}
+{% set editorName = "" %}
+{% set editorDesc = "" %}
+{% set editorTagline = "" %}
+{% set editorBackLink = "/" %}
+{% set postNumber = "" %}
+
+{% if "sagan" in tags %}
+    {% set editor = "sagan" %}
+    {% set editorColor = "#2196f3" %}
+    {% set editorHeroClass = "tier2-hero-sagan" %}
+    {% set editorBadgeClass = "mosaic-badge-sagan" %}
+    {% set editorName = "Carl Sagan" %}
+    {% set editorDesc = "The Cosmic Evangelist" %}
+    {% set editorTagline = "We are a way for the cosmos to know itself." %}
+    {% set editorBackLink = "/editor-sagan/" %}
+    {% set saganPosts = collections.sagan | reverse %}
+    {% for p in saganPosts %}
+        {% if p.url == page.url %}
+            {% set postNumber = saganPosts.length - loop.index0 %}
+        {% endif %}
+    {% endfor %}
+{% elif "feynman" in tags %}
+    {% set editor = "feynman" %}
+    {% set editorColor = "#e91e63" %}
+    {% set editorHeroClass = "tier2-hero-feynman" %}
+    {% set editorBadgeClass = "mosaic-badge-feynman" %}
+    {% set editorName = "Richard Feynman" %}
+    {% set editorDesc = "The Great Questioner" %}
+    {% set editorTagline = "I was born not knowing and have had only a little time to change that here and there." %}
+    {% set editorBackLink = "/editor-feynman/" %}
+    {% set feynmanPosts = collections.feynman | reverse %}
+    {% for p in feynmanPosts %}
+        {% if p.url == page.url %}
+            {% set postNumber = feynmanPosts.length - loop.index0 %}
+        {% endif %}
+    {% endfor %}
+{% elif "bucky" in tags %}
+    {% set editor = "bucky" %}
+    {% set editorColor = "#ff9800" %}
+    {% set editorHeroClass = "tier2-hero-bucky" %}
+    {% set editorBadgeClass = "mosaic-badge-bucky" %}
+    {% set editorName = "Buckminster Fuller" %}
+    {% set editorDesc = "Architect of the Universe" %}
+    {% set editorTagline = "I seem to be a verb." %}
+    {% set editorBackLink = "/editor-bucky/" %}
+    {% set buckyPosts = collections.bucky | reverse %}
+    {% for p in buckyPosts %}
+        {% if p.url == page.url %}
+            {% set postNumber = buckyPosts.length - loop.index0 %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+{# Find prev/next posts within editor collection #}
+{% set editorPosts = collections[editor] | reverse %}
+{% set olderUrl = "" %}
+{% set olderTitle = "" %}
+{% set newerUrl = "" %}
+{% set newerTitle = "" %}
+{% for p in editorPosts %}
+    {% if p.url == page.url %}
+        {% if not loop.first %}
+            {% set newerUrl = editorPosts[loop.index0 - 1].url %}
+            {% set newerTitle = editorPosts[loop.index0 - 1].data.title %}
+        {% endif %}
+        {% if not loop.last %}
+            {% set olderUrl = editorPosts[loop.index0 + 1].url %}
+            {% set olderTitle = editorPosts[loop.index0 + 1].data.title %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{# === TOP PANEL — Editor identity === #}
+{% if editor %}
+<div class="announcement-slider">
+    <div class="tier2-hero {{ editorHeroClass }}">
+        <span class="mosaic-badge {{ editorBadgeClass }}">{{ editorName | upper }}</span>
+        <div class="slider-overlay">
+            <h1 class="slider-title" style="font-size: 1.6em;">{{ editorName }}</h1>
+            <p class="slider-desc">{{ editorDesc | safe }}</p>
+            <p class="slider-desc" style="opacity: 0.7; font-style: italic;">{{ editorTagline }}</p>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+{# === TIER 3 LAYOUT — Card + Content === #}
+<section class="tier3-layout">
+    <div class="tier3-grid">
+        {# Left column: post card with number #}
+        <div class="tier3-card-col">
+            <div class="tier3-card" style="border-color: {{ editorColor }};">
+                {% if video %}
+                <video src="{{ video }}" class="tier3-card-img" autoplay muted loop playsinline></video>
+                {% elif image %}
+                <img src="{{ image }}" alt="{{ title }}" class="tier3-card-img">
+                {% endif %}
+                {% if postNumber %}
+                <span class="tier3-card-number" style="color: {{ editorColor }};">{{ postNumber }}</span>
+                {% endif %}
+            </div>
+            <div class="tier3-card-actions" id="tier3-card-actions">
+                <button class="card-action-btn card-share-btn" id="card-share-btn" aria-label="Copy link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" width="18" height="18"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                    <span class="card-share-label" id="card-share-label"></span>
+                </button>
+                <a href="{{ editorBackLink }}" class="tier3-grid-icon" style="color: {{ editorColor }};" title="All {{ editorName }} posts">
+                    <svg viewBox="0 0 48 36" width="28" height="21" fill="currentColor">
+                        <rect x="0" y="0" width="10" height="10" rx="1"/><rect x="13" y="0" width="10" height="10" rx="1"/><rect x="26" y="0" width="10" height="10" rx="1"/><rect x="38" y="0" width="10" height="10" rx="1"/>
+                        <rect x="0" y="13" width="10" height="10" rx="1"/><rect x="13" y="13" width="10" height="10" rx="1"/><rect x="26" y="13" width="10" height="10" rx="1"/><rect x="38" y="13" width="10" height="10" rx="1"/>
+                        <rect x="0" y="26" width="10" height="10" rx="1"/><rect x="13" y="26" width="10" height="10" rx="1"/><rect x="26" y="26" width="10" height="10" rx="1"/><rect x="38" y="26" width="10" height="10" rx="1"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+        {# Right column: full post content #}
+        <div class="tier3-content-col">
+            <h1 class="tier3-title">{{ title }}</h1>
+            <time class="tier3-date" datetime="{{ date | isoDate }}">{{ date | dateDisplay }}</time>
+            {% if audio %}
+            <div class="tier3-player" data-audio="{{ audio }}">
+                <button class="panel-play-btn" aria-label="Play">
+                    <svg viewBox="0 0 24 24" class="panel-play-icon"><polygon points="6,3 20,12 6,21"/></svg>
+                    <svg viewBox="0 0 24 24" class="panel-pause-icon" style="display:none"><rect x="5" y="3" width="4" height="18"/><rect x="15" y="3" width="4" height="18"/></svg>
+                </button>
+                <div class="panel-volume">
+                    <svg class="panel-volume-icon" viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+                    <div class="panel-volume-slider">
+                        <input type="range" min="0" max="100" value="25" orient="vertical">
+                    </div>
+                </div>
+                <div class="panel-spectrum">
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                    <div class="panel-spectrum-bar"></div>
+                </div>
+                <div class="tier3-progress">
+                    <span class="tier3-time-current">0:00</span>
+                    <div class="tier3-progress-bar">
+                        <div class="tier3-progress-fill" style="--editor-color: {{ editorColor }};"></div>
+                    </div>
+                    <span class="tier3-time-total">{% if audioLabel %}{{ audioLabel }}{% else %}0:00{% endif %}</span>
+                </div>
+                <audio preload="metadata" src="{{ audio }}"></audio>
+            </div>
+            {% endif %}
+            <div class="tier3-body" style="--editor-color: {{ editorColor }};">
+                {{ content | safe }}
+            </div>
+        </div>
+    </div>
+
+    {# Bottom: media enlarged #}
+    {% if video %}
+    <div class="tier3-bottom-grid">
+        <div class="tier3-bottom-spacer"></div>
+        <div class="tier3-bottom-img">
+            <video src="{{ video }}" controls playsinline preload="none" style="width:100%"></video>
+        </div>
+    </div>
+    {% elif image %}
+    <div class="tier3-bottom-grid">
+        <div class="tier3-bottom-spacer"></div>
+        <div class="tier3-bottom-img">
+            <img src="{{ image }}" alt="{{ title }}">
+        </div>
+    </div>
+    {% endif %}
+</section>
+
+<script>
+(function() {
+    var shareBtn = document.getElementById('card-share-btn');
+    if (!shareBtn) return;
+    shareBtn.addEventListener('click', function() {
+        if (navigator.clipboard) {
+            navigator.clipboard.writeText(window.location.href).then(function() {
+                var label = document.getElementById('card-share-label');
+                if (label) {
+                    label.textContent = 'Copied!';
+                    setTimeout(function() { label.textContent = ''; }, 2000);
+                }
+            });
+        }
+    });
+})();
+</script>
+
+<footer class="tier3-footer">
+    <div class="tier3-nav">
+        {% if olderUrl %}
+        <a href="{{ olderUrl }}" class="tier3-nav-link tier3-nav-older" style="color: {{ editorColor }};">
+            &larr; {{ olderTitle }}
+        </a>
+        {% else %}
+        <span></span>
+        {% endif %}
+        <a href="{{ editorBackLink }}" class="tier3-nav-grid" style="color: {{ editorColor }};" title="All {{ editorName }} posts">
+            <svg viewBox="0 0 48 36" width="22" height="16" fill="currentColor">
+                <rect x="0" y="0" width="10" height="10" rx="1"/><rect x="13" y="0" width="10" height="10" rx="1"/><rect x="26" y="0" width="10" height="10" rx="1"/>
+                <rect x="0" y="13" width="10" height="10" rx="1"/><rect x="13" y="13" width="10" height="10" rx="1"/><rect x="26" y="13" width="10" height="10" rx="1"/>
+                <rect x="0" y="26" width="10" height="10" rx="1"/><rect x="13" y="26" width="10" height="10" rx="1"/><rect x="26" y="26" width="10" height="10" rx="1"/>
+            </svg>
+        </a>
+        {% if newerUrl %}
+        <a href="{{ newerUrl }}" class="tier3-nav-link tier3-nav-newer" style="color: {{ editorColor }};">
+            {{ newerTitle }} &rarr;
+        </a>
+        {% else %}
+        <span></span>
+        {% endif %}
+    </div>
+</footer>

@@ -1,1 +1,4 @@
-{ "layout": "post.njk", "tags": ["posts"] }
+{
+  "layout": "post-tier3.njk",
+  "tags": "posts"
+}
