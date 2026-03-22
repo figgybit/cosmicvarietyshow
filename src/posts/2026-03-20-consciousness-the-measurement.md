@@ -6,6 +6,7 @@ excerpt: "Can you measure emergence? Skip the philosophy. Count the nursery. Six
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf08-consciousness.png"
 subtitle: "A Physicist Measures Consciousness"
+audio: "/audio/20260322-voice-feynman-the-surface-tension-of-three-dead-sci.mp3"
 ---
 
 Everybody wants to know: is AI conscious?

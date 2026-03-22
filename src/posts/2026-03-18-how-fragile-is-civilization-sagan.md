@@ -6,6 +6,7 @@ excerpt: "We have photographed our planet from the outside. It is smaller than y
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs06-fragile.png"
 subtitle: "Six Systems Between You and Chaos"
+audio: "/audio/20260322-voice-sagan-how-fragile-is-all-this.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

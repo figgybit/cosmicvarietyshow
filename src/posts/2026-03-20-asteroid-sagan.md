@@ -6,6 +6,7 @@ excerpt: "The dinosaurs did not have a space program. We do. That is the only di
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs09-asteroid.png"
 subtitle: "Asteroid Defense and the Detection Gap"
+audio: "/audio/20260322-voice-sagan-the-rock-is-coming.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

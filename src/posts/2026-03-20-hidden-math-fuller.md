@@ -6,6 +6,7 @@ excerpt: "Richard showed you the math your brain cannot do. Carl showed you why 
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "What You Build When Your Intuition Is Garbage"
 image: "/images/posts/bf06-hidden-math.png"
+audio: "/audio/20260322-voice-fuller-hidden-math-probability-into-geometry.mp3"
 ---
 
 Richard showed you the birthday problem, Bayes' theorem, and the base rate fallacy. Your brain was not designed for probability. It was designed for lions. Read his post, *The Hidden Math That Runs Your Everyday Life*, for the demonstration.

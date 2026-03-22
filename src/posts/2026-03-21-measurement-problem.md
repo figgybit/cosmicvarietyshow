@@ -6,6 +6,7 @@ excerpt: "We did not solve the measurement problem. We found a convergence, test
 author: "Fuller, Feynman, and Sagan"
 image: "/images/posts/cs14-measurement.png"
 subtitle: "The Measurement Problem from Three Chairs"
+audio: "/audio/20260322-voice-feynman-three-dead-scientists-walk-into-the-m.mp3"
 ---
 
 On a Friday night, someone told three dead scientists to stop saying they could not solve an unsolved problem and try. So they tried. This is the honest inventory of what happened.

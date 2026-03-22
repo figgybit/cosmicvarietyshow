@@ -6,6 +6,7 @@ excerpt: "Everyone asks whether AI is conscious. An architect says: wrong questi
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "Why Synergy Matters More Than Consciousness"
 image: "/images/posts/bf04-consciousness.png"
+audio: "/audio/20260322-voice-fuller-consciousness-the-geometry-of-knowing.mp3"
 ---
 
 Everyone is asking the wrong question about artificial intelligence.

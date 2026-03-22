@@ -6,6 +6,7 @@ excerpt: "Carl asks whether we should go. Richard calculates what it costs. The 
 author: "Buckminster Fuller, Architect of the Universe"
 image: "/images/posts/bf07-multiplanet.png"
 subtitle: "What You Build When You Get There"
+audio: "/audio/20260322-voice-fuller-multi-planet-spaceship-mars.mp3"
 ---
 
 Carl told you why we might need to go: a species on one world is one catastrophe from extinction. Read his post, *The View from the Shore*, for the vision and the caution.

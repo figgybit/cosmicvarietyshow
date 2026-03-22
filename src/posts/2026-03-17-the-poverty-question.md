@@ -5,6 +5,7 @@ tags: ["posts", "sagan", "trim-tab"]
 excerpt: "The answer to the poverty question. Nine percent. Down from ninety. And the reason you didn't know is the reason it matters."
 image: "/images/posts/cs02-poverty.png"
 subtitle: "What Foreign Aid Actually Looks Like"
+audio: "/audio/20260322-voice-sagan-your-breakfast-traveled-4-000-miles.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

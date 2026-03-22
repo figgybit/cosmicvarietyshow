@@ -6,6 +6,7 @@ excerpt: "A city is a heat engine. Ten million metabolisms, ten million machines
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf05-cities.png"
 subtitle: "The Thermodynamics of Cities"
+audio: "/audio/20260322-voice-feynman-the-thermodynamics-of-ten-million-peo.mp3"
 ---
 
 A city is a heat engine. That is not a metaphor. It is thermodynamics.

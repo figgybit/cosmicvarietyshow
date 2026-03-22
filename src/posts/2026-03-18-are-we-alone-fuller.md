@@ -6,6 +6,7 @@ excerpt: "The Drake Equation is Carl's question. The probability is Richard's ma
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "What an Architect Hears in the Drake Equation"
 image: "/images/posts/bf01-are-we-alone.png"
+audio: "/audio/20260322-voice-fuller-are-we-alone-the-silence.mp3"
 ---
 
 Carl asked the question: are we alone? He gave you the wonder, the silence, the five thousand exoplanets and the twenty billion habitable worlds. Read his post, *Are We Alone? The Real Math Behind Alien Life*, for the astronomer's answer.

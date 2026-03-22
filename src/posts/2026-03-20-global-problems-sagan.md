@@ -6,6 +6,7 @@ excerpt: "From orbit, there are no borders. From orbit, the atmosphere is one at
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs13-global-palebluedot.png"
 subtitle: "What It Would Take to Solve Global Problems"
+audio: "/audio/20260322-voice-sagan-3-7-billion-miles-from-home.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

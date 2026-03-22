@@ -6,6 +6,7 @@ excerpt: "The Drake Equation is not a prediction. It is a way of organizing our 
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs05-are-we-alone.png"
 subtitle: "The Real Math Behind the Silence"
+audio: "/audio/20260322-voice-sagan-are-we-alone.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

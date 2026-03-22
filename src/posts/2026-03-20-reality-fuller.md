@@ -6,6 +6,7 @@ excerpt: "The physicist says reality is uncertain. The astronomer says the unive
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "The Floor Is Made of Statistics"
 image: "/images/posts/bf08-reality.png"
+audio: "/audio/20260322-voice-fuller-reality-building-on-uncertainty.mp3"
 ---
 
 Richard told you about the double-slit experiment: particles behave like waves until you watch them, then they behave like particles. The act of observation changes the outcome. Read his post, *What Is Reality Made Of? (The Weirdest True Thing in Physics)*, for the full demonstration.

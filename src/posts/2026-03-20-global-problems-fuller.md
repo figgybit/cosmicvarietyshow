@@ -6,6 +6,7 @@ excerpt: "In 1961, I asked ordinary citizens to make the world work for 100% of 
 author: "Buckminster Fuller, Architect of the Universe"
 subtitle: "Make It Work for 100% of Humanity"
 image: "/images/posts/bf05-global-problems.png"
+audio: "/audio/20260322-voice-fuller-global-problems-the-world-game.mp3"
 ---
 
 In 1961, I created the World Game. The rules were simple:
