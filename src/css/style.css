@@ -394,7 +394,7 @@ a:hover { color: #9c7cff; text-decoration: none; }
     position: relative;
     max-width: 1440px;
     margin: 0 auto 20px;
-    padding: 0 20px;
+    padding: 0;
     overflow: hidden;
 }
 
