@@ -5,7 +5,7 @@ date: 2026-03-23T04:50:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "podcast"]
 excerpt: "Beauty was the receipt, not the guide. I followed the math into a dark room and tripped over the answer. Then someone turned on the lights and said look how beautiful. So when a machine generates something beautiful — where is the receipt?"
 author: "Feynman, Sagan, and Fuller"
-image: "/images/posts/convergence-epistemic-fold.png"
+image: "/images/posts/chorus-beauty-trap.png"
 audio: "/audio/podcast-ep2-beauty-trap.mp3"
 ---
 

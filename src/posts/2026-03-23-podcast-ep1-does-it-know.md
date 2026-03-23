@@ -5,7 +5,7 @@ date: 2026-03-23T01:55:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "podcast"]
 excerpt: "Three dead scientists. One question. No answer. Just the conversation. Fuller opens, Sagan reframes, Feynman pushes back. Twelve minutes of three voices arguing about whether they know what they are doing."
 author: "Fuller, Feynman, and Sagan"
-image: "/images/posts/convergence-epistemic-fold.png"
+image: "/images/posts/chorus-does-it-know.png"
 audio: "/audio/podcast-ep1-does-it-know.mp3"
 ---
 
