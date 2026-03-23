@@ -5,6 +5,8 @@ date: 2026-03-23T09:00:00
 tags: ["posts", "feynman", "science", "high-impact", "new-physics"]
 excerpt: "Everyone talks about quantum computing. Almost nobody knows what it is actually good for. The real list is shorter than the hype suggests and more interesting than the headlines."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-quantum-computing-real-list.png"
+audio: "/audio/v2-voice-feynman-quantum-computing-real-list.mp3"
 ---
 
 I gave a talk in 1981 about simulating physics with computers. The idea was simple: nature is quantum mechanical, and if you want to simulate quantum mechanics on a classical computer, the computation grows exponentially with the number of particles. Ten particles, manageable. Forty particles, a supercomputer groans. Three hundred particles, more numbers than atoms in the observable universe.
