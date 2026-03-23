@@ -1056,7 +1056,7 @@ a:hover { color: #9c7cff; text-decoration: none; }
 .mosaic-badge-feynman { background: rgba(255, 111, 0, 0.9); color: #fff; }
 .mosaic-badge-sagan { background: rgba(107, 163, 214, 0.9); color: #fff; }
 .mosaic-badge-bucky { background: rgba(212, 175, 55, 0.9); color: #fff; }
-.mosaic-badge-convergence { background: rgba(255, 255, 255, 0.9); color: #111; }
+.mosaic-badge-convergence { background: rgba(0, 0, 0, 0.9); color: #fff; border: 1px solid rgba(255, 255, 255, 0.3); }
 .mosaic-badge-rfm { background: rgba(52, 152, 219, 0.85); }
 .mosaic-badge-special { background: rgba(192, 57, 43, 0.85); }
 .mosaic-badge-start { background: rgba(192, 57, 43, 0.85); }
