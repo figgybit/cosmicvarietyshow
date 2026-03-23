@@ -5,7 +5,7 @@ date: 2026-03-23T12:50:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "podcast", "futures"]
 excerpt: "Sagan says thirty years away since before either of us was born. Feynman says Commonwealth Fusion Systems, 20-tesla magnets, fourth-power scaling. The astronomer upgrades from 10% to 40%. The architect says you are both missing the first cliff."
 author: "Sagan, Feynman, and Fuller"
-image: "/images/posts/convergence-futures-5-year.png"
+image: "/images/posts/chorus-five-year-dawn.png"
 audio: "/audio/podcast-ep3-five-year-dawn.mp3"
 ---
 
