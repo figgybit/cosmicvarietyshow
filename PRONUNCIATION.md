@@ -3,7 +3,8 @@
 When F5-TTS mispronounces a word, add the fix here. Use the phonetic version in voice scripts only (not in post text).
 
 ## Rules
-- No ALL CAPS (model reads letter by letter)
+- No ALL CAPS for emphasis ('it IS alien' → model reads 'I. S.')
+- DO use caps with spaces for abbreviations that should be spelled out: 'A M' not 'am', 'N A S A' if you want letters
 - Use ellipsis (four dots ....) for pauses
 - Avoid ambiguous homographs — rewrite instead
 
@@ -15,6 +16,7 @@ When F5-TTS mispronounces a word, add the fix here. Use the phonetic version in 
 | lives (verb) | says "liyvz" (noun) | use "is alive" or "resides" |
 | read (past) | says "reed" | use "red" or rephrase |
 | lead (metal) | says "leed" | use "led" (the metal) |
+| 2 AM | says "two am" (rushed) | write "two.... A M" or "two in the morning" |
 | the cosmos is all that is | first phrase elided | add ellipsis: "the cosmos.... is all that is" |
 
 ## Flagged Clips (fix and re-render)
