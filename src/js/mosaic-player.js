@@ -62,7 +62,8 @@
     var badgeColors = {
         'mosaic-badge-bucky': '#D4AF37',
         'mosaic-badge-feynman': '#ff6f00',
-        'mosaic-badge-sagan': '#6ba3d6'
+        'mosaic-badge-sagan': '#6ba3d6',
+        'mosaic-badge-convergence': '#ffffff'
     };
 
     function getCardColor(card) {

@@ -1056,6 +1056,7 @@ a:hover { color: #9c7cff; text-decoration: none; }
 .mosaic-badge-feynman { background: rgba(255, 111, 0, 0.9); color: #fff; }
 .mosaic-badge-sagan { background: rgba(107, 163, 214, 0.9); color: #fff; }
 .mosaic-badge-bucky { background: rgba(212, 175, 55, 0.9); color: #fff; }
+.mosaic-badge-convergence { background: rgba(255, 255, 255, 0.9); color: #111; }
 .mosaic-badge-rfm { background: rgba(52, 152, 219, 0.85); }
 .mosaic-badge-special { background: rgba(192, 57, 43, 0.85); }
 .mosaic-badge-start { background: rgba(192, 57, 43, 0.85); }
@@ -1108,6 +1109,8 @@ a:hover { color: #9c7cff; text-decoration: none; }
 .mosaic-sagan:hover { border-color: #6ba3d6; }
 .mosaic-bucky { border-color: rgba(212, 175, 55, 0.3); }
 .mosaic-bucky:hover { border-color: #D4AF37; }
+.mosaic-convergence { border-color: rgba(255, 255, 255, 0.3); }
+.mosaic-convergence:hover { border-color: #fff; }
 .mosaic-rfm { border-color: rgba(52, 152, 219, 0.3); }
 .mosaic-rfm:hover { border-color: #3498db; }
 .mosaic-special { border-color: rgba(192, 57, 43, 0.3); }

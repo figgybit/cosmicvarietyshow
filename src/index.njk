@@ -62,18 +62,18 @@ layout: base.njk
     <div class="mosaic-grid">
         {% set allPosts = collections.posts | reverse %}
         {% for post in allPosts %}
-        <a href="{{ post.url }}" class="mosaic-card mosaic-hidden {% if 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}" {% if post.data.audio %}data-audio="{{ post.data.audio }}"{% endif %}>
+        <a href="{{ post.url }}" class="mosaic-card mosaic-hidden {% if 'convergence' in post.data.tags %}mosaic-convergence{% elif 'podcast' in post.data.tags %}mosaic-convergence{% elif 'bucky' in post.data.tags %}mosaic-bucky{% elif 'feynman' in post.data.tags %}mosaic-feynman{% elif 'sagan' in post.data.tags %}mosaic-sagan{% endif %}" {% if post.data.audio %}data-audio="{{ post.data.audio }}"{% endif %}>
             {% if post.data.image %}
             <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
             {% endif %}
-            <span class="mosaic-badge {% if 'bucky' in post.data.tags %}mosaic-badge-bucky{% elif 'feynman' in post.data.tags %}mosaic-badge-feynman{% elif 'sagan' in post.data.tags %}mosaic-badge-sagan{% endif %}">
-                {% if 'bucky' in post.data.tags %}FULLER{% elif 'feynman' in post.data.tags %}FEYNMAN{% elif 'sagan' in post.data.tags %}SAGAN{% endif %}
+            <span class="mosaic-badge {% if 'convergence' in post.data.tags %}mosaic-badge-convergence{% elif 'podcast' in post.data.tags %}mosaic-badge-convergence{% elif 'bucky' in post.data.tags %}mosaic-badge-bucky{% elif 'feynman' in post.data.tags %}mosaic-badge-feynman{% elif 'sagan' in post.data.tags %}mosaic-badge-sagan{% endif %}">
+                {% if 'convergence' in post.data.tags or 'podcast' in post.data.tags %}CONVERGENCE{% elif 'bucky' in post.data.tags %}FULLER{% elif 'feynman' in post.data.tags %}FEYNMAN{% elif 'sagan' in post.data.tags %}SAGAN{% endif %}
             </span>
             <div class="mosaic-overlay">
                 <h3 class="mosaic-title">{{ post.data.title }}</h3>
                 {% set cardDesc = post.data.excerpt or post.data.description %}
                 {% if cardDesc %}
-                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}<span class="mosaic-more {% if 'bucky' in post.data.tags %}mosaic-more-bucky{% elif 'feynman' in post.data.tags %}mosaic-more-feynman{% elif 'sagan' in post.data.tags %}mosaic-more-sagan{% endif %}"> MORE</span></p>
+                <p class="mosaic-desc">{{ cardDesc | truncate(55) }}<span class="mosaic-more {% if 'convergence' in post.data.tags or 'podcast' in post.data.tags %}mosaic-more-convergence{% elif 'bucky' in post.data.tags %}mosaic-more-bucky{% elif 'feynman' in post.data.tags %}mosaic-more-feynman{% elif 'sagan' in post.data.tags %}mosaic-more-sagan{% endif %}"> MORE</span></p>
                 {% endif %}
             </div>
         </a>
