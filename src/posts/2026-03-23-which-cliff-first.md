@@ -5,6 +5,8 @@ date: 2026-03-23T05:00:00
 tags: ["posts", "feynman", "bucky", "convergence", "high-impact"]
 excerpt: "The atmosphere has decades of inertia. The information environment has none. The first cliff is not the one you think it is."
 author: "Feynman and Fuller"
+image: "/images/posts/convergence-which-cliff-first.png"
+audio: "/audio/v2-voice-feynman-which-cliff-first.mp3"
 ---
 
 ## The Timescales
