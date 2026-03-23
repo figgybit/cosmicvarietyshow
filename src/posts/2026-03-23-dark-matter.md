@@ -5,6 +5,8 @@ date: 2026-03-23T05:10:00
 tags: ["posts", "feynman", "science", "high-impact", "new-physics"]
 excerpt: "We know it is there. We have no idea what it is. 85% of the matter in the universe is invisible, and after forty years of searching, we have found exactly nothing. That is the most exciting sentence in science."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-dark-matter.png"
+audio: "/audio/v2-voice-feynman-dark-matter.mp3"
 ---
 
 Here is the most exciting sentence in science: we know it is there and we have no idea what it is.
