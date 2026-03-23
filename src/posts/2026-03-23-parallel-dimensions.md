@@ -5,6 +5,8 @@ date: 2026-03-23T05:15:00
 tags: ["posts", "feynman", "science", "high-impact", "new-physics"]
 excerpt: "Quantum mechanics says a particle takes every possible path. Most physicists treat that as a mathematical trick. Some say it is literally true. Every path is real. Every possibility happens. The universe splits."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-parallel-dimensions.png"
+audio: "/audio/v2-voice-feynman-parallel-dimensions.mp3"
 ---
 
 I need to tell you about the most elegant idea in physics that might be completely right and might be completely untestable. Which is a problem, because untestable ideas are not physics. They are philosophy. And you know what I think about philosophy.
