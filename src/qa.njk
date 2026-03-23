@@ -40,6 +40,10 @@ h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px soli
 .qa-time { color: #666; font-size: 0.75em; min-width: 70px; text-align: right; flex-shrink: 0; }
 .qa-flag-btn { flex-shrink: 0; }
 .qa-flag-btn.active { background: #e74c3c; border-color: #e74c3c; }
+.qa-clean-btn { flex-shrink: 0; }
+.qa-clean-btn.clean { background: #27ae60; border-color: #27ae60; color: #fff; }
+.qa-clip.is-clean { border-color: #27ae60; opacity: 0.6; }
+.qa-clip.is-clean .qa-clip-title::after { content: ' ✓ clean'; color: #27ae60; font-size: 0.8em; }
 .qa-flags-list { margin-top: 6px; }
 .qa-flag-item { display: flex; align-items: center; gap: 6px; font-size: 0.8em; padding: 3px 0; color: #999; }
 .qa-flag-item .qa-flag-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
@@ -93,6 +97,7 @@ h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px soli
         </div>
         <span class="qa-time">0:00 / 0:00</span>
         <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+        <button class="qa-btn qa-clean-btn" onclick="toggleClean(this)">Clean</button>
       </div>
       <div class="qa-flags-list"></div>
     </div>
@@ -124,6 +129,7 @@ h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px soli
         </div>
         <span class="qa-time">0:00 / 0:00</span>
         <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+        <button class="qa-btn qa-clean-btn" onclick="toggleClean(this)">Clean</button>
       </div>
       <div class="qa-flags-list"></div>
     </div>
@@ -148,6 +154,7 @@ h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px soli
         </div>
         <span class="qa-time">0:00 / 0:00</span>
         <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+        <button class="qa-btn qa-clean-btn" onclick="toggleClean(this)">Clean</button>
       </div>
       <div class="qa-flags-list"></div>
     </div>
@@ -172,6 +179,7 @@ h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px soli
         </div>
         <span class="qa-time">0:00 / 0:00</span>
         <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+        <button class="qa-btn qa-clean-btn" onclick="toggleClean(this)">Clean</button>
       </div>
       <div class="qa-flags-list"></div>
     </div>
@@ -189,6 +197,7 @@ h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px soli
 var qaUser = null;
 var qaColor = '#e74c3c';
 var qaFlags = JSON.parse(localStorage.getItem('cvs-qa-flags') || '{}');
+var qaClean = JSON.parse(localStorage.getItem('cvs-qa-clean') || '{}');
 var currentAudio = null;
 var currentClip = null;
 
@@ -214,6 +223,7 @@ function setUser(user) {
   label.textContent = user;
   label.className = 'qa-user ' + (user === 'dom' ? 'qa-user-dom' : 'qa-user-figgy');
   renderAllFlags();
+  renderCleanState();
 }
 
 function fmt(s) {
@@ -364,6 +374,35 @@ function deleteFlag(key, idx) {
 
 function saveFlags() {
   localStorage.setItem('cvs-qa-flags', JSON.stringify(qaFlags));
+}
+
+function toggleClean(btn) {
+  var clip = btn.closest('.qa-clip');
+  var key = getClipKey(clip);
+  if (qaClean[key]) {
+    delete qaClean[key];
+    btn.classList.remove('clean');
+    btn.textContent = 'Clean';
+    clip.classList.remove('is-clean');
+  } else {
+    qaClean[key] = { user: qaUser, time: new Date().toISOString() };
+    btn.classList.add('clean');
+    btn.textContent = 'Clean ✓';
+    clip.classList.add('is-clean');
+  }
+  localStorage.setItem('cvs-qa-clean', JSON.stringify(qaClean));
+}
+
+function renderCleanState() {
+  document.querySelectorAll('.qa-clip').forEach(function(clip) {
+    var key = getClipKey(clip);
+    var btn = clip.querySelector('.qa-clean-btn');
+    if (qaClean[key]) {
+      btn.classList.add('clean');
+      btn.textContent = 'Clean ✓';
+      clip.classList.add('is-clean');
+    }
+  });
 }
 
 function exportFlags() {
