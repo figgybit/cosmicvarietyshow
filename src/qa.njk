@@ -1,0 +1,385 @@
+---
+layout: false
+permalink: /qa/index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QA Review — Cosmic Variety Show</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #111; color: #eee; font-family: 'Inter', sans-serif; padding: 20px; }
+h1 { font-size: 1.4em; margin-bottom: 10px; color: #fff; }
+h2 { font-size: 1.1em; margin: 20px 0 10px; color: #888; border-bottom: 1px solid #333; padding-bottom: 5px; }
+.qa-hidden { display: none; }
+#login { text-align: center; padding: 100px 20px; }
+#login h1 { font-size: 2em; margin-bottom: 30px; }
+#login input { background: #222; border: 1px solid #444; color: #fff; padding: 12px 20px; font-size: 1em; border-radius: 4px; margin-right: 10px; }
+#login button, .qa-btn { background: #333; color: #fff; border: 1px solid #555; padding: 8px 16px; border-radius: 4px; cursor: pointer; font-size: 0.85em; }
+#login button:hover, .qa-btn:hover { background: #444; }
+.identity-pick { margin-top: 20px; }
+.identity-pick button { margin: 0 10px; padding: 12px 30px; font-size: 1em; }
+.identity-pick .pick-dom { border-color: #e74c3c; color: #e74c3c; }
+.identity-pick .pick-dom:hover { background: #e74c3c; color: #fff; }
+.identity-pick .pick-figgy { border-color: #3498db; color: #3498db; }
+.identity-pick .pick-figgy:hover { background: #3498db; color: #fff; }
+#qa-app { max-width: 900px; margin: 0 auto; }
+.qa-clip { background: #1a1a1a; border: 1px solid #333; border-radius: 6px; padding: 12px; margin-bottom: 8px; }
+.qa-clip-title { font-size: 0.9em; color: #ccc; margin-bottom: 8px; }
+.qa-clip-title span { color: #666; font-size: 0.8em; }
+.qa-player { display: flex; align-items: center; gap: 8px; }
+.qa-play { width: 32px; height: 32px; background: #333; border: none; border-radius: 50%; color: #fff; cursor: pointer; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.qa-play:hover { background: #444; }
+.qa-timeline-wrap { flex: 1; position: relative; height: 24px; background: #222; border-radius: 3px; cursor: pointer; }
+.qa-progress { height: 100%; background: rgba(255,255,255,0.1); border-radius: 3px; width: 0; pointer-events: none; }
+.qa-flag-marker { position: absolute; top: 0; width: 3px; height: 100%; cursor: pointer; border-radius: 1px; z-index: 2; }
+.qa-flag-marker:hover { opacity: 0.7; }
+.qa-time { color: #666; font-size: 0.75em; min-width: 70px; text-align: right; flex-shrink: 0; }
+.qa-flag-btn { flex-shrink: 0; }
+.qa-flag-btn.active { background: #e74c3c; border-color: #e74c3c; }
+.qa-flags-list { margin-top: 6px; }
+.qa-flag-item { display: flex; align-items: center; gap: 6px; font-size: 0.8em; padding: 3px 0; color: #999; }
+.qa-flag-item .qa-flag-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.qa-flag-item .qa-flag-time { color: #aaa; cursor: pointer; min-width: 40px; }
+.qa-flag-item .qa-flag-time:hover { color: #fff; }
+.qa-flag-item input { background: #222; border: 1px solid #333; color: #ccc; padding: 2px 6px; font-size: 0.85em; flex: 1; border-radius: 3px; }
+.qa-flag-item .qa-flag-del { color: #666; cursor: pointer; padding: 0 4px; }
+.qa-flag-item .qa-flag-del:hover { color: #e74c3c; }
+#qa-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+#qa-header .qa-user { font-size: 0.85em; }
+.qa-user-dom { color: #e74c3c; }
+.qa-user-figgy { color: #3498db; }
+#qa-export { margin-top: 20px; }
+#qa-export textarea { width: 100%; height: 200px; background: #1a1a1a; color: #ccc; border: 1px solid #333; padding: 10px; font-family: monospace; font-size: 0.8em; border-radius: 4px; }
+.qa-category { margin-bottom: 25px; }
+</style>
+</head>
+<body>
+
+<div id="login">
+  <h1>Cosmic Variety Show — QA Review</h1>
+  <div id="pw-gate">
+    <input type="password" id="pw-input" placeholder="Password">
+    <button onclick="checkPw()">Enter</button>
+  </div>
+  <div id="identity-gate" class="qa-hidden identity-pick">
+    <p style="color:#888;margin-bottom:15px;">Who are you?</p>
+    <button class="qa-btn pick-dom" onclick="setUser('dom')">Dom</button>
+    <button class="qa-btn pick-figgy" onclick="setUser('figgybit')">figgybit</button>
+  </div>
+</div>
+
+<div id="qa-app" class="qa-hidden">
+  <div id="qa-header">
+    <h1>QA Audio Review</h1>
+    <span class="qa-user" id="qa-user-label"></span>
+  </div>
+
+  {# === POST AUDIO === #}
+  <div class="qa-category">
+    <h2>Post Voice Clips</h2>
+    {% set allPosts = collections.posts | reverse %}
+    {% for post in allPosts %}
+    {% if post.data.audio %}
+    <div class="qa-clip" data-src="{{ post.data.audio }}">
+      <div class="qa-clip-title">{{ post.data.title }} <span>— {{ post.data.author }}</span></div>
+      <div class="qa-player">
+        <button class="qa-play" onclick="togglePlay(this)">&#9654;</button>
+        <div class="qa-timeline-wrap" onclick="seekAudio(event, this)">
+          <div class="qa-progress"></div>
+        </div>
+        <span class="qa-time">0:00 / 0:00</span>
+        <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+      </div>
+      <div class="qa-flags-list"></div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
+  {# === CANDY SCRIPTS === #}
+  <div class="qa-category">
+    <h2>Candy Scripts</h2>
+    {% set candyFiles = [
+      {src: "/audio/candy-feynman-ants.mp3", title: "Candy: Feynman — Ants"},
+      {src: "/audio/candy-feynman-sandpile.mp3", title: "Candy: Feynman — Sand Pile"},
+      {src: "/audio/candy-feynman-asteroid.mp3", title: "Candy: Feynman — Asteroid"},
+      {src: "/audio/candy-sagan-paleblue.mp3", title: "Candy: Sagan — Pale Blue Dot"},
+      {src: "/audio/candy-sagan-fragility.mp3", title: "Candy: Sagan — Fragility"},
+      {src: "/audio/candy-sagan-arwealone.mp3", title: "Candy: Sagan — Are We Alone"},
+      {src: "/audio/candy-fuller-operating-manual.mp3", title: "Candy: Fuller — Operating Manual"},
+      {src: "/audio/candy-fuller-trim-tab.mp3", title: "Candy: Fuller — Trim Tab"},
+      {src: "/audio/candy-fuller-ephemeralization.mp3", title: "Candy: Fuller — Ephemeralization"}
+    ] %}
+    {% for item in candyFiles %}
+    <div class="qa-clip" data-src="{{ item.src }}">
+      <div class="qa-clip-title">{{ item.title }}</div>
+      <div class="qa-player">
+        <button class="qa-play" onclick="togglePlay(this)">&#9654;</button>
+        <div class="qa-timeline-wrap" onclick="seekAudio(event, this)">
+          <div class="qa-progress"></div>
+        </div>
+        <span class="qa-time">0:00 / 0:00</span>
+        <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+      </div>
+      <div class="qa-flags-list"></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {# === PODCAST EPISODES === #}
+  <div class="qa-category">
+    <h2>Podcast Episodes</h2>
+    {% set podFiles = [
+      {src: "/audio/podcast-ep1-does-it-know.mp3", title: "Ep1: Does It Know What It Is Doing?"},
+      {src: "/audio/podcast-ep2-beauty-trap.mp3", title: "Ep2: The Beauty Trap"},
+      {src: "/audio/podcast-ep3-five-year-dawn.mp3", title: "Ep3: The Five-Year Dawn"}
+    ] %}
+    {% for item in podFiles %}
+    <div class="qa-clip" data-src="{{ item.src }}">
+      <div class="qa-clip-title">{{ item.title }}</div>
+      <div class="qa-player">
+        <button class="qa-play" onclick="togglePlay(this)">&#9654;</button>
+        <div class="qa-timeline-wrap" onclick="seekAudio(event, this)">
+          <div class="qa-progress"></div>
+        </div>
+        <span class="qa-time">0:00 / 0:00</span>
+        <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+      </div>
+      <div class="qa-flags-list"></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {# === RADIO ASSETS === #}
+  <div class="qa-category">
+    <h2>Radio — Station IDs + Commercials</h2>
+    {% set radioFiles = [
+      {src: "/audio/night-woke-up-sagan.mp3", title: "Night We Woke Up — Sagan"},
+      {src: "/audio/night-woke-up-feynman.mp3", title: "Night We Woke Up — Feynman"},
+      {src: "/audio/night-woke-up-fuller.mp3", title: "Night We Woke Up — Fuller"}
+    ] %}
+    {% for item in radioFiles %}
+    <div class="qa-clip" data-src="{{ item.src }}">
+      <div class="qa-clip-title">{{ item.title }}</div>
+      <div class="qa-player">
+        <button class="qa-play" onclick="togglePlay(this)">&#9654;</button>
+        <div class="qa-timeline-wrap" onclick="seekAudio(event, this)">
+          <div class="qa-progress"></div>
+        </div>
+        <span class="qa-time">0:00 / 0:00</span>
+        <button class="qa-btn qa-flag-btn" onclick="addFlag(this)">Flag</button>
+      </div>
+      <div class="qa-flags-list"></div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div id="qa-export">
+    <h2>Export Flags</h2>
+    <button class="qa-btn" onclick="exportFlags()">Export All Flags</button>
+    <textarea id="qa-export-text" readonly placeholder="Click Export to see all flags..."></textarea>
+  </div>
+</div>
+
+<script>
+var qaUser = null;
+var qaColor = '#e74c3c';
+var qaFlags = JSON.parse(localStorage.getItem('cvs-qa-flags') || '{}');
+var currentAudio = null;
+var currentClip = null;
+
+function checkPw() {
+  var pw = document.getElementById('pw-input').value;
+  if (pw === 'cvs-qa') {
+    document.getElementById('pw-gate').classList.add('qa-hidden');
+    document.getElementById('identity-gate').classList.remove('qa-hidden');
+  } else {
+    alert('Wrong password');
+  }
+}
+document.getElementById('pw-input').addEventListener('keydown', function(e) {
+  if (e.key === 'Enter') checkPw();
+});
+
+function setUser(user) {
+  qaUser = user;
+  qaColor = user === 'dom' ? '#e74c3c' : '#3498db';
+  document.getElementById('login').classList.add('qa-hidden');
+  document.getElementById('qa-app').classList.remove('qa-hidden');
+  var label = document.getElementById('qa-user-label');
+  label.textContent = user;
+  label.className = 'qa-user ' + (user === 'dom' ? 'qa-user-dom' : 'qa-user-figgy');
+  renderAllFlags();
+}
+
+function fmt(s) {
+  var m = Math.floor(s / 60);
+  var sec = Math.floor(s % 60);
+  return m + ':' + (sec < 10 ? '0' : '') + sec;
+}
+
+function getClipKey(clip) {
+  return clip.getAttribute('data-src');
+}
+
+function togglePlay(btn) {
+  var clip = btn.closest('.qa-clip');
+  var src = clip.getAttribute('data-src');
+  if (currentAudio && currentClip === clip) {
+    if (currentAudio.paused) {
+      currentAudio.play();
+      btn.innerHTML = '&#10074;&#10074;';
+    } else {
+      currentAudio.pause();
+      btn.innerHTML = '&#9654;';
+    }
+    return;
+  }
+  if (currentAudio) {
+    currentAudio.pause();
+    var oldBtn = currentClip.querySelector('.qa-play');
+    if (oldBtn) oldBtn.innerHTML = '&#9654;';
+  }
+  currentClip = clip;
+  currentAudio = new Audio(src);
+  currentAudio.volume = 0.8;
+  currentAudio.play();
+  btn.innerHTML = '&#10074;&#10074;';
+  var timeEl = clip.querySelector('.qa-time');
+  var progEl = clip.querySelector('.qa-progress');
+  currentAudio.addEventListener('timeupdate', function() {
+    if (currentAudio.duration) {
+      var pct = (currentAudio.currentTime / currentAudio.duration) * 100;
+      progEl.style.width = pct + '%';
+      timeEl.textContent = fmt(currentAudio.currentTime) + ' / ' + fmt(currentAudio.duration);
+    }
+  });
+  currentAudio.addEventListener('ended', function() {
+    btn.innerHTML = '&#9654;';
+    progEl.style.width = '0';
+  });
+  if ('mediaSession' in navigator) {
+    var title = clip.querySelector('.qa-clip-title');
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: title ? title.textContent : 'QA Review',
+      artist: 'Cosmic Variety Show'
+    });
+  }
+}
+
+function seekAudio(e, timeline) {
+  if (!currentAudio || currentClip !== timeline.closest('.qa-clip')) return;
+  var rect = timeline.getBoundingClientRect();
+  var pct = (e.clientX - rect.left) / rect.width;
+  currentAudio.currentTime = pct * currentAudio.duration;
+}
+
+function addFlag(btn) {
+  if (!currentAudio || currentClip !== btn.closest('.qa-clip')) return;
+  var clip = btn.closest('.qa-clip');
+  var key = getClipKey(clip);
+  if (!qaFlags[key]) qaFlags[key] = [];
+  qaFlags[key].push({
+    time: currentAudio.currentTime,
+    note: '',
+    user: qaUser,
+    color: qaColor
+  });
+  saveFlags();
+  renderFlags(clip);
+}
+
+function renderFlags(clip) {
+  var key = getClipKey(clip);
+  var flags = qaFlags[key] || [];
+  var timeline = clip.querySelector('.qa-timeline-wrap');
+  var list = clip.querySelector('.qa-flags-list');
+  // Remove old markers
+  timeline.querySelectorAll('.qa-flag-marker').forEach(function(m) { m.remove(); });
+  list.innerHTML = '';
+  if (!flags.length) return;
+  // Need duration — estimate from audio if current, otherwise skip markers
+  var dur = (currentAudio && currentClip === clip) ? currentAudio.duration : 0;
+  flags.forEach(function(flag, idx) {
+    // Timeline marker
+    if (dur > 0) {
+      var marker = document.createElement('div');
+      marker.className = 'qa-flag-marker';
+      marker.style.left = ((flag.time / dur) * 100) + '%';
+      marker.style.background = flag.color;
+      marker.title = fmt(flag.time) + ' — ' + (flag.note || '(no note)');
+      marker.onclick = function(e) {
+        e.stopPropagation();
+        if (currentAudio && currentClip === clip) currentAudio.currentTime = flag.time;
+      };
+      timeline.appendChild(marker);
+    }
+    // List item
+    var item = document.createElement('div');
+    item.className = 'qa-flag-item';
+    item.innerHTML = '<span class="qa-flag-dot" style="background:' + flag.color + '"></span>' +
+      '<span class="qa-flag-time" onclick="seekToFlag(\'' + key + '\',' + flag.time + ')">' + fmt(flag.time) + '</span>' +
+      '<input value="' + (flag.note || '') + '" placeholder="Add note..." onchange="updateFlagNote(\'' + key + '\',' + idx + ',this.value)">' +
+      '<span class="qa-flag-del" onclick="deleteFlag(\'' + key + '\',' + idx + ')">x</span>';
+    list.appendChild(item);
+  });
+}
+
+function renderAllFlags() {
+  document.querySelectorAll('.qa-clip').forEach(function(clip) {
+    renderFlags(clip);
+  });
+}
+
+function seekToFlag(key, time) {
+  var clip = document.querySelector('.qa-clip[data-src="' + key + '"]');
+  if (!clip) return;
+  if (!currentAudio || currentClip !== clip) {
+    var btn = clip.querySelector('.qa-play');
+    togglePlay(btn);
+  }
+  if (currentAudio) currentAudio.currentTime = time;
+}
+
+function updateFlagNote(key, idx, val) {
+  if (qaFlags[key] && qaFlags[key][idx]) {
+    qaFlags[key][idx].note = val;
+    saveFlags();
+  }
+}
+
+function deleteFlag(key, idx) {
+  if (qaFlags[key]) {
+    qaFlags[key].splice(idx, 1);
+    if (!qaFlags[key].length) delete qaFlags[key];
+    saveFlags();
+    var clip = document.querySelector('.qa-clip[data-src="' + key + '"]');
+    if (clip) renderFlags(clip);
+  }
+}
+
+function saveFlags() {
+  localStorage.setItem('cvs-qa-flags', JSON.stringify(qaFlags));
+}
+
+function exportFlags() {
+  var lines = ['# QA Flags Export\n'];
+  for (var key in qaFlags) {
+    var flags = qaFlags[key];
+    if (!flags.length) continue;
+    lines.push('## ' + key);
+    flags.forEach(function(f) {
+      lines.push('- [' + fmt(f.time) + '] (' + f.user + ') ' + (f.note || '(no note)'));
+    });
+    lines.push('');
+  }
+  document.getElementById('qa-export-text').value = lines.join('\n');
+}
+</script>
+
+</body>
+</html>
