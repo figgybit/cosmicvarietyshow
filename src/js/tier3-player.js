@@ -58,6 +58,19 @@
                 playBtn.classList.add('playing');
                 spectrum.classList.add('active');
 
+                /* Media Session API — keeps audio playing when phone screen locks */
+                if ('mediaSession' in navigator) {
+                    var title = document.querySelector('.tier3-title');
+                    var author = document.querySelector('.tier3-date');
+                    navigator.mediaSession.metadata = new MediaMetadata({
+                        title: title ? title.textContent : 'Cosmic Variety Show',
+                        artist: author ? author.textContent : 'CVS',
+                        album: 'Cosmic Variety Show'
+                    });
+                    navigator.mediaSession.setActionHandler('play', function() { audio.play(); });
+                    navigator.mediaSession.setActionHandler('pause', function() { audio.pause(); });
+                }
+
                 if (!connected && window.AudioContext) {
                     try {
                         ctx = new (window.AudioContext || window.webkitAudioContext)();
