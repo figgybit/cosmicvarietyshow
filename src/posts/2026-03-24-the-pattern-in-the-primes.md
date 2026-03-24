@@ -7,7 +7,6 @@ excerpt: "The prime numbers seem random. They are not. They are the shadow of a 
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-pattern-primes.png"
 audio: "/audio/v2-voice-sagan-pattern-primes.mp3"
-audio: "/audio/v2-voice-sagan-primes.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
