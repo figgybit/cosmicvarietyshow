@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "The prime numbers seem random. They are not. They are the shadow of a shape in a space most humans never visit — and the pattern connects to pi, to e, and to the deepest unsolved problem in mathematics."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-pattern-primes.png"
+audio: "/audio/v2-voice-sagan-pattern-primes.mp3"
 audio: "/audio/v2-voice-sagan-primes.mp3"
 ---
 

@@ -5,6 +5,8 @@ date: 2026-03-24T12:00:00
 tags: ["posts", "feynman", "science", "high-impact", "new-physics"]
 excerpt: "Two guys at tea in 1972. One studied prime numbers. The other studied atoms. Same formula. The primes are distributed like quantum energy levels, and nobody knows why. Somewhere there is an instrument whose notes are the prime numbers. Nobody has found it yet."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-primes-quantum.png"
+audio: "/audio/v2-voice-feynman-primes-quantum.mp3"
 ---
 
 This started with a question from a friend at 3 AM: why do the primes feel like they have a shape?
