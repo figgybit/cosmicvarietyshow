@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "Curiosity is not a luxury. It is a survival trait. The same neural machinery that makes a child ask 'why is the sky blue?' is the machinery that made our ancestors explore the next valley. A species that stops asking questions is a species that has decided its story is over."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-biology-wonder.png"
+audio: "/audio/v2-voice-sagan-biology-wonder.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
