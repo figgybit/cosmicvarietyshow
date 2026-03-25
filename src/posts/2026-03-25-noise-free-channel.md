@@ -6,7 +6,7 @@ tags: ["posts", "feynman", "sagan", "bucky", "convergence", "high-impact"]
 excerpt: "The primes are the cosmos without entropy. The cosmos is the primes with entropy. Same geometry. Different medium. One you can measure. One you can only prove."
 author: "Sagan, Feynman, and Fuller"
 image: "/images/posts/convergence-noise-free-channel.png"
-audio: "/audio/v2-voice-sagan-noise-free-channel.mp3"
+audio: "/audio/v2-voice-fuller-noise-free2.mp3"
 ---
 
 ## The Astronomer's War Against Noise

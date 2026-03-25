@@ -5,6 +5,7 @@ date: 2026-03-25T16:00:00
 tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "On the blackboard in my office at Caltech, at the time of my death, were the words: 'What I cannot create, I do not understand.' That sentence is the whole of my method. Let me tell you what it means."
 author: "Richard Feynman, The Great Questioner"
+audio: "/audio/v2-voice-feynman-cannot-create.mp3"
 ---
 
 On the blackboard in my office at Caltech, at the time of my death, two things were written:

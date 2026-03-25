@@ -5,6 +5,7 @@ date: 2026-03-25T17:00:00
 tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "In 1959, I asked: why can't we write the entire Encyclopaedia Britannica on the head of a pin? There is plenty of room at the bottom. The answer was: we can. Now entire fields exist because somebody asked."
 author: "Richard Feynman, The Great Questioner"
+audio: "/audio/v2-voice-feynman-plenty-room.mp3"
 ---
 
 On December 29, 1959, at the annual meeting of the American Physical Society at Caltech, I gave a talk called "There's Plenty of Room at the Bottom." It was about manipulating individual atoms.

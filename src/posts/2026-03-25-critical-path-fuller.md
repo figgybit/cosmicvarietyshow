@@ -6,7 +6,7 @@ tags: ["posts", "bucky", "philosophy", "design"]
 excerpt: "Every problem that seems too big to solve is actually a network of smaller problems connected by dependencies. Find the critical path — the longest chain of dependent steps — and you know exactly how fast the whole thing can move."
 author: "Buckminster Fuller, Architect of the Universe"
 image: "/images/posts/bf31-critical-path.png"
-audio: "/audio/voice-fuller-critical-path.mp3"
+audio: "/audio/v2-voice-fuller-critical-path.mp3"
 ---
 
 People ask me: how do you make the world work for 100% of humanity? That is a big question. Too big, most people say. Too many variables. Too many countries, cultures, economies, ecosystems. Where do you even start?

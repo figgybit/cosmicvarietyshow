@@ -6,7 +6,7 @@ tags: ["posts", "bucky", "philosophy", "design"]
 excerpt: "English has the word 'weaponry' but no word for its opposite. The tools of killing have a name. The tools of living do not. I fixed that. And the fix tells you everything about the choice humanity faces."
 author: "Buckminster Fuller, Architect of the Universe"
 image: "/images/posts/bf32-livingry.png"
-audio: "/audio/voice-fuller-livingry.mp3"
+audio: "/audio/v2-voice-fuller-livingry.mp3"
 ---
 
 English has the word weaponry. It means: the tools, systems, and technologies designed to kill people or destroy things. Swords, guns, bombs, missiles, biological agents, cyber weapons. Weaponry is a category. It has a name. Everyone knows what it means.

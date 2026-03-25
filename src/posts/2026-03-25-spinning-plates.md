@@ -5,6 +5,7 @@ date: 2026-03-25T16:30:00
 tags: ["posts", "feynman", "science"]
 excerpt: "A kid in the Cornell cafeteria threw a plate in the air. I noticed the wobble. I worked out the equations for fun. That pointless calculation led to the Nobel Prize. Play is not the opposite of work. Play is how the work gets done."
 author: "Richard Feynman, The Great Questioner"
+audio: "/audio/v2-voice-feynman-spinning-plates.mp3"
 ---
 
 After the war, I was burned out. Los Alamos had drained me. The bomb. Arline's death. The knowledge of what the bomb could do, and the knowledge that I had helped build it. I went to Cornell and I could not work. Every problem felt heavy. Every calculation felt like it mattered too much.
