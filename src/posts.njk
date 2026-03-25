@@ -1,0 +1,115 @@
+---
+layout: base.njk
+title: "All Posts"
+description: "Every post from the Cosmic Variety Show — Fuller, Feynman, Sagan."
+permalink: /archive/
+---
+
+<section class="tier2-archive" id="postsSection">
+    <div class="listen-hero" style="margin-bottom: 20px;">
+        <h1>ALL POSTS</h1>
+    </div>
+
+    <div class="guide-filters" id="postFilters">
+        <button class="guide-filter-btn active" data-filter="all">All</button>
+        <button class="guide-filter-btn" data-filter="bucky" style="border-color: #D4AF37; color: #D4AF37;">Fuller</button>
+        <button class="guide-filter-btn" data-filter="feynman" style="border-color: #ff6f00; color: #ff6f00;">Feynman</button>
+        <button class="guide-filter-btn" data-filter="sagan" style="border-color: #6ba3d6; color: #6ba3d6;">Sagan</button>
+        <span id="postCount" style="margin-left: auto; color: #555; font-size: 0.8em;"></span>
+    </div>
+
+    <div class="tier2-archive-list" id="postsList">
+        {%- set allPosts = collections.posts | reverse -%}
+        {%- for post in allPosts -%}
+        {%- set voiceClass = "" -%}
+        {%- set voiceLabel = "" -%}
+        {%- set voiceFilter = "" -%}
+        {%- if "bucky" in post.data.tags %}{% set voiceClass = "voice-bucky" %}{% set voiceLabel = "FULLER" %}{% set voiceFilter = "bucky" %}{% endif -%}
+        {%- if "feynman" in post.data.tags %}{% set voiceClass = "voice-feynman" %}{% set voiceLabel = "FEYNMAN" %}{% set voiceFilter = "feynman" %}{% endif -%}
+        {%- if "sagan" in post.data.tags %}{% set voiceClass = "voice-sagan" %}{% set voiceLabel = "SAGAN" %}{% set voiceFilter = "sagan" %}{% endif -%}
+        {%- if "convergence" in post.data.tags or "podcast" in post.data.tags %}{% set voiceClass = "voice-convergence" %}{% set voiceLabel = "CHORUS" %}{% set voiceFilter = "convergence" %}{% endif -%}
+        <a href="{{ post.url }}" class="tier2-archive-item post-entry" data-voice="{{ voiceFilter }}"{% if post.data.audio %} data-audio="{{ post.data.audio }}"{% endif %}>
+            <div style="display: flex; align-items: center; gap: 12px; flex: 1; min-width: 0;">
+                <span class="voice-dot {{ voiceClass }}" style="width: 8px; height: 8px; border-radius: 50; flex-shrink: 0;
+                    {% if voiceFilter == 'bucky' %}background: #D4AF37;{% elif voiceFilter == 'feynman' %}background: #ff6f00;{% elif voiceFilter == 'sagan' %}background: #6ba3d6;{% else %}background: #888;{% endif %}
+                "></span>
+                <span style="font-size: 0.95em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">{{ post.data.title }}</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; flex-shrink: 0;">
+                {% if post.data.audio %}<span style="color: #555; font-size: 0.75em;">&#9654;</span>{% endif %}
+                <span style="color: #444; font-size: 0.75em; min-width: 45px; text-align: right;">{{ post.date | dateDisplay }}</span>
+            </div>
+        </a>
+        {%- endfor -%}
+    </div>
+</section>
+
+<style>
+.guide-filters {
+    max-width: 1400px;
+    margin: 0 auto 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.guide-filter-btn {
+    background: #222;
+    border: 1px solid #555;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+.guide-filter-btn:hover { background: #333; }
+.guide-filter-btn.active { background: #444; border-color: #888; }
+.tier2-archive-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid #1a1a1a;
+    color: #ccc;
+    text-decoration: none;
+    transition: background 0.15s ease;
+}
+.tier2-archive-item:hover {
+    background: rgba(255, 255, 255, 0.03);
+    color: #fff;
+    text-decoration: none;
+}
+</style>
+
+<script>
+(function() {
+    var filters = document.querySelectorAll('#postFilters .guide-filter-btn');
+    var entries = document.querySelectorAll('.post-entry');
+    var countEl = document.getElementById('postCount');
+
+    function updateCount() {
+        var visible = document.querySelectorAll('.post-entry:not([style*="display: none"])').length;
+        if (countEl) countEl.textContent = visible + ' posts';
+    }
+
+    filters.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            filters.forEach(function(b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            var filter = btn.getAttribute('data-filter');
+            entries.forEach(function(entry) {
+                if (filter === 'all' || entry.getAttribute('data-voice') === filter) {
+                    entry.style.display = '';
+                } else {
+                    entry.style.display = 'none';
+                }
+            });
+            updateCount();
+        });
+    });
+    updateCount();
+})();
+</script>
