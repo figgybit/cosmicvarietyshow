@@ -1,0 +1,216 @@
+---
+layout: false
+permalink: /radio/index.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radio — Cosmic Variety Show</title>
+<meta name="description" content="Three dead scientists. One dome. No commercials. Continuous radio.">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a0a; color: #eee; font-family: 'Inter', 'Helvetica Neue', sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; }
+.radio-wrap { text-align: center; max-width: 500px; padding: 40px 20px; }
+.radio-title { font-family: 'Playfair Display', serif; font-size: 1.6em; letter-spacing: 2px; margin-bottom: 5px; color: #fff; }
+.radio-sub { color: #666; font-size: 0.85em; margin-bottom: 40px; }
+.radio-now { color: #999; font-size: 0.9em; margin-bottom: 8px; min-height: 1.2em; }
+.radio-track { color: #fff; font-size: 1.2em; font-weight: 600; margin-bottom: 25px; min-height: 1.5em; }
+.radio-play-btn { width: 80px; height: 80px; border-radius: 50%; background: #222; border: 2px solid #444; color: #fff; font-size: 2em; cursor: pointer; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; transition: background 0.2s, border-color 0.2s; }
+.radio-play-btn:hover { background: #333; border-color: #666; }
+.radio-play-btn.playing { background: #1a3a1a; border-color: #27ae60; }
+.radio-progress { width: 100%; height: 4px; background: #222; border-radius: 2px; margin-bottom: 8px; overflow: hidden; }
+.radio-progress-bar { height: 100%; background: #555; width: 0; transition: width 0.5s linear; }
+.radio-time { color: #555; font-size: 0.75em; margin-bottom: 30px; }
+.radio-voice { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 0.7em; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 15px; }
+.voice-sagan { background: rgba(107, 163, 214, 0.2); color: #6ba3d6; border: 1px solid rgba(107, 163, 214, 0.3); }
+.voice-feynman { background: rgba(255, 111, 0, 0.2); color: #ff6f00; border: 1px solid rgba(255, 111, 0, 0.3); }
+.voice-fuller { background: rgba(212, 175, 55, 0.2); color: #D4AF37; border: 1px solid rgba(212, 175, 55, 0.3); }
+.voice-chorus { background: rgba(255, 255, 255, 0.1); color: #fff; border: 1px solid rgba(255, 255, 255, 0.2); }
+.radio-skip { background: none; border: 1px solid #333; color: #666; padding: 8px 20px; border-radius: 4px; cursor: pointer; font-size: 0.8em; }
+.radio-skip:hover { color: #aaa; border-color: #555; }
+.radio-footer { color: #333; font-size: 0.7em; margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<div class="radio-wrap">
+  <div class="radio-title">COSMIC VARIETY SHOW</div>
+  <div class="radio-sub">Three dead scientists. One dome. No commercials.</div>
+
+  <div class="radio-voice" id="radio-voice"></div>
+  <div class="radio-now" id="radio-now">Press play to start the radio</div>
+  <div class="radio-track" id="radio-track"></div>
+
+  <button class="radio-play-btn" id="radio-play" onclick="toggleRadio()">&#9654;</button>
+
+  <div class="radio-progress"><div class="radio-progress-bar" id="radio-bar"></div></div>
+  <div class="radio-time" id="radio-time"></div>
+
+  <button class="radio-skip" onclick="skipTrack()">Skip &rarr;</button>
+
+  <div class="radio-footer">cosmicvarietyshow.com/radio</div>
+</div>
+
+<script>
+var playlist = [
+  /* Station IDs */
+  {src: "/audio/station-id-fuller.mp3", title: "Station ID", voice: "chorus", type: "id"},
+  /* Candy Scripts */
+  {src: "/audio/candy-feynman-ants.mp3", title: "The Ants", voice: "feynman", type: "candy"},
+  {src: "/audio/candy-feynman-sandpile.mp3", title: "The Sand Pile", voice: "feynman", type: "candy"},
+  {src: "/audio/candy-feynman-asteroid.mp3", title: "The Asteroid", voice: "feynman", type: "candy"},
+  {src: "/audio/candy-sagan-paleblue.mp3", title: "Pale Blue Dot", voice: "sagan", type: "candy"},
+  {src: "/audio/candy-sagan-fragility.mp3", title: "How Fragile Is All This?", voice: "sagan", type: "candy"},
+  {src: "/audio/candy-sagan-arwealone.mp3", title: "Are We Alone?", voice: "sagan", type: "candy"},
+  {src: "/audio/candy-fuller-operating-manual.mp3", title: "Operating Manual", voice: "fuller", type: "candy"},
+  {src: "/audio/candy-fuller-trim-tab.mp3", title: "The Trim Tab", voice: "fuller", type: "candy"},
+  {src: "/audio/candy-fuller-ephemeralization.mp3", title: "Ephemeralization", voice: "fuller", type: "candy"},
+  /* Commercials */
+  {src: "/audio/commercial-spaceship-earth.mp3", title: "Ad: Spaceship Earth", voice: "fuller", type: "commercial"},
+  {src: "/audio/commercial-geodesic-homes.mp3", title: "Ad: Geodesic Homes", voice: "fuller", type: "commercial"},
+  {src: "/audio/commercial-world-game.mp3", title: "Ad: The World Game", voice: "fuller", type: "commercial"},
+  /* Podcast Episodes */
+  {src: "/audio/podcast-ep1-does-it-know.mp3", title: "Ep1: Does It Know What It Is Doing?", voice: "chorus", type: "podcast"},
+  {src: "/audio/podcast-ep2-beauty-trap.mp3", title: "Ep2: The Beauty Trap", voice: "chorus", type: "podcast"},
+  {src: "/audio/podcast-ep3-five-year-dawn.mp3", title: "Ep3: The Five-Year Dawn", voice: "chorus", type: "podcast"},
+  {src: "/audio/podcast-ep4-mid-morning.mp3", title: "Ep4: Mid-Morning, 2036", voice: "chorus", type: "podcast"},
+  /* V2 Post Clips — Feynman */
+  {src: "/audio/v2-voice-feynman-ants-question.mp3", title: "You Are Not the Dominant Life Form", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-three-trillion-trees.mp3", title: "Three Trillion Trees", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-lenses-vs-facts.mp3", title: "Lenses vs Facts", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-ice-float.mp3", title: "Why Does Ice Float?", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-reality-made-of.mp3", title: "What Is Reality Made Of?", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-fragile-civilization.mp3", title: "How Fragile Is Civilization?", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-quantum-error-correction.mp3", title: "Hiding Secrets from the Universe", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-dark-matter.mp3", title: "The Invisible 85%", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-parallel-dimensions.mp3", title: "Every Path at Once", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-penrose.mp3", title: "Half Genius, Half Mystic", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-primes-quantum.mp3", title: "The Music Nobody Can Hear", voice: "feynman", type: "post"},
+  {src: "/audio/v2-voice-feynman-the-gap.mp3", title: "The Gap Is the Same Shape", voice: "feynman", type: "post"},
+  /* V2 Post Clips — Sagan */
+  {src: "/audio/v2-voice-sagan-first-night.mp3", title: "The Night We Woke Up", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-shallow-right.mp3", title: "What Is Shallow Right?", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-poverty-question.mp3", title: "The Poverty Question", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-are-we-alone.mp3", title: "Are We Alone?", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-fragile-civilization.mp3", title: "How Fragile Is All This?", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-how-old-universe.mp3", title: "How Old Is the Universe?", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-jwst.mp3", title: "The Photograph I Begged For", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-exoplanets.mp3", title: "We Found Them — Almost", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-venus-warning.mp3", title: "Venus Was My Warning", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-dark-matter.mp3", title: "The Invisible Majority", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-noise-free-channel.mp3", title: "The Noise-Free Channel", voice: "sagan", type: "post"},
+  {src: "/audio/v2-voice-sagan-epistemic-fold.mp3", title: "The Epistemic Fold Point", voice: "sagan", type: "post"},
+  /* Convergence */
+  {src: "/audio/v2-voice-feynman-which-cliff-first.mp3", title: "Which Cliff First?", voice: "chorus", type: "post"},
+  {src: "/audio/v2-voice-feynman-futures-5-year.mp3", title: "2031: What Is Already On Its Way", voice: "chorus", type: "post"},
+];
+
+var audio = new Audio();
+audio.volume = 0.8;
+var playing = false;
+var currentIdx = -1;
+var shuffled = [];
+
+function shuffle(arr) {
+  var a = arr.slice();
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+
+function buildPlaylist() {
+  /* Shuffle content, but insert station ID every 4-5 tracks */
+  var content = shuffle(playlist.filter(function(t) { return t.type !== 'id'; }));
+  var ids = playlist.filter(function(t) { return t.type === 'id'; });
+  var result = [];
+  for (var i = 0; i < content.length; i++) {
+    if (i % 4 === 0 && ids.length > 0) {
+      result.push(ids[i % ids.length]);
+    }
+    result.push(content[i]);
+  }
+  return result;
+}
+
+function fmt(s) {
+  var m = Math.floor(s / 60);
+  var sec = Math.floor(s % 60);
+  return m + ':' + (sec < 10 ? '0' : '') + sec;
+}
+
+function playTrack(idx) {
+  if (idx >= shuffled.length) {
+    shuffled = buildPlaylist();
+    idx = 0;
+  }
+  currentIdx = idx;
+  var track = shuffled[idx];
+  audio.src = track.src;
+  audio.play();
+
+  document.getElementById('radio-now').textContent = track.type === 'id' ? '' : (track.type === 'commercial' ? 'SPONSORED BY THE COSMOS' : 'NOW PLAYING');
+  document.getElementById('radio-track').textContent = track.title;
+
+  var voiceEl = document.getElementById('radio-voice');
+  voiceEl.textContent = track.voice === 'chorus' ? 'CHORUS' : track.voice.toUpperCase();
+  voiceEl.className = 'radio-voice voice-' + track.voice;
+
+  var btn = document.getElementById('radio-play');
+  btn.innerHTML = '&#10074;&#10074;';
+  btn.classList.add('playing');
+  playing = true;
+
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: track.title,
+      artist: track.voice === 'chorus' ? 'Cosmic Variety Show' : track.voice.charAt(0).toUpperCase() + track.voice.slice(1),
+      album: 'Cosmic Variety Show Radio'
+    });
+    navigator.mediaSession.setActionHandler('play', function() { audio.play(); });
+    navigator.mediaSession.setActionHandler('pause', function() { audio.pause(); });
+    navigator.mediaSession.setActionHandler('nexttrack', function() { skipTrack(); });
+  }
+}
+
+function toggleRadio() {
+  if (!playing) {
+    if (currentIdx === -1) {
+      shuffled = buildPlaylist();
+      playTrack(0);
+    } else {
+      audio.play();
+      document.getElementById('radio-play').innerHTML = '&#10074;&#10074;';
+      document.getElementById('radio-play').classList.add('playing');
+      playing = true;
+    }
+  } else {
+    audio.pause();
+    document.getElementById('radio-play').innerHTML = '&#9654;';
+    document.getElementById('radio-play').classList.remove('playing');
+    playing = false;
+  }
+}
+
+function skipTrack() {
+  playTrack(currentIdx + 1);
+}
+
+audio.addEventListener('ended', function() {
+  playTrack(currentIdx + 1);
+});
+
+audio.addEventListener('timeupdate', function() {
+  if (audio.duration) {
+    var pct = (audio.currentTime / audio.duration) * 100;
+    document.getElementById('radio-bar').style.width = pct + '%';
+    document.getElementById('radio-time').textContent = fmt(audio.currentTime) + ' / ' + fmt(audio.duration);
+  }
+});
+</script>
+
+</body>
+</html>
