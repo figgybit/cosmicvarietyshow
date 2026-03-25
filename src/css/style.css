@@ -4953,10 +4953,16 @@ audio[controls] {
 .tier2-archive-item:hover .tier2-archive-num,
 .tier2-archive-item:hover .tier2-archive-desc,
 .tier2-archive-item:hover .archive-duration,
-.tier2-archive-item:hover .archive-play-btn {
+.tier2-archive-item:hover .archive-play-btn,
+.tier2-archive-item:hover .tier2-play-btn,
+.tier2-archive-item:hover .tier2-duration {
     color: #fff;
     border-color: #fff;
 }
+.tier2-archive-play { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.tier2-play-btn { background: none; border: 1px solid #555; color: #666; width: 24px; height: 24px; border-radius: 50%; cursor: pointer; font-size: 0.7em; display: flex; align-items: center; justify-content: center; padding: 0; }
+.tier2-play-btn:hover { color: #fff; border-color: #fff; }
+.tier2-duration { color: #555; font-size: 0.8em; min-width: 35px; text-align: right; }
 
 .tier2-archive-num {
     color: #555;

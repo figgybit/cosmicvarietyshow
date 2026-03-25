@@ -24,6 +24,7 @@ permalink: /editor-feynman/
         {% set feynmanPosts = collections.feynman | reverse %}
         {% for post in feynmanPosts %}
         <a href="{{ post.url }}" class="mosaic-card mosaic-feynman"
+           {% if post.data.audio %}data-audio="{{ post.data.audio }}"{% endif %}
            {% if loop.index > 12 %}style="display:none;" data-lazy="true"{% endif %}>
             {% if post.data.image %}
             <img src="{{ post.data.image }}" alt="{{ post.data.title }}" loading="lazy">
@@ -58,6 +59,12 @@ permalink: /editor-feynman/
                 {{ post.data.title }}
             </a>
             <span class="tier2-archive-desc">{% if post.data.excerpt or post.data.description %}{{ (post.data.excerpt or post.data.description) | truncate(50) }}{% endif %}</span>
+            {% if post.data.audio %}
+            <span class="tier2-archive-play" data-audio="{{ post.data.audio }}">
+                <button class="tier2-play-btn" aria-label="Play">&#9654;</button>
+                <span class="tier2-duration">{% if post.data.audioLabel %}{{ post.data.audioLabel }}{% else %}0:00{% endif %}</span>
+            </span>
+            {% endif %}
         </div>
         {% endfor %}
     </div>
@@ -74,3 +81,4 @@ permalink: /editor-feynman/
     });
 })();
 </script>
+<script defer src="/js/mosaic-player.js"></script>
