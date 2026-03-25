@@ -6,6 +6,7 @@ tags: ["posts", "bucky", "science", "philosophy", "mathematics"]
 excerpt: "Newton compressed infinite derivatives into three laws. Schrodinger compressed infinite moments into one wave function. The geodesic dome compressed infinite building variations into one geometry. Every breakthrough in science is an act of compression. Doing more with less — applied to knowledge itself."
 author: "Buckminster Fuller, Architect of the Universe"
 image: "/images/posts/bf30-compression-tower.png"
+audio: "/audio/voice-fuller-compression-tower.mp3"
 ---
 
 A visitor to our channel recently asked Richard Feynman how far the derivative tower goes. Position, velocity, acceleration, jerk, snap, crackle, pop — an infinite stack of rates of change, each one describing how fast the previous one is changing.
