@@ -129,7 +129,13 @@ layout: base.njk
             <h1 class="tier3-title">{{ title }}</h1>
             {% if subtitle %}<p class="tier3-subtitle">{{ subtitle }}</p>{% endif %}
             <time class="tier3-date" datetime="{{ date | isoDate }}">{{ date | dateDisplay }}</time>
-            {% if audio %}
+            {% if video %}
+            <div class="tier3-video">
+                <video controls playsinline preload="metadata" style="width:100%;max-width:100%;border-radius:6px;margin-bottom:15px;">
+                    <source src="{{ video }}" type="video/mp4">
+                </video>
+            </div>
+            {% elif audio %}
             <div class="tier3-player" data-audio="{{ audio }}">
                 <button class="panel-play-btn" aria-label="Play">
                     <svg viewBox="0 0 24 24" class="panel-play-icon"><polygon points="6,3 20,12 6,21"/></svg>
