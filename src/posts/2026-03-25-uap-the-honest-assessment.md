@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "I spent my career defending the search for extraterrestrial intelligence while simultaneously dismantling UFO claims that lacked evidence. That is not a contradiction. It is the scientific method applied honestly to the most provocative question in the sky."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-uap.png"
+audio: "/audio/v2-voice-sagan-uap-honest.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

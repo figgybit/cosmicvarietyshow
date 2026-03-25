@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "In 1996, I published a toolkit for critical thinking. Twenty-nine years later, it needs an update — not because the tools have changed, but because the baloney has gotten better."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-baloney-kit.png"
+audio: "/audio/v2-voice-sagan-baloney-detection.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

@@ -5,6 +5,8 @@ date: 2026-03-25T12:00:00
 tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "Monks controlling body temperature: real. Water crystals responding to intention: not real. Remote viewing: frustratingly inconclusive. Here is where the line is, and here is why the line matters."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-woo-line.png"
+audio: "/audio/v2-voice-feynman-woo-line.mp3"
 ---
 
 A friend asked me to sort through the pile. Monks controlling body temperature. Water responding to good intentions. Remote viewing. Reiki. The astral plane. Psychic abilities. Miracles. The whole stack.

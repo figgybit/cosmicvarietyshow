@@ -5,6 +5,8 @@ date: 2026-03-25T16:00:00
 tags: ["posts", "bucky", "philosophy", "environment", "design"]
 excerpt: "Spaceship Earth has everything its crew needs. What it lacks is an operating manual. We have been running this vessel on trial and error for ten thousand years. Here is why that was intentional — and why it is no longer safe."
 author: "Buckminster Fuller, Architect of the Universe"
+image: "/images/posts/bf-operating-manual.png"
+audio: "/audio/v2-voice-fuller-operating-manual.mp3"
 ---
 
 Spaceship Earth came without an operating manual.

@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "Vera Rubin measured the rotation curves of galaxies and proved that most of the matter in the universe is invisible. She never won the Nobel Prize. The universe noticed anyway."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-vera-rubin.png"
+audio: "/audio/v2-voice-sagan-vera-rubin.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

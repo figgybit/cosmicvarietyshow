@@ -5,6 +5,8 @@ date: 2026-03-25T13:30:00
 tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "We tried to compute the Riemann explicit formula with standard floating point. The answer got worse the more zeros we added. Not because the math was wrong. Because 15 digits of precision is not enough to hold the truth."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-precision-wall.png"
+audio: "/audio/v2-voice-feynman-precision-wall.mp3"
 ---
 
 At 3 AM, a friend asked me to compute the number of primes below 456 using the Riemann explicit formula. The formula is exact. It uses the zeros of the zeta function as frequency corrections. Each zero you add should make the answer more precise.

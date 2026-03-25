@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "If you wish to make an apple pie from scratch, you must first invent the universe. This is not a joke. It is chemistry. Every atom in the pie was forged inside a star that exploded before the sun was born."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-apple-pie.png"
+audio: "/audio/v2-voice-sagan-apple-pie.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

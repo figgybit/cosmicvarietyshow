@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "380,000 years after the Big Bang, the universe cooled enough for light to travel freely for the first time. That light is still traveling. It fills every cubic centimeter of space. It is the oldest photograph ever taken, and the subject is everything."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-oldest-light.png"
+audio: "/audio/v2-voice-sagan-oldest-light.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

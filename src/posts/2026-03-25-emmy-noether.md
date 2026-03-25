@@ -5,6 +5,8 @@ date: 2026-03-25T14:30:00
 tags: ["posts", "feynman", "science", "famous-scientists"]
 excerpt: "Emmy Noether proved that every symmetry in nature corresponds to a conservation law. Symmetry in time gives conservation of energy. Symmetry in space gives conservation of momentum. One theorem. All of physics. And they almost did not let her teach."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-emmy-noether.png"
+audio: "/audio/v2-voice-feynman-emmy-noether.mp3"
 ---
 
 If you ask a physicist to name the most important theorem in all of physics, most will not say Einstein's field equations. They will not say the Schrodinger equation. They will not say F = ma.

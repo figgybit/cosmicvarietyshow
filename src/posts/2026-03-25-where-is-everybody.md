@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "A hundred billion galaxies. A hundred billion stars in each. Trillions of planets. Billions of years of head start. And silence. The Fermi Paradox is not a puzzle. It is a mirror."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-fermi-paradox.png"
+audio: "/audio/v2-voice-sagan-where-is-everybody.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

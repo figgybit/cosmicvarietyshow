@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "Before we send humans to Mars, we send them to the Atacama Desert, the dry valleys of Antarctica, and the bottom of the ocean. Earth has been rehearsing for space for billions of years. We just have to know where to look."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-earth-analogs.png"
+audio: "/audio/v2-voice-sagan-earth-analogs.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

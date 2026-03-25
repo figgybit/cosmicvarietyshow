@@ -5,6 +5,8 @@ date: 2026-03-25T17:00:00
 tags: ["posts", "bucky", "philosophy", "science"]
 excerpt: "The expert knows the boundaries. The naive person walks through them without noticing. Every breakthrough in history was made by someone who did not know it was impossible."
 author: "Buckminster Fuller, Architect of the Universe"
+image: "/images/posts/bf-dare-to-be-naive.png"
+audio: "/audio/v2-voice-fuller-dare-to-be-naive.mp3"
 ---
 
 Dare to be naive. I said that many times. People took it as encouragement. It was not encouragement. It was a design principle.

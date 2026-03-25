@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "In 1983, my colleagues and I published a paper showing that nuclear war would block the sun. Not metaphorically. Physically. Soot in the stratosphere. Temperatures dropping forty degrees. Agriculture collapsing worldwide. This was not politics. It was atmospheric physics."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-nuclear-winter.png"
+audio: "/audio/v2-voice-sagan-nuclear-winter.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

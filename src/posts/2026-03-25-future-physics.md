@@ -5,6 +5,8 @@ date: 2026-03-25T14:00:00
 tags: ["posts", "feynman", "science", "high-impact", "futures"]
 excerpt: "Most futurism is wish fulfillment. Physics is the bouncer at the door of possibility. Here is what is permitted, what is forbidden, and what is undecided."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-future-physics.png"
+audio: "/audio/v2-voice-feynman-future-physics.mp3"
 ---
 
 People ask me: what will the future look like? I cannot tell you what it will look like. Nobody can. But I can tell you what the physics allows and what it forbids. That is a shorter list and a more useful one.

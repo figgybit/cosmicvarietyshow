@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "On September 14, 2015, two detectors a thousand miles apart felt spacetime stretch by less than the width of a proton. Two black holes, 1.3 billion light-years away, had been spiraling into each other for millions of years. In the last fraction of a second, they merged. And the ripple reached us."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-gravitational-waves.png"
+audio: "/audio/v2-voice-sagan-gravitational-waves.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

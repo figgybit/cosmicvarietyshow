@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "Every astronaut who has seen Earth from space reports the same thing: a cognitive shift so profound it has a name. The borders disappear. The wars become absurd. The atmosphere is terrifyingly thin. And the beauty is overwhelming."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-overview-effect.png"
+audio: "/audio/v2-voice-sagan-overview-effect.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

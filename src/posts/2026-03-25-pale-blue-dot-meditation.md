@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "On February 14, 1990, from 3.7 billion miles away, Voyager 1 took a photograph of Earth. It appeared as less than a pixel — a pale blue dot in a scattered ray of sunlight. I have spent the years since trying to articulate what that photograph means. I am still trying."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-pale-blue-meditation.png"
+audio: "/audio/v2-voice-sagan-pale-blue-dot.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

@@ -5,6 +5,8 @@ date: 2026-03-25T12:30:00
 tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "If they put me on the Mars colony team, I would not be designing rockets. I would be designing the thermal system. Because Mars is not trying to keep you out. It is trying to kill you with physics."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/rf-mars-physicist.png"
+audio: "/audio/v2-voice-feynman-mars-physicist.mp3"
 ---
 
 If they put me on the Mars colony team, I would not be designing the rocket. Somebody else can do that. The rocket is a solved problem (expensive, but solved). What is NOT solved is keeping humans alive on a planet that is trying to kill them with physics.

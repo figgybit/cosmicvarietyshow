@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "The original cosmic calendar compressed 13.8 billion years into one year. Now run it forward. One hundred years as one day. Dawn to sunset. Each hour is a decade. The question is not what time it is. The question is what you do with the hours you have."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-forward-calendar.png"
+audio: "/audio/v2-voice-sagan-forward-cosmic-calendar.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
