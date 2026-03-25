@@ -6,6 +6,7 @@ tags: ["posts", "bucky", "philosophy", "economics"]
 excerpt: "In 1983, I published my last book. It was about an invisible empire that controls more wealth, more resources, and more human behavior than any government on Earth. I called it the Grunch of Giants. Nobody paid attention. They should have."
 author: "Buckminster Fuller, Architect of the Universe"
 image: "/images/posts/bf33-grunch.png"
+audio: "/audio/voice-fuller-grunch.mp3"
 ---
 
 In 1983, the last year of my life, I published a book called *Grunch of Giants*. GRUNCH is an acronym: Gross Universal Cash Heist. The book was about the concentration of wealth and power in entities that are not governments, not elected, not accountable, and not visible to most people.

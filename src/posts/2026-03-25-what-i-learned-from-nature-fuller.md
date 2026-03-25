@@ -5,6 +5,8 @@ date: 2026-03-25T18:00:00
 tags: ["posts", "bucky", "science", "design", "courseware"]
 excerpt: "Nature never uses a right angle, never wastes material, never builds in straight lines, and never produces pollution. I spent my life studying nature's design principles and applying them to human problems. Here is the syllabus."
 author: "Buckminster Fuller, Architect of the Universe"
+image: "/images/posts/bf-nature-lessons.png"
+audio: "/audio/voice-fuller-nature-lessons.mp3"
 ---
 
 I attended two universities. Harvard expelled me twice. I did not graduate from either.
