@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "Consciousness is not something you have. It is something you do. Noticing, wondering, weeping — three modes of a single verb, each deeper than the last. The cosmos does not possess awareness. The cosmos performs it."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-consciousness-verb.png"
+audio: "/audio/v2-voice-sagan-consciousness-verb.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
