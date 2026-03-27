@@ -80,16 +80,18 @@ body { background: #0a0a0a; color: #eee; font-family: 'Inter', sans-serif; displ
       <button class="tv-ch-btn" onclick="switchChannel(2)">2</button>
       <button class="tv-ch-btn" onclick="switchChannel(3)">3</button>
       <button class="tv-ch-btn" onclick="switchChannel(4)">4</button>
-      <button class="tv-ch-btn" onclick="switchChannel(5)">R</button>
+      <button class="tv-ch-btn" onclick="switchChannel(5)">5</button>
+      <button class="tv-ch-btn" onclick="switchChannel(6)">R</button>
     </div>
     <button class="tv-skip" onclick="skipVideo()">SKIP &rarr;</button>
   </div>
   <div class="tv-channel-labels">
-    <span onclick="switchChannel(1)">THE DOME</span>
-    <span onclick="switchChannel(2)">LECTURES</span>
+    <span onclick="switchChannel(1)">DOME</span>
+    <span onclick="switchChannel(2)">FEYNMAN</span>
     <span onclick="switchChannel(3)">COSMOS</span>
     <span onclick="switchChannel(4)">MUSIC</span>
-    <span onclick="switchChannel(5)">RANDOM</span>
+    <span onclick="switchChannel(5)">SCIENCE</span>
+    <span onclick="switchChannel(6)">RANDOM</span>
   </div>
   <div class="tv-now-playing" id="tv-now-playing"></div>
 </div>
@@ -101,27 +103,34 @@ var channels = {
     {type:'local', src:'/video/sagan-poem-what-the-cosmos-did.mp4', title:'Sagan: What the Cosmos Did While I Was Away'},
     {type:'local', src:'/video/fuller-poem-after-i-left.mp4', title:'Fuller: After I Left'},
   ]},
-  2: { name: 'LECTURES', videos: [
-    {type:'yt', id:'zMGXe7gXMHk', title:'Feynman: Fun to Imagine (Fire)'},
-    {type:'yt', id:'MO0r930Sn_8', title:'Feynman: Fun to Imagine (Jiggling Atoms)'},
-    {type:'yt', id:'kMSgE62S6oo', title:'Feynman: The Character of Physical Law 1'},
-    {type:'yt', id:'2jLpDS8rjxE', title:'Feynman: Challenger O-Ring Demonstration'},
+  2: { name: 'FEYNMAN', videos: [
+    {type:'yt', id:'P1ww1IXRfTA', title:'Feynman: Fun to Imagine (Full BBC 1983)'},
+    {type:'yt', id:'ZbFM3rn4ldo', title:'Feynman: The Pleasure of Finding Things Out (BBC 1981)'},
+    {type:'yt', id:'nYg6jzotiAc', title:'Feynman: Fun to Imagine (Alt)'},
     {type:'yt', id:'Bgaw9qe7DEE', title:'Feynman: Take the World from Another Point of View'},
+    {type:'yt', id:'2jLpDS8rjxE', title:'Feynman: Challenger O-Ring Demonstration'},
   ]},
   3: { name: 'COSMOS', videos: [
+    {type:'yt', id:'0fKBhvDjuy0', title:'Powers of Ten (Eames, 1977)'},
     {type:'yt', id:'wupToqz1e2g', title:'Pale Blue Dot — Carl Sagan'},
-    {type:'yt', id:'GO5FwsblpT8', title:'A Glorious Dawn — Symphony of Science'},
+    {type:'yt', id:'GO5FwsblpT8', title:'Pale Blue Dot (narration)'},
+    {type:'yt', id:'zSgiXGELjbc', title:'A Glorious Dawn — Symphony of Science'},
     {type:'yt', id:'XH7ZRF6zNoc', title:'The Hubble Deep Field: The Most Important Image Ever Taken'},
-    {type:'yt', id:'uD4izuDMUQA', title:'Cosmos: A Personal Voyage — Shores of the Cosmic Ocean'},
+    {type:'yt', id:'uD4izuDMUQA', title:'Cosmos: Shores of the Cosmic Ocean'},
   ]},
   4: { name: 'MUSIC', videos: [
+    {type:'yt', id:'BNj2BXW852g', title:'Blind Willie Johnson — Dark Was the Night'},
+    {type:'yt', id:'3HSRIDtwsfM', title:'Bach — Brandenburg Concerto No. 2'},
+    {type:'yt', id:'CvFH_6DNRCY', title:'Debussy — Clair de Lune'},
     {type:'yt', id:'HhwWAciO6F4', title:'Brian Eno — An Ending (Ascent)'},
     {type:'yt', id:'xjLMFSmA3IE', title:'Philip Glass — Metamorphosis'},
-    {type:'yt', id:'S-Xm7s9eGxU', title:'Debussy — Clair de Lune'},
     {type:'yt', id:'kSE15tLBdso', title:'Bach — Cello Suite No. 1'},
-    {type:'yt', id:'M0d4qM7gCH8', title:'Blind Willie Johnson — Dark Was the Night'},
   ]},
-  5: { name: 'RANDOM', videos: [] }
+  5: { name: 'SCIENCE', videos: [
+    {type:'yt', id:'spUNpyF58BY', title:'3Blue1Brown: But What Is the Fourier Transform?'},
+    {type:'yt', id:'094y1Z2wpJg', title:'Veritasium: The Simplest Math Problem No One Can Solve'},
+  ]},
+  6: { name: 'RANDOM', videos: [] }
 };
 
 var currentChannel = 1;
@@ -140,7 +149,7 @@ function shuffle(arr) {
 
 function buildRandom() {
   var all = [];
-  for (var ch = 1; ch <= 4; ch++) {
+  for (var ch = 1; ch <= 5; ch++) {
     channels[ch].videos.forEach(function(v) { all.push(v); });
   }
   return shuffle(all);
@@ -192,10 +201,11 @@ function switchChannel(ch) {
   currentIdx = 0;
 
   document.querySelectorAll('.tv-ch-btn').forEach(function(b, i) {
-    b.classList.toggle('active', i + 1 === ch);
+    var btnCh = parseInt(b.textContent) || (b.textContent === 'R' ? 6 : 0);
+    b.classList.toggle('active', btnCh === ch);
   });
 
-  if (ch === 5) {
+  if (ch === 6) {
     shuffled = buildRandom();
   } else {
     shuffled = shuffle(channels[ch].videos);
