@@ -6,7 +6,6 @@ tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "In 1959, I asked: why can't we write the entire Encyclopaedia Britannica on the head of a pin? There is plenty of room at the bottom. The answer was: we can. Now entire fields exist because somebody asked."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf-plenty-of-room.png"
-image: "/images/posts/rf-plenty-of-room.png"
 audio: "/audio/v2-voice-feynman-plenty-room.mp3"
 ---
 
