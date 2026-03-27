@@ -5081,11 +5081,11 @@ audio[controls] {
 
 .tier2-hero-bucky .mosaic-badge { z-index: 3; }
 
-/* Overview player — play button on tier 2 hero panels */
-.tier2-overview-player { display: inline-block; margin-bottom: 8px; }
-.tier2-overview-play { width: 44px; height: 44px; border-radius: 50%; background: rgba(0,0,0,0.6); border: 2px solid rgba(255,255,255,0.3); color: #fff; font-size: 1.1em; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
-.tier2-overview-play:hover { background: rgba(0,0,0,0.8); border-color: rgba(255,255,255,0.6); }
-.tier2-overview-play.playing { background: rgba(0,100,0,0.6); border-color: rgba(0,255,0,0.4); }
+/* Overview player — play button on tier 2 hero panels, matches mosaic-play-btn */
+.tier2-overview-player { display: inline-block; margin-bottom: 10px; }
+.tier2-overview-play { width: 56px; height: 56px; border-radius: 50%; background: rgba(0,0,0,0.4); border: 2px solid rgba(255,255,255,0.3); color: #fff; font-size: 1.3em; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0.5; transition: opacity 0.2s ease, background 0.2s ease; }
+.tier2-overview-play:hover { opacity: 0.85; background: rgba(0,0,0,0.6); }
+.tier2-overview-play.playing { opacity: 0.85; background: rgba(0,100,0,0.5); border-color: rgba(0,255,0,0.4); }
 
 .tier2-hero-feynman {
     position: relative;
