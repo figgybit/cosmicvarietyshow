@@ -15,6 +15,10 @@ permalink: /editor-feynman/
             <p class="slider-desc">Physicist, Nobel laureate, bongo drummer</p>
             <p class="slider-desc" style="opacity: 0.7; font-style: italic;">I was born not knowing and have had only a little time to change that here and there.</p>
         </div>
+        <div class="tier2-overview-player" data-audio="/audio/feynman-overview.mp3">
+            <button class="tier2-overview-play" aria-label="Play overview">&#9654;</button>
+            <audio preload="metadata" src="/audio/feynman-overview.mp3"></audio>
+        </div>
     </div>
 </div>
 
@@ -82,3 +86,31 @@ permalink: /editor-feynman/
 })();
 </script>
 <script defer src="/js/mosaic-player.js"></script>
+<script>
+(function() {
+  var player = document.querySelector('.tier2-overview-player');
+  if (!player) return;
+  var btn = player.querySelector('.tier2-overview-play');
+  var audio = player.querySelector('audio');
+  if (!btn || !audio) return;
+  audio.volume = 0.8;
+  btn.addEventListener('click', function() {
+    if (audio.paused) {
+      audio.play();
+      btn.innerHTML = '&#10074;&#10074;';
+      btn.classList.add('playing');
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({ title: 'Richard Feynman — Overview', artist: 'Cosmic Variety Show' });
+      }
+    } else {
+      audio.pause();
+      btn.innerHTML = '&#9654;';
+      btn.classList.remove('playing');
+    }
+  });
+  audio.addEventListener('ended', function() {
+    btn.innerHTML = '&#9654;';
+    btn.classList.remove('playing');
+  });
+})();
+</script>
