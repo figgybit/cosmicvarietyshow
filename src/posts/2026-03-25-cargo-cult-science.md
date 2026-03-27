@@ -6,6 +6,7 @@ tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "After World War II, South Pacific islanders built bamboo control towers and straw airplanes, hoping the cargo planes would return. They had the form of an airport without the substance. Most bad science looks exactly like this."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf-cargo-cult.png"
+image: "/images/posts/rf-cargo-cult.png"
 audio: "/audio/v2-voice-feynman-cargo-cult.mp3"
 ---
 

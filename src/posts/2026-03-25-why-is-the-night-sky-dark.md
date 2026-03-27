@@ -6,6 +6,7 @@ tags: ["posts", "feynman", "science", "high-impact"]
 excerpt: "If the universe is infinite and filled with stars, every line of sight should end on a star. The sky should be blazing white. It is not. That simple observation tells you the universe had a beginning."
 author: "Richard Feynman, The Great Questioner"
 image: "/images/posts/rf-night-sky-dark.png"
+image: "/images/posts/rf-night-sky-dark.png"
 audio: "/audio/v2-voice-feynman-night-sky-dark.mp3"
 ---
 
