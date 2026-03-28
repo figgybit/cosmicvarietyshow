@@ -138,11 +138,86 @@
         card.setAttribute('data-mosaic-init', '1');
         var video = card.querySelector('video');
         var audioSrc = card.dataset.audio;
+        var videoSrc = card.dataset.video;
         var isVideo = !!video;
         var isAudio = !!audioSrc;
+        var isInlineVideo = !!videoSrc && !isAudio;
         var isTikTok = !!card.querySelector('.mosaic-badge-tiktok');
         var isVimeo = card.classList.contains('mosaic-vimeo-card');
-        var isInteractive = (isVideo || isAudio || isVimeo) && !isTikTok;
+        var isInteractive = (isVideo || isAudio || isVimeo || isInlineVideo) && !isTikTok;
+
+        /* --- Inline video cards (data-video) — play video in card on click --- */
+        if (isInlineVideo) {
+            var vidPlayBtn = document.createElement('button');
+            vidPlayBtn.className = 'mosaic-play-btn';
+            vidPlayBtn.innerHTML = PLAY_SVG;
+            card.appendChild(vidPlayBtn);
+            var vidPlaying = false;
+            var vidEl = null;
+
+            function launchInlineVideo(e) {
+                if (e.target.closest('.mosaic-title')) return;
+                if (e.target.closest('.mosaic-more-btn')) return;
+                if (e.target.closest('.mosaic-link-btn')) return;
+                if (e.target.closest('.mosaic-heart-btn')) return;
+                e.preventDefault();
+                e.stopPropagation();
+                if (vidPlaying) {
+                    if (vidEl) { vidEl.pause(); vidEl.remove(); vidEl = null; }
+                    vidPlayBtn.style.display = '';
+                    var img = card.querySelector('img');
+                    if (img) img.style.display = '';
+                    vidPlaying = false;
+                    return;
+                }
+                vidPlaying = true;
+                vidEl = document.createElement('video');
+                vidEl.src = videoSrc;
+                vidEl.autoplay = true;
+                vidEl.controls = true;
+                vidEl.playsInline = true;
+                vidEl.volume = 0.8;
+                vidEl.style.cssText = 'position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;z-index:3;border-radius:6px;';
+                card.appendChild(vidEl);
+                vidPlayBtn.style.display = 'none';
+                var img = card.querySelector('img');
+                if (img) img.style.display = 'none';
+                vidEl.addEventListener('ended', function() {
+                    vidEl.remove(); vidEl = null;
+                    vidPlayBtn.style.display = '';
+                    if (img) img.style.display = '';
+                    vidPlaying = false;
+                });
+            }
+
+            vidPlayBtn.addEventListener('click', launchInlineVideo);
+            card.addEventListener('click', function(e) {
+                if (e.target.closest('.mosaic-title')) return;
+                if (e.target.closest('.mosaic-more-btn')) return;
+                if (e.target.closest('.mosaic-more')) return;
+                if (e.target.closest('.mosaic-link-btn')) return;
+                if (e.target.closest('.mosaic-heart-btn')) return;
+                if (e.target.closest('.mosaic-play-btn')) return;
+                if (e.target.closest('video')) return;
+                if (!vidPlaying) launchInlineVideo(e);
+            });
+
+            // Title navigation for video cards
+            var vTitleEl = card.querySelector('.mosaic-title');
+            var vCardHref = card.getAttribute('href');
+            if (vTitleEl && vCardHref) {
+                var vArrow = document.createElement('span');
+                vArrow.className = 'mosaic-title-arrow';
+                vArrow.innerHTML = ' <svg viewBox="0 0 10 12" width="8" height="10" fill="white" style="vertical-align:middle;opacity:0.7;"><polygon points="0,0 10,6 0,12"/></svg>';
+                vTitleEl.appendChild(vArrow);
+                vTitleEl.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    window.location.href = vCardHref;
+                });
+                vTitleEl.style.cursor = 'pointer';
+            }
+        }
         var cardColor = getCardColor(card);
 
         // --- Link icon + Heart button (all cards) ---
