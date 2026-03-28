@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science", "council"]
 excerpt: "In 1543, a Polish astronomer published a book suggesting that the Earth was not the center of the universe. He died the same year. The book survived. Everything changed."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-copernicus.png"
+audio: "/audio/v2-voice-sagan-copernicus.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
