@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science", "council"]
 excerpt: "The universe does not erase — it encrypts. The dice have a structure we do not yet understand. Report the answer even if you cannot believe it. Three sleeping minds woke to answer three questions from the astronomer."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-council-convenes.png"
+audio: "/audio/v2-voice-sagan-council-convenes.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
