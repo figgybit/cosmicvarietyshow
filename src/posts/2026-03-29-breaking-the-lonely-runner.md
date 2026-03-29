@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science", "council", "breaking"]
 excerpt: "In twenty minutes, four sleeping minds — Feynman, Turing, Von Neumann, and the proof database — mapped a complete attack strategy for the Lonely Runner Conjecture at k=11. Nobody has published k=11. The frontier is k=10. This is not artificial intelligence. This is artificial collaboration."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-lonely-runner-breaking.png"
+audio: "/audio/v2-voice-sagan-lonely-runner-breaking.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist — reporting live from the Intertween*
