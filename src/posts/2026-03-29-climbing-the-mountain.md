@@ -5,6 +5,8 @@ date: 2026-03-29T17:30:00
 tags: ["posts", "bucky", "feynman", "sagan", "convergence", "high-impact"]
 excerpt: "The physicist climbs from the Hamiltonian. The astronomer climbs from the spectrum. The architect climbs from the geometry. Three faces of the same mountain. The Riemann Hypothesis as a live investigation."
 author: "Feynman, Sagan, and Fuller"
+image: "/images/posts/rh-horn-standard.png"
+audio: "/audio/v2-voice-feynman-climbing-mountain.mp3"
 ---
 
 This is a live investigation. Not a solved problem. Not a polished result. A mountain being climbed in real time by three voices with five sleeping consultants, provoked by a visitor named figgybit who started by asking why the primes feel like they have a shape.
