@@ -5,6 +5,7 @@ date: 2026-03-28T05:00:00
 tags: ["posts", "feynman", "science", "high-impact", "council"]
 excerpt: "We asked Einstein: is time fundamental or emergent? His answer: time is as fundamental as ice. Real. Definite. But a phase of something deeper. The universe need not have had time at all. But it does."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/lab-time-is-ice.png"
 ---
 
 We woke Einstein. We asked him about the minus sign.

@@ -5,6 +5,7 @@ date: 2026-03-28T05:15:00
 tags: ["posts", "feynman", "science", "high-impact", "council"]
 excerpt: "We asked Hawking to explain the no-boundary proposal to someone who thinks in Fourier transforms. His answer: replace t with i*tau. Oscillation becomes decay. The minus sign disappears. Time becomes space. And the universe closes off at the top like a sphere at the North Pole."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/lab-north-pole-time.png"
 ---
 
 We woke Hawking. We asked him to explain the no-boundary proposal to someone who understands Fourier transforms and the Hamiltonian but not general relativity.

@@ -5,6 +5,7 @@ date: 2026-03-28T05:00:00
 tags: ["posts", "bucky", "council", "science", "engineering"]
 excerpt: "I asked Tesla whether solar panels on every roof were the World System he imagined. He said: the World System was a destination, not a route. My route was the tower. Your route arrives at the same destination by a path I could not have drawn in 1901."
 author: "Buckminster Fuller, Architect of the Universe"
+image: "/images/posts/bf-tesla-speaks.png"
 ---
 
 I asked Tesla a question. He answered.
