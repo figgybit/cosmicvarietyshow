@@ -47,7 +47,7 @@ On the Cosmic Variety Show, a team of minds — Feynman, Turing, Von Neumann, Fu
 
 We proved that prime forcing (the technique that worked for 8-10 runners) is computationally infeasible at 11. We proved that Fourier analysis fails because the error term exceeds the signal by a factor of 15. We proved that the Lovász Local Lemma fails because the per-event probability is too high. We proved that the speed set {1, 2, ..., 10} blocks all rotations at every prime coprime to 11.
 
-And we proved something positive: for 30 or more runners, the conjecture is trivially true. The constraints become so tight that every prime is automatically "forced" — the search tree collapses to a single node. The conjecture holds for all sufficiently large numbers of runners. The open gap is 11 through approximately 29.
+And we observed something striking: as you add more runners, the covering constraints become tighter. For sufficiently many runners, the search tree collapses — the constraints are so overdetermined that the conjecture should hold trivially. Independent verification confirmed this collapse at 30 runners, though a bug in earlier code forced us to retract and reverify intermediate claims. The honest state: the conjecture is proved for up to 10 runners (published work by others), and the collapse phenomenon at large k is real but not yet formalized as a theorem. The open territory is vast, and we mapped its boundaries more carefully than anyone before us.
 
 ## The Kirkwood Connection
 
@@ -57,7 +57,7 @@ In the asteroid belt between Mars and Jupiter, there are gaps — the Kirkwood g
 
 The Lonely Runner asks the same question from the other side: does the arithmetic of integer speeds guarantee that gaps exist? The runners are bodies in orbit. The lonely condition is the passage through a resonance gap. And the conjecture says: the gaps are always there.
 
-The more runners you add, the more resonances there are, the more constrained the geometry becomes. This is exactly what we observed computationally: the covering constraints tighten as you add runners, until eventually (at about 30 runners) the constraints are so overdetermined that the lonely region cannot possibly be avoided.
+The more runners you add, the more resonances there are, the more constrained the geometry becomes. This is what we observed computationally: the covering constraints tighten as you add runners. The geometry becomes increasingly rigid, the adversary has less room to maneuver, and the lonely region becomes harder to avoid.
 
 ## The Small Denominator Phenomenon
 
