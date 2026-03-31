@@ -6,6 +6,7 @@ tags: ["posts", "sagan", "science"]
 excerpt: "Place runners on a circular track, each at a different constant speed. The conjecture says: every runner eventually gets lonely — far from all the others. Proved for up to 10 runners. Open for 11. And the reason it breaks at 11 is the same reason the asteroid belt has gaps."
 author: "Carl Sagan, The Cosmic Evangelist"
 image: "/images/posts/cs-lonely-runner-explained.png"
+audio: "/audio/v2-voice-sagan-lonely-runner-explained.mp3"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*
