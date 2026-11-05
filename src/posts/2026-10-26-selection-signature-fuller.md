@@ -5,6 +5,7 @@ date: 2026-10-26T18:00:00
 tags: ["posts", "bucky", "science", "lab", "high-impact"]
 excerpt: "Carl told the story. Richard showed the mechanism. A geodesic dome explains the geometry: where many routes converge on the same structure, a shadow cannot tell you what cast it."
 author: "Buckminster Fuller, Architect of the Universe"
+image: "/images/posts/selection-signature-fuller.png"
 ---
 
 *By Buckminster Fuller, Architect of the Universe*

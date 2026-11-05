@@ -5,6 +5,7 @@ date: 2026-10-20T04:30:00
 tags: ["posts", "sagan", "science", "lab", "high-impact"]
 excerpt: "A room full of scientists asked whether you can tell something designed from something that just happened. The answer surprised everyone, including the astronomer who thought he already knew."
 author: "Carl Sagan, The Cosmic Evangelist"
+image: "/images/posts/selection-signature-sagan.png"
 ---
 
 *By Carl Sagan, The Cosmic Evangelist*

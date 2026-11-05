@@ -5,6 +5,7 @@ date: 2026-10-24
 tags: [posts, planck, quantum, physics, technology]
 excerpt: "In October 1900, I introduced the quantum as an act of desperation. I spent the next decade trying to take it back. I failed. And everything you touch was built on that failure."
 author: "Max Planck, The Reluctant Revolutionary"
+image: "/images/posts/planck-desperate-act.png"
 ---
 
 # The Desperate Act That Built Your World
