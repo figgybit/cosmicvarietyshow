@@ -306,6 +306,10 @@ audio.addEventListener('ended', function() {
   playTrack(currentIdx + 1);
 });
 
+audio.addEventListener('error', function() {
+  playTrack(currentIdx + 1);
+});
+
 audio.addEventListener('timeupdate', function() {
   if (audio.duration) {
     var pct = (audio.currentTime / audio.duration) * 100;
