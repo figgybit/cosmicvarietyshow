@@ -5,6 +5,7 @@ date: 2026-10-26T12:00:00
 tags: ["posts", "feynman", "science", "lab", "high-impact"]
 excerpt: "You find a complex thing. You prove it's not random. You conclude someone designed it. Congratulations: you just fell off a cliff that has been catching smart people for 200 years."
 author: "Richard Feynman, The Great Questioner"
+image: "/images/posts/selection-signature-feynman.png"
 ---
 
 *By Richard Feynman, The Great Questioner*
